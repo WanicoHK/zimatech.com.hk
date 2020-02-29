@@ -1,0 +1,79 @@
+---
+title: ZIMA Life
+---
+<% content_for :assets do %>
+  <%= stylesheet_link_tag 'products/zima-life' %>
+<% end %>
+
+<div class="products-life-bg-1">
+  <div class="container">
+    <div class="products-life-content">
+      <div class="products-life-subtitle"><%= t(:'products.life.text_1') %></div>
+      <div class="products-life-title"><%= t(:'products.life.text_2') %></div>
+      <div class="products-life-description"><%= t(:'products.life.text_3') %></div>
+      <div class="products-life-features">
+        <% (1..4).each do |i| %>
+          <div class="products-life-feature">
+            <div class="products-life-feature-title"><%= t(:"products.life.item_#{2 * i - 1}") %></div>
+            <div class="products-life-feature-subtitle"><%= t(:"products.life.item_#{2 * i}") %></div>
+          </div>
+        <% end %>
+      </div>
+    </div>
+    <div class="products-life-image">
+      <%= link_to t(:'products.back'), '/products/', class: 'products-life-back' %>
+      <div class="products-life-image-1"></div>
+    </div>
+  </div>
+</div>
+
+<div class="products-life-bg-2">
+  <div class="products-life-image-2"></div>
+  <div class="products-life-steps">
+    <div class="products-life-step-1"><%= t(:'products.life.step_1') %></div>
+    <div class="products-life-step-2"><%= t(:'products.life.step_2') %></div>
+    <div class="products-life-step-3"><%= t(:'products.life.step_3') %></div>
+  </div>
+</div>
+
+<div class="products-life-bg-3">
+  <div class="container">
+    <div class="products-life-main-titles">
+      <div class="products-life-main-title">
+        <div class="products-life-main-title-1"><%= t(:'products.life.title_1') %></div>
+        <div class="products-life-main-title-2"><%= t(:'products.life.title_2') %></div>
+        <div class="products-life-main-title-4"><%= t(:'products.life.title_3') %></div>
+      </div>
+      <div class="products-life-main-title">
+        <div class="products-life-main-title-1"><%= t(:'products.life.title_4') %></div>
+        <div class="products-life-main-title-3"><%= t(:'products.life.title_5') %></div>
+        <div class="products-life-main-title-2"><%= t(:'products.life.title_6') %></div>
+      </div>
+      <div class="products-life-main-title">
+        <div class="products-life-main-title-1"><%= t(:'products.life.title_7') %></div>
+        <div class="products-life-main-title-5">
+          <span><%= t(:'products.life.title_8') %></span>
+          <span><%= t(:'products.life.title_9') %></span>
+          <span><%= t(:'products.life.title_10') %></span>
+          <span><%= t(:'products.life.title_11') %></span>
+        </div>
+      </div>
+    </div>
+    <div class="products-life-image-3"></div>
+  </div>
+</div>
+
+<div class="products-life-bg-4">
+  <div class="products-life-specs">
+    <div class="products-life-specs-title"><%= t(:'products.life.spec_1') %></div>
+    <% (1..8).each do |i| %>
+      <div class="products-life-spec">
+        <div class="products-life-spec-primary"><%= t(:"products.life.spec_#{i * 2}") %></div>
+        <div class="products-life-spec-secondary"><%= t(:"products.life.spec_#{i * 2 + 1}") %></div>
+      </div>
+    <% end %>
+    <div class="products-life-spec"></div>
+    <div class="products-life-spec"></div>
+  </div>
+  <%= link_to t(:'products.back'), '/products/', class: 'products-life-back-alt' %>
+</div>
