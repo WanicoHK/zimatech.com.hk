@@ -1,0 +1,68 @@
+---
+title: Products
+---
+<% content_for :assets do %>
+  <%= stylesheet_link_tag 'products/index' %>
+<% end %>
+
+<div class="products-index-bg-1">
+  <div class="container">
+    <div class="products-index-content">
+      <div class="products-index-subtitle"><%= t(:'products.index.text_1') %></div>
+      <div class="products-index-title"><%= t(:'products.index.text_2') %></div>
+      <div class="products-index-primary"><%= t(:'products.index.text_3') %></div>
+      <div class="products-index-description"><%= t(:'products.index.text_4') %></div>
+    </div>
+    <div class="products-index-image-1"></div>
+  </div>
+</div>
+
+<div class="products-index-bg-2">
+  <div class="products-index-title-1"><%= t(:'products.index.title_1') %></div>
+  <div class="products-index-title-2"><%= t(:'products.index.title_2') %></div>
+  <div class="products-index-title-3"><%= t(:'products.index.title_3') %></div>
+  <div class="products-index-items">
+    <% (1..3).each do |i| %>
+      <div class="products-index-item">
+        <div class="products-index-item-1"><%= t(:"products.index.item_#{3 * i - 2}") %></div>
+        <div class="products-index-item-2"><%= t(:"products.index.item_#{3 * i - 1}") %></div>
+        <div class="products-index-item-3"><%= t(:"products.index.item_#{3 * i}") %></div>
+      </div>
+    <% end %>
+  </div>
+</div>
+
+<div class="products-index-bg-3">
+  <div class="products-index-part-title-1"><%= t(:'products.index.part_1') %></div>
+  <div class="products-index-part-title-2"><%= t(:'products.index.part_2') %></div>
+  <div class="products-index-parts">
+    <% (1..3).each do |i| %>
+      <div class="products-index-part">
+        <div class="products-index-part-content">
+          <div class="products-index-part-1"><%= t(:"products.index.part_#{3 * i}") %></div>
+          <div class="products-index-part-2"><%= t(:"products.index.part_#{3 * i + 1}") %></div>
+          <div class="products-index-part-3"><%= t(:"products.index.part_#{3 * i + 2}") %></div>
+        </div>
+      </div>
+    <% end %>
+  </div>
+  <div class="products-index-part-title-3"><%= t(:'products.index.part_12') %></div>
+</div>
+
+<% (1..5).each do |i| %>
+  <div class="products-index-bg-4">
+    <div class="container">
+      <div class="products-index-product<%= i > 2 ? ' rtl' : '' %>">
+        <div class="products-index-product-image">
+          <div class="products-index-product-image-<%= i %>"></div>
+        </div>
+        <div class="products-index-product-content">
+          <div class="products-index-product-1"><%= t(:"products.index.product_#{3 * i + 2}") %></div>
+          <div class="products-index-product-2"><%= t(:"products.index.product_#{3 * i + 3}") %></div>
+          <div class="products-index-product-3"><%= t(:"products.index.product_#{3 * i + 4}") %></div>
+          <%= link_to t(:'products.index.product_4'), t(:"products.index.product_link_#{i}"), class: 'products-index-more' %>
+        </div>
+      </div>
+    </div>
+  </div>
+<% end %>

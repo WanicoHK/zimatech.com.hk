@@ -1,0 +1,56 @@
+---
+title: ZIMA Pro
+---
+<% content_for :assets do %>
+  <%= stylesheet_link_tag 'products/zima-pro' %>
+<% end %>
+
+<div class="products-pro-bg-1">
+  <div class="container">
+    <div class="products-pro-content">
+      <div class="products-pro-subtitle"><%= t(:'products.pro.text_1') %></div>
+      <div class="products-pro-title"><%= t(:'products.pro.text_2') %></div>
+      <div class="products-pro-description"><%= t(:'products.pro.text_3') %></div>
+      <div class="products-pro-features">
+        <% (1..4).each do |i| %>
+          <div class="products-pro-feature">
+            <div class="products-pro-feature-title"><%= t(:"products.pro.item_#{2 * i - 1}") %></div>
+            <div class="products-pro-feature-subtitle"><%= t(:"products.pro.item_#{2 * i}") %></div>
+          </div>
+        <% end %>
+      </div>
+    </div>
+    <div class="products-pro-image">
+      <%= link_to t(:'products.back'), '/products/', class: 'products-pro-back' %>
+      <div class="products-pro-image-1"></div>
+    </div>
+  </div>
+</div>
+
+<div class="products-pro-bg-2">
+  <div class="container">
+    <div class="products-pro-image-2"></div>
+    <div class="products-pro-lines">
+      <% (1..4).each do |i| %>
+        <div class="products-pro-line">
+          <div class="products-pro-line-primary"><%= t(:"products.pro.title_#{2 * i - 1}") %></div>
+          <div class="products-pro-line-secondary"><%= t(:"products.pro.title_#{2 * i}") %></div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
+
+<div class="products-pro-bg-3">
+  <div class="products-pro-specs">
+    <div class="products-pro-specs-title"><%= t(:'products.pro.spec_1') %></div>
+    <% (1..9).each do |i| %>
+      <div class="products-pro-spec">
+        <div class="products-pro-spec-primary"><%= t(:"products.pro.spec_#{i * 2}") %></div>
+        <div class="products-pro-spec-secondary"><%= t(:"products.pro.spec_#{i * 2 + 1}") %></div>
+      </div>
+    <% end %>
+    <div class="products-pro-spec"></div>
+  </div>
+  <%= link_to t(:'products.back'), '/products/', class: 'products-pro-back-alt' %>
+</div>
