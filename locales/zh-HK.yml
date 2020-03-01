@@ -137,6 +137,28 @@ zh-HK:
       product_link_4: '/products/zima-care/'
       product_link_5: '/products/zima-plus/'
 
+      string_1: '更多功能'
+      string_2: '智能支付系统'
+      string_3: '轻松应对各种交易场景'
+      string_4: '软件支付'
+      string_5: '硬件支付'
+      string_6: '支持手机扫码/APP内支付'
+      string_7: '支持信用卡、八达通'
+      string_8: '智慧运营平台'
+      string_9: '让运营更便捷高效'
+      string_10: |-
+        监测、管理、分析、营销多合一，支持后台实时监测
+        随时随地查询收益
+        一键掌握商品进销存
+        智能化远程监控管理，助你轻松运营
+      string_11: '三大广告收益'
+      string_12: '开机即赚钱'
+      string_13: |-
+        机身、机器屏幕、APP
+        三大广告位同时享受收益
+        结合地理位置的APP内容精准推送
+        更吸引大品牌和本地商户广告投放
+
     pro:
       text_1: '32寸大屏透视式零售终端'
       text_2: '销量之王 ZIMA Pro'
