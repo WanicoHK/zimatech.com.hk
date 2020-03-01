@@ -1,0 +1,85 @@
+---
+title: App
+---
+<% content_for :assets do %>
+  <%= stylesheet_link_tag 'app/index' %>
+<% end %>
+
+<div class="app-section-1">
+  <div class="app-title-1"><%= t(:'app.index.title_1') %></div>
+  <div class="app-image-1"></div>
+</div>
+
+<div class="app-section-2">
+  <div class="container">
+    <div class="app-wrapper-1">
+      <div class="app-title-2"><%= t(:'app.index.title_2') %></div>
+      <div class="app-title-3"><%= t(:'app.index.title_3') %></div>
+    </div>
+  </div>
+</div>
+
+<div class="app-section-3">
+  <div class="container">
+    <div class="app-image-2"></div>
+    <div class="app-wrapper-2">
+      <div class="app-title-4"><%= t(:'app.index.title_4') %></div>
+      <div class="app-title-5"><%= t(:'app.index.title_5') %></div>
+      <div class="app-title-6"><%= t(:'app.index.title_6') %></div>
+    </div>
+  </div>
+</div>
+
+<div class="app-section-4">
+  <div class="container">
+    <div class="app-wrapper-3">
+      <div class="app-title-7"><%= t(:'app.index.title_7') %></div>
+      <div class="app-title-8"><%= t(:'app.index.title_8') %></div>
+      <div class="app-title-9"><%= t(:'app.index.title_9') %></div>
+    </div>
+    <div class="app-wrapper-4">
+      <div class="app-title-10"><%= t(:'app.index.title_10') %></div>
+      <div class="app-title-11"><%= t(:'app.index.title_11') %></div>
+      <div class="app-title-12"><%= t(:'app.index.title_12') %></div>
+      <div class="app-title-13"><%= t(:'app.index.title_13') %></div>
+      <div class="app-title-14"><%= t(:'app.index.title_14') %></div>
+      <div class="app-title-15"><%= t(:'app.index.title_15') %></div>
+    </div>
+  </div>
+</div>
+
+<div class="app-section-5">
+  <div class="container">
+    <div class="app-wrapper-5">
+      <div class="app-title-16"><%= t(:'app.index.title_16') %></div>
+      <div class="app-title-17"><%= t(:'app.index.title_17') %></div>
+      <div class="app-title-18"><%= t(:'app.index.title_18') %></div>
+      <% (1..4).each do |i| %>
+        <div class="app-wrapper-6">
+          <div class="app-title-19"><%= t(:"app.index.title_#{2 * i + 17}") %></div>
+          <div class="app-title-20"><%= t(:"app.index.title_#{2 * i + 18}") %></div>
+        </div>
+      <% end %>
+    </div>
+    <div class="app-image-3"></div>
+  </div>
+</div>
+
+<div class="app-section-6">
+  <div class="container">
+    <div class="app-image-4"></div>
+    <div class="app-wrapper-7">
+      <div class="app-title-27"><%= t(:'app.index.title_27') %></div>
+      <div class="app-title-28"><%= t(:'app.index.title_28') %></div>
+      <div class="app-title-29"><%= t(:'app.index.title_29') %></div>
+      <div class="app-wrapper-8">
+        <div class="app-title-30"><%= t(:'app.index.title_30') %></div>
+        <div class="app-title-31"><%= t(:'app.index.title_31') %></div>
+        <div class="app-title-32"><%= t(:'app.index.title_32') %></div>
+        <div class="app-title-33"><%= t(:'app.index.title_33') %></div>
+        <div class="app-title-34"><%= t(:'app.index.title_34') %></div>
+        <div class="app-title-35"><%= t(:'app.index.title_35') %></div>
+      </div>
+    </div>
+  </div>
+</div>
