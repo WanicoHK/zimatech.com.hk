@@ -12,21 +12,31 @@
 <meta name="description" content="ZIMA, ZIMA官网, ZIMA官網">
 <title><%= current_page.data.title || 'ZIMA' %></title>
 <%= stylesheet_link_tag 'site' %>
-<%= javascript_include_tag 'site' %>
 <% if content_for?(:assets) %><%= yield_content :assets %><% end %>
 </head>
 
 <body>
 
 <div class="main">
-  <div class="header">
-    <div class="container">
-      <%= link_to 'ZIMA', '/', class: 'logo' %>
-      <div class="nav">
-        <%= link_to t(:'nav.products'), '/products/' %>
-        <%= link_to t(:'nav.app'), '/app/' %>
-        <%= link_to t(:'nav.partners'), '/partners' %>
-        <%= link_to t(:'nav.contact_us'), '/contact-us' %>
+  <div class="header-wrapper">
+    <div class="header" id="header">
+      <div class="container">
+        <%= link_to 'ZIMA', '/', class: 'logo' %>
+        <ul class="nav">
+          <li>
+            <%= nav_link_to t(:'nav.products'), '/products/' %>
+            <ul>
+              <li><%= nav_link_to 'ZIMA Pro', '/products/zima-pro/' %></li>
+              <li><%= nav_link_to 'ZIMA Slim', '/products/zima-slim/' %></li>
+              <li><%= nav_link_to 'ZIMA Life', '/products/zima-life/' %></li>
+              <li><%= nav_link_to 'ZIMA Care', '/products/zima-care/' %></li>
+              <li><%= nav_link_to 'ZIMA Plus', '/products/zima-plus/' %></li>
+            </ul>
+          </li>
+          <li><%= nav_link_to t(:'nav.app'), '/app/' %></li>
+          <li><%= nav_link_to t(:'nav.partners'), '/partners' %></li>
+          <li><%= nav_link_to t(:'nav.contact_us'), '/contact-us' %></li>
+        </ul>
       </div>
     </div>
   </div>
@@ -60,6 +70,8 @@
     </div>
   </div>
 </div>
+
+<%= javascript_include_tag 'site' %>
 
 </body>
 

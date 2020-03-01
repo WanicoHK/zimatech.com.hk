@@ -6,6 +6,10 @@ helpers do
     base64 = ::Base64.strict_encode64(content)
     "data:#{resource.content_type};base64,#{::Rack::Utils.escape(base64)}"
   end
+
+  def nav_link_to(text, link)
+    link_to text, link, class: current_page.url.include?(link) ? 'active' : ''
+  end
 end
 
 # Activate and configure extensions

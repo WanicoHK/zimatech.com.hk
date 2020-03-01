@@ -1,5 +1,5 @@
 html {
-  background: #2a2e3f;
+  background: #fff;
   font-family: system,-apple-system,".SFNSText-Regular","San Francisco",Roboto,"Segoe UI","Helvetica Neue","Lucida Grande",sans-serif;
   height: 100%;
 }
@@ -30,14 +30,32 @@ a {
   flex: 1 1;
 }
 
+.header-wrapper {
+  height: 64px;
+}
+
 .header {
   background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  height: 64px;
+  display: flex;
+  transition: height 0.1s;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.02);
+}
+
+.header.active {
+  height: 52px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
 }
 
 .header .container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: stretch;
 }
 
 .logo {
@@ -47,24 +65,61 @@ a {
   background-repeat: no-repeat;
   background-size: contain;
   background-image: url(<%= image_path('logo.png') %>);
+  align-self: center;
   font-size: 0;
 }
 
 .nav {
   display: flex;
-  align-items: center;
+  align-items: stretch;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .nav a {
   display: flex;
-  height: 64px;
   align-items: center;
-  padding: 15px;
+  padding: 15px 20px;
   box-sizing: border-box;
+  font-size: 16px;
+  white-space: nowrap;
 }
 
+.nav a.active,
 .nav a:hover {
   color: #63c8f3;
+}
+
+.nav a + ul {
+  display: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  background: #fff;
+  top: 100%;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav a:hover + ul,
+.nav a + ul:hover {
+  display: block;
+}
+
+.nav > li {
+  display: flex;
+  align-items: stretch;
+  position: relative;
+}
+
+.nav > li + li:before {
+  content: '';
+  display: block;
+  width: 0;
+  height: 20px;
+  border-left: 1px dashed #ccc;
+  align-self: center;
 }
 
 .footer {
