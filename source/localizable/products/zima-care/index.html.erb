@@ -1,0 +1,82 @@
+---
+title: ZIMA Care
+---
+<% content_for :assets do %>
+  <%= stylesheet_link_tag 'products/zima-care' %>
+<% end %>
+
+<div class="products-care-bg-1">
+  <div class="container">
+    <div class="products-care-content">
+      <div class="products-care-subtitle"><%= t(:'products.care.text_1') %></div>
+      <div class="products-care-title"><%= t(:'products.care.text_2') %></div>
+      <div class="products-care-description"><%= t(:'products.care.text_3') %></div>
+      <div class="products-care-features">
+        <% (1..4).each do |i| %>
+          <div class="products-care-feature">
+            <div class="products-care-feature-title"><%= t(:"products.care.item_#{2 * i - 1}") %></div>
+            <div class="products-care-feature-subtitle"><%= t(:"products.care.item_#{2 * i}") %></div>
+          </div>
+        <% end %>
+      </div>
+      <%= link_to t(:'products.back'), '/products/', class: 'products-care-back' %>
+    </div>
+  </div>
+</div>
+
+<div class="products-care-bg-2">
+  <div class="container">
+    <div class="products-care-main-titles">
+      <% (1..3).each do |i| %>
+        <div class="products-care-main-title">
+          <div class="products-care-main-title-1"><%= t(:"products.care.title_#{3 * i - 2}") %></div>
+          <div class="products-care-main-title-2"><%= t(:"products.care.title_#{3 * i - 1}") %></div>
+          <div class="products-care-main-title-3"><%= t(:"products.care.title_#{3 * i}") %></div>
+        </div>
+      <% end %>
+    </div>
+    <div class="products-care-image-1"></div>
+  </div>
+</div>
+
+<div class="products-care-bg-3">
+  <div class="container">
+    <div class="products-care-steps">
+      <div class="products-care-step-title-1"><%= t(:'products.care.step_1') %></div>
+      <div class="products-care-step-title-2"><%= t(:'products.care.step_2') %></div>
+      <div class="products-care-step-title-3"><%= t(:'products.care.step_3') %></div>
+      <% (1..3).each do |i| %>
+        <div class="products-care-step">
+          <div class="products-care-step-1"><%= t(:"products.care.step_#{2 * i + 2}") %></div>
+          <div class="products-care-step-2"><%= t(:"products.care.step_#{2 * i + 3}") %></div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
+
+<div class="products-care-bg-4">
+  <div class="container">
+    <div class="products-care-parts">
+      <div class="products-care-part-1"><%= t(:'products.care.part_1') %></div>
+      <div class="products-care-part-2"><%= t(:'products.care.part_2') %></div>
+      <div class="products-care-part-3"><%= t(:'products.care.part_3') %></div>
+      <div class="products-care-part-4"><%= t(:'products.care.part_4') %></div>
+      <div class="products-care-image-2"></div>
+    </div>
+  </div>
+</div>
+
+<div class="products-care-bg-5">
+  <div class="products-care-specs">
+    <div class="products-care-specs-title"><%= t(:'products.care.spec_1') %></div>
+    <% (1..9).each do |i| %>
+      <div class="products-care-spec">
+        <div class="products-care-spec-primary"><%= t(:"products.care.spec_#{i * 2}") %></div>
+        <div class="products-care-spec-secondary"><%= t(:"products.care.spec_#{i * 2 + 1}") %></div>
+      </div>
+    <% end %>
+    <div class="products-care-spec"></div>
+  </div>
+  <%= link_to t(:'products.back'), '/products/', class: 'products-care-back-alt' %>
+</div>
