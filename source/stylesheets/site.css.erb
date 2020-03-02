@@ -27,6 +27,7 @@ a {
 }
 
 .main {
+  min-width: <%= min_width = 1300 %>px;
   flex: 1 1;
 }
 
@@ -123,6 +124,7 @@ a {
 }
 
 .footer {
+  min-width: <%= min_width %>px;
   background: #181a24;
   padding: 50px 0;
 }
@@ -203,4 +205,14 @@ a {
   color: #fff;
   white-space: pre-wrap;
   line-height: 50px;
+}
+
+@media (max-width: 767px) {
+  .main {
+    min-width: auto;
+  }
+
+  .footer {
+    min-width: auto;
+  }
 }
