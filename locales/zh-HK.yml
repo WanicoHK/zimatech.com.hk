@@ -441,7 +441,11 @@ zh-HK:
 
   footer:
     app: '下載 ZIMA App'
-    sitemap: '站點地圖'
+    nav_app:
+      nav_1: O2O购物功能
+      nav_2: 智能CRM体系
+      nav_3: 营销玩法
+      nav_4: 福利补贴功能
     contact: '聯繫我們'
     contact_content: |-
       Tel: (+852) 39979042

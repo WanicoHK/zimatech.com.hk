@@ -22,6 +22,8 @@
     <div class="header" id="header">
       <div class="container">
         <%= link_to 'ZIMA', '/', class: 'logo' %>
+        <label class="menu" for="menu"></label>
+        <input type="checkbox" id="menu">
         <ul class="nav">
           <li>
             <%= nav_link_to t(:'nav.products'), '/products/' %>
@@ -58,10 +60,34 @@
       </div>
     </div>
     <div class="footer-nav">
-      <div class="footer-title"><%= t(:'footer.sitemap') %></div>
-      <div class="footer-nav-links">
-        <%= link_to t(:'nav.partners'), '/partners' %>
-        <%= link_to t(:'nav.contact_us'), '/contact-us' %>
+      <div class="footer-nav-column">
+        <div class="footer-title"><%= nav_link_to t(:'nav.products'), '/products/' %></div>
+        <div class="footer-nav-links">
+          <%= link_to 'ZIMA Pro', '/products/zima-pro/' %>
+          <%= link_to 'ZIMA Slim', '/products/zima-slim/' %>
+          <%= link_to 'ZIMA Life', '/products/zima-life/' %>
+          <%= link_to 'ZIMA Care', '/products/zima-care/' %>
+          <%= link_to 'ZIMA Plus', '/products/zima-plus/' %>
+        </div>
+      </div>
+      <div class="footer-nav-column">
+        <div class="footer-title"><%= nav_link_to t(:'nav.app'), '/app/' %></div>
+        <div class="footer-nav-links">
+          <%= link_to t(:'footer.nav_app.nav_1'), '/app/', anchor: 's1' %>
+          <%= link_to t(:'footer.nav_app.nav_2'), '/app/', anchor: 's2' %>
+          <%= link_to t(:'footer.nav_app.nav_3'), '/app/', anchor: 's3' %>
+          <%= link_to t(:'footer.nav_app.nav_4'), '/app/', anchor: 's4' %>
+        </div>
+      </div>
+      <div class="footer-nav-column">
+        <div class="footer-title"><%= nav_link_to t(:'nav.partners'), '/partners/' %></div>
+        <div class="footer-nav-links">
+        </div>
+      </div>
+      <div class="footer-nav-column">
+        <div class="footer-title"><%= nav_link_to t(:'nav.contact_us'), '/contact-us/' %></div>
+        <div class="footer-nav-links">
+        </div>
       </div>
     </div>
     <div class="footer-contact">
