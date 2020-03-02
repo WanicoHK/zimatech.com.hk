@@ -18,35 +18,39 @@ title: Products
 </div>
 
 <div class="products-index-bg-2">
-  <div class="products-index-title-1"><%= t(:'products.index.title_1') %></div>
-  <div class="products-index-title-2"><%= t(:'products.index.title_2') %></div>
-  <div class="products-index-title-3"><%= t(:'products.index.title_3') %></div>
-  <div class="products-index-items">
-    <% (1..3).each do |i| %>
-      <div class="products-index-item">
-        <div class="products-index-item-1"><%= t(:"products.index.item_#{3 * i - 2}") %></div>
-        <div class="products-index-item-2"><%= t(:"products.index.item_#{3 * i - 1}") %></div>
-        <div class="products-index-item-3"><%= t(:"products.index.item_#{3 * i}") %></div>
-      </div>
-    <% end %>
+  <div class="container">
+    <div class="products-index-title-1"><%= t(:'products.index.title_1') %></div>
+    <div class="products-index-title-2"><%= t(:'products.index.title_2') %></div>
+    <div class="products-index-title-3"><%= t(:'products.index.title_3') %></div>
+    <div class="products-index-items">
+      <% (1..3).each do |i| %>
+        <div class="products-index-item">
+          <div class="products-index-item-1"><%= t(:"products.index.item_#{3 * i - 2}") %></div>
+          <div class="products-index-item-2"><%= t(:"products.index.item_#{3 * i - 1}") %></div>
+          <div class="products-index-item-3"><%= t(:"products.index.item_#{3 * i}") %></div>
+        </div>
+      <% end %>
+    </div>
   </div>
 </div>
 
 <div class="products-index-bg-3">
-  <div class="products-index-part-title-1"><%= t(:'products.index.part_1') %></div>
-  <div class="products-index-part-title-2"><%= t(:'products.index.part_2') %></div>
-  <div class="products-index-parts">
-    <% (1..3).each do |i| %>
-      <div class="products-index-part">
-        <div class="products-index-part-content">
-          <div class="products-index-part-1"><%= t(:"products.index.part_#{3 * i}") %></div>
-          <div class="products-index-part-2"><%= t(:"products.index.part_#{3 * i + 1}") %></div>
-          <div class="products-index-part-3"><%= t(:"products.index.part_#{3 * i + 2}") %></div>
+  <div class="container">
+    <div class="products-index-part-title-1"><%= t(:'products.index.part_1') %></div>
+    <div class="products-index-part-title-2"><%= t(:'products.index.part_2') %></div>
+    <div class="products-index-parts">
+      <% (1..3).each do |i| %>
+        <div class="products-index-part">
+          <div class="products-index-part-content">
+            <div class="products-index-part-1"><%= t(:"products.index.part_#{3 * i}") %></div>
+            <div class="products-index-part-2"><%= t(:"products.index.part_#{3 * i + 1}") %></div>
+            <div class="products-index-part-3"><%= t(:"products.index.part_#{3 * i + 2}") %></div>
+          </div>
         </div>
-      </div>
-    <% end %>
+      <% end %>
+    </div>
+    <div class="products-index-part-title-3"><%= t(:'products.index.part_12') %></div>
   </div>
-  <div class="products-index-part-title-3"><%= t(:'products.index.part_12') %></div>
 </div>
 
 <div class="products-index-bg-3-5">
@@ -74,36 +78,38 @@ title: Products
 <% end %>
 
 <div class="products-index-bg-5">
-  <div class="products-index-string-1"><%= t(:'products.index.string_1') %></div>
-  <div class="products-index-string-wrapper-1">
-    <div class="products-index-string-wrapper-2">
-      <div class="products-index-string-2"><%= t(:'products.index.string_2') %></div>
-      <div class="products-index-string-3"><%= t(:'products.index.string_3') %></div>
-      <div class="products-index-string-wrapper-3">
-        <div class="products-index-string-4"><%= t(:'products.index.string_4') %></div>
-        <div class="products-index-string-4"><%= t(:'products.index.string_5') %></div>
-        <div class="products-index-string-4"><%= t(:'products.index.string_6') %></div>
-        <div class="products-index-string-4"><%= t(:'products.index.string_7') %></div>
-        <div class="products-index-string-5"></div>
-        <div class="products-index-string-6"></div>
+  <div class="container">
+    <div class="products-index-string-1"><%= t(:'products.index.string_1') %></div>
+    <div class="products-index-string-wrapper-1">
+      <div class="products-index-string-wrapper-2">
+        <div class="products-index-string-2"><%= t(:'products.index.string_2') %></div>
+        <div class="products-index-string-3"><%= t(:'products.index.string_3') %></div>
+        <div class="products-index-string-wrapper-3">
+          <div class="products-index-string-4"><%= t(:'products.index.string_4') %></div>
+          <div class="products-index-string-4"><%= t(:'products.index.string_5') %></div>
+          <div class="products-index-string-4"><%= t(:'products.index.string_6') %></div>
+          <div class="products-index-string-4"><%= t(:'products.index.string_7') %></div>
+          <div class="products-index-string-5"></div>
+          <div class="products-index-string-6"></div>
+        </div>
       </div>
+      <div class="products-index-image-2"></div>
     </div>
-    <div class="products-index-image-2"></div>
-  </div>
-  <div class="products-index-string-wrapper-1">
-    <div class="products-index-string-wrapper-2">
-      <div class="products-index-string-2"><%= t(:'products.index.string_8') %></div>
-      <div class="products-index-string-3"><%= t(:'products.index.string_9') %></div>
-      <div class="products-index-string-7"><%= t(:'products.index.string_10') %></div>
+    <div class="products-index-string-wrapper-1">
+      <div class="products-index-string-wrapper-2">
+        <div class="products-index-string-2"><%= t(:'products.index.string_8') %></div>
+        <div class="products-index-string-3"><%= t(:'products.index.string_9') %></div>
+        <div class="products-index-string-7"><%= t(:'products.index.string_10') %></div>
+      </div>
+      <div class="products-index-image-3"></div>
     </div>
-    <div class="products-index-image-3"></div>
-  </div>
-  <div class="products-index-string-wrapper-1">
-    <div class="products-index-string-wrapper-2">
-      <div class="products-index-string-2"><%= t(:'products.index.string_11') %></div>
-      <div class="products-index-string-3"><%= t(:'products.index.string_12') %></div>
-      <div class="products-index-string-7"><%= t(:'products.index.string_13') %></div>
+    <div class="products-index-string-wrapper-1">
+      <div class="products-index-string-wrapper-2">
+        <div class="products-index-string-2"><%= t(:'products.index.string_11') %></div>
+        <div class="products-index-string-3"><%= t(:'products.index.string_12') %></div>
+        <div class="products-index-string-7"><%= t(:'products.index.string_13') %></div>
+      </div>
+      <div class="products-index-image-4"></div>
     </div>
-    <div class="products-index-image-4"></div>
   </div>
 </div>
