@@ -220,7 +220,6 @@
 .products-slim-steps {
   display: flex;
   justify-content: center;
-  margin-bottom: 55px;
 }
 
 .products-slim-step {
@@ -342,7 +341,7 @@
 .products-slim-specs-title {
   border-bottom: 1px solid #535353;
   border-right: 1px solid #535353;
-  width: 1200px;
+  width: 100%;
   font-size: 30px;
   font-weight: bold;
   color: #c9c9c9;
@@ -356,7 +355,7 @@
   flex-wrap: wrap;
   border-top: 1px solid #535353;
   border-left: 1px solid #535353;
-  width: 1200px;
+  width: 100%;
   margin: auto;
 }
 
@@ -385,4 +384,209 @@
   font-size: 18px;
   color: #aaa;
   padding: 0 20px;
+}
+
+
+@media (max-width: 767px) {
+  .products-slim-bg-1 {
+    height: auto;
+    background-size: cover;
+    padding: 30px 0;
+  }
+
+  .products-slim-bg-1 .container {
+    flex-direction: column;
+  }
+
+  .products-slim-content {
+    padding-top: 0;
+    order: 1;
+    margin: -30px;
+    background: #fff;
+    padding: 40px 30px;
+  }
+
+  .products-slim-image {
+    align-self: auto;
+    z-index: 1;
+    margin-bottom: 0;
+  }
+
+  .products-slim-back {
+    display: none;
+  }
+
+  .products-slim-image-1 {
+    width: 100%;
+    height: 0;
+    padding-bottom: <%= 706.0 / 520 * 100 %>%;
+    margin-right: 0;
+    margin-left: 24px;
+  }
+
+  .products-slim-subtitle {
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+  }
+
+  .products-slim-title {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+
+  .products-slim-description {
+    width: auto;
+    font-size: 12px;
+    line-height: 20px;
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 40px;
+  }
+
+  .products-slim-features {
+    flex-wrap: wrap;
+  }
+
+  .products-slim-feature {
+    width: calc(50% - 10px);
+    box-sizing: border-box;
+  }
+
+  .products-slim-feature + .products-slim-feature {
+    margin-left: 0;
+  }
+
+  .products-slim-feature:nth-child(2n - 1) + .products-slim-feature {
+    margin-left: 20px;
+  }
+
+  .products-slim-feature:nth-child(n + 3) {
+    margin-top: 20px;
+  }
+
+  .products-slim-feature:before {
+    background-size: 40px;
+    height: 80px;
+  }
+
+  .products-slim-feature-title {
+    font-size: 10px;
+  }
+
+  .products-slim-feature-subtitle {
+    font-size: 10px;
+  }
+
+  .products-slim-bg-2 {
+    height: auto;
+    background-size: cover;
+  }
+
+  .products-slim-step-title-1 {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+
+  .products-slim-step-title-2 {
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+
+  .products-slim-steps {
+    flex-direction: column;
+  }
+
+  .products-slim-step {
+    width: auto;
+  }
+
+  .products-slim-step:before {
+    flex: 0 0 80px;
+    width: 80px;
+    height: 80px;
+    background-size: 60px;
+  }
+
+  .products-slim-step + .products-slim-step {
+    margin-left: 0;
+    margin-top: 40px;
+  }
+
+  .products-slim-bg-3 {
+    height: auto;
+  }
+
+  .products-slim-bg-3 .container {
+    flex-direction: column;
+  }
+
+  .products-slim-main-titles {
+    width: auto;
+    padding: 40px 0;
+  }
+
+  .products-slim-main-title-1 {
+    font-size: 20px;
+  }
+
+  .products-slim-main-title-2 {
+    font-size: 14px;
+  }
+
+  .products-slim-main-title-3 {
+    font-size: 12px;
+  }
+
+  .products-slim-main-title + .products-slim-main-title {
+    margin-top: 40px;
+    padding-top: 40px;
+  }
+
+  .products-slim-image-2 {
+    width: 100%;
+    height: 0;
+    padding-bottom: <%= 740.0 / 424 * 2 / 3 * 100 %>%;
+    background-position: center;
+  }
+
+  .products-slim-bg-4 {
+    height: auto;
+    padding: 40px 0;
+  }
+
+  .products-slim-specs {
+    width: 100%;
+  }
+
+  .products-slim-spec {
+    flex: 0 0 50%;
+    padding: 30px 0;
+    height: auto;
+  }
+
+  .products-slim-specs-title {
+    font-size: 16px;
+  }
+
+  .products-slim-spec-primary {
+    font-size: 16px;
+  }
+
+  .products-slim-spec-secondary {
+    font-size: 14px;
+  }
+
+  .products-slim-back-alt {
+    font-size: 16px;
+    margin-top: 40px;
+  }
+
+  .products-slim-back-alt:before,
+  .products-slim-back-alt:after {
+    width: 48px;
+    height: 16px;
+    background-size: 16px;
+  }
 }

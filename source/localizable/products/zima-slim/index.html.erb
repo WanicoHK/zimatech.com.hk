@@ -58,15 +58,17 @@ title: ZIMA Slim
 </div>
 
 <div class="products-slim-bg-4">
-  <div class="products-slim-specs">
-    <div class="products-slim-specs-title"><%= t(:'products.slim.spec_1') %></div>
-    <% (1..9).each do |i| %>
-      <div class="products-slim-spec">
-        <div class="products-slim-spec-primary"><%= t(:"products.slim.spec_#{i * 2}") %></div>
-        <div class="products-slim-spec-secondary"><%= t(:"products.slim.spec_#{i * 2 + 1}") %></div>
-      </div>
-    <% end %>
-    <div class="products-slim-spec"></div>
+  <div class="container">
+    <div class="products-slim-specs">
+      <div class="products-slim-specs-title"><%= t(:'products.slim.spec_1') %></div>
+      <% (1..9).each do |i| %>
+        <div class="products-slim-spec">
+          <div class="products-slim-spec-primary"><%= t(:"products.slim.spec_#{i * 2}") %></div>
+          <div class="products-slim-spec-secondary"><%= t(:"products.slim.spec_#{i * 2 + 1}") %></div>
+        </div>
+      <% end %>
+      <div class="products-slim-spec"></div>
+    </div>
+    <%= link_to t(:'products.back'), '/products/', class: 'products-slim-back-alt' %>
   </div>
-  <%= link_to t(:'products.back'), '/products/', class: 'products-slim-back-alt' %>
 </div>
