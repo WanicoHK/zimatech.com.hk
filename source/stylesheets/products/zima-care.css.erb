@@ -338,7 +338,7 @@
 .products-care-specs-title {
   border-bottom: 1px solid #dadcdf;
   border-right: 1px solid #dadcdf;
-  width: 1200px;
+  width: 100%;
   font-size: 30px;
   font-weight: bold;
   color: #1b1b1b;
@@ -352,7 +352,7 @@
   flex-wrap: wrap;
   border-top: 1px solid #dadcdf;
   border-left: 1px solid #dadcdf;
-  width: 1200px;
+  width: 100%;
   margin: auto;
 }
 
@@ -381,4 +381,251 @@
   font-size: 18px;
   color: #626262;
   padding: 0 20px;
+}
+
+
+@media (max-width: 767px) {
+  .products-care-bg-1 {
+    height: auto;
+    background-size: 960px 350px;
+    background-position-x: 83%;
+    background-position-y: 0;
+    padding: 0 0 30px;
+  }
+
+  .products-care-bg-1 .container {
+    flex-direction: column;
+  }
+
+  .products-care-bg-1 .container:before {
+    content: '';
+    display: block;
+    height: 350px;
+    width: 100%;
+  }
+
+  .products-care-content {
+    padding-top: 0;
+    order: 1;
+    margin: -30px;
+    background: #fff;
+    padding: 40px 30px;
+  }
+
+  .products-care-image {
+    align-self: auto;
+  }
+
+  .products-care-back {
+    display: none;
+  }
+
+  .products-care-subtitle {
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+  }
+
+  .products-care-title {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+
+  .products-care-description {
+    width: auto;
+    font-size: 12px;
+    line-height: 20px;
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 40px;
+  }
+
+  .products-care-features {
+    flex-wrap: wrap;
+  }
+
+  .products-care-feature {
+    width: calc(50% - 10px);
+    box-sizing: border-box;
+  }
+
+  .products-care-feature + .products-care-feature {
+    margin-left: 0;
+  }
+
+  .products-care-feature:nth-child(2n - 1) + .products-care-feature {
+    margin-left: 20px;
+  }
+
+  .products-care-feature:nth-child(n + 3) {
+    margin-top: 20px;
+  }
+
+  .products-care-feature:before {
+    background-size: 40px;
+    height: 80px;
+  }
+
+  .products-care-feature-title {
+    font-size: 10px;
+  }
+
+  .products-care-feature-subtitle {
+    font-size: 10px;
+  }
+
+  .products-care-bg-2 {
+    height: auto;
+    padding: 40px 0 0;
+  }
+
+  .products-care-bg-2 .container {
+    flex-direction: column;
+  }
+
+  .products-care-main-titles {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .products-care-main-title-1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .products-care-main-title-2 {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .products-care-main-title-3 {
+    font-size: 12px;
+  }
+
+  .products-care-main-title + .products-care-main-title {
+    margin-top: 20px;
+    padding-top: 20px;
+  }
+
+  .products-care-image-1 {
+    width: 100%;
+    height: 0;
+    padding-bottom: <%= 740.0 / 503 * 2 / 3 * 100 %>%;
+    background-position: center;
+  }
+
+  .products-care-bg-3 {
+    height: auto;
+    padding: 30px 0 400px;
+    background-color: #fff;
+    background-position: 22% bottom;
+    background-size: 960px 348px;
+  }
+
+  .products-care-steps {
+    width: 100%;
+  }
+
+  .products-care-step-title-1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  .products-care-step-title-2 {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  .products-care-step-title-3 {
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 40px;
+  }
+
+  .products-care-step {
+    width: 100%;
+  }
+
+  .products-care-step-1 {
+    font-size: 16px;
+    padding: 2px 8px;
+  }
+
+  .products-care-step-2 {
+    font-size: 14px;
+  }
+
+  .products-care-bg-4 {
+    height: auto;
+    padding: 30px 0 400px;
+    background-color: #fff;
+    background-position: 22% bottom;
+    background-size: 960px 348px;
+  }
+
+  .products-care-part-1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  .products-care-part-2 {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  .products-care-part-3 {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  .products-care-part-4 {
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+
+  .products-care-image-2 {
+    width: 100%;
+    height: 0;
+    padding-bottom: <%= 287.0 / 362 * 100 %>%;
+  }
+
+  .products-care-bg-5 {
+    height: auto;
+    padding: 40px 0;
+  }
+
+  .products-care-specs {
+    width: 100%;
+  }
+
+  .products-care-spec {
+    flex: 0 0 50%;
+    padding: 30px 0;
+    height: auto;
+  }
+
+  .products-care-specs-title {
+    font-size: 16px;
+  }
+
+  .products-care-spec-primary {
+    font-size: 16px;
+  }
+
+  .products-care-spec-secondary {
+    font-size: 14px;
+  }
+
+  .products-care-back-alt {
+    font-size: 16px;
+    margin-top: 40px;
+  }
+
+  .products-care-back-alt:before,
+  .products-care-back-alt:after {
+    width: 48px;
+    height: 16px;
+    background-size: 16px;
+  }
 }

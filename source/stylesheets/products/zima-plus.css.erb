@@ -191,6 +191,10 @@
   height: 540px;
   background: linear-gradient(135deg, #6bccf6 0%, #b7cefc 100%);
   display: flex;
+}
+
+.products-plus-bg-2 .container {
+  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -314,7 +318,7 @@
 .products-plus-specs-title {
   border-bottom: 1px solid #535353;
   border-right: 1px solid #535353;
-  width: 1200px;
+  width: 100%;
   font-size: 30px;
   font-weight: bold;
   color: #c9c9c9;
@@ -328,7 +332,7 @@
   flex-wrap: wrap;
   border-top: 1px solid #535353;
   border-left: 1px solid #535353;
-  width: 1200px;
+  width: 100%;
   margin: auto;
 }
 
@@ -357,4 +361,215 @@
   font-size: 18px;
   color: #aaa;
   padding: 0 20px;
+}
+
+
+@media (max-width: 767px) {
+  .products-plus-bg-1 {
+    height: auto;
+    background-size: cover;
+    padding: 60px 0 30px;
+  }
+
+  .products-plus-bg-1 .container {
+    flex-direction: column;
+  }
+
+  .products-plus-content {
+    padding-top: 0;
+    order: 1;
+    margin: -30px;
+    background: #fff;
+    padding: 40px 30px;
+  }
+
+  .products-plus-image {
+    align-self: auto;
+    margin-bottom: 30px;
+  }
+
+  .products-plus-back {
+    display: none;
+  }
+
+  .products-plus-image-1 {
+    width: 100%;
+    height: 0;
+    padding-bottom: <%= 543.0 / 559 * 100 %>%;
+  }
+
+  .products-plus-subtitle {
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+  }
+
+  .products-plus-title {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+
+  .products-plus-description {
+    width: auto;
+    font-size: 12px;
+    line-height: 20px;
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 40px;
+  }
+
+  .products-plus-features {
+    flex-wrap: wrap;
+  }
+
+  .products-plus-feature {
+    width: calc(50% - 10px);
+    box-sizing: border-box;
+  }
+
+  .products-plus-feature + .products-plus-feature {
+    margin-left: 0;
+  }
+
+  .products-plus-feature:nth-child(2n - 1) + .products-plus-feature {
+    margin-left: 20px;
+  }
+
+  .products-plus-feature:nth-child(n + 3) {
+    margin-top: 20px;
+  }
+
+  .products-plus-feature:before {
+    background-size: 40px;
+    height: 80px;
+  }
+
+  .products-plus-feature-title {
+    font-size: 10px;
+  }
+
+  .products-plus-feature-subtitle {
+    font-size: 10px;
+  }
+
+  .products-plus-bg-2 {
+    height: auto;
+    padding: 30px 0;
+  }
+
+  .products-plus-bg-2 .container {
+    flex-direction: column;
+  }
+
+  .products-plus-step {
+    width: 100%;
+    height: auto;
+    padding: 30px;
+  }
+
+  .products-plus-step + .products-plus-step {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .products-plus-step-1 {
+    font-size: 20px;
+  }
+
+  .products-plus-step-2 {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .products-plus-step-3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .products-plus-step-4 {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .products-plus-step-5 {
+    font-size: 14px;
+  }
+
+  .products-plus-bg-3 {
+    height: auto;
+  }
+
+  .products-plus-bg-3 .container {
+    flex-direction: column;
+  }
+
+  .products-plus-main-titles {
+    width: 100%;
+    padding: 40px 0;
+  }
+
+  .products-plus-main-title-1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .products-plus-main-title-2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .products-plus-main-title-3 {
+    font-size: 14px;
+  }
+
+  .products-plus-main-title + .products-plus-main-title {
+    margin-top: 35px;
+    padding-top: 35px;
+  }
+
+  .products-plus-image-2 {
+    width: 100%;
+    height: 0;
+    padding-bottom: <%= 740.0 / 619 * 100 %>%;
+  }
+
+  .products-plus-bg-4 {
+    height: auto;
+    padding: 40px 0;
+  }
+
+  .products-plus-specs {
+    width: 100%;
+  }
+
+  .products-plus-spec {
+    flex: 0 0 50%;
+    padding: 30px 0;
+    height: auto;
+  }
+
+  .products-plus-specs-title {
+    font-size: 16px;
+  }
+
+  .products-plus-spec-primary {
+    font-size: 16px;
+  }
+
+  .products-plus-spec-secondary {
+    font-size: 14px;
+  }
+
+  .products-plus-back-alt {
+    font-size: 16px;
+    margin-top: 40px;
+  }
+
+  .products-plus-back-alt:before,
+  .products-plus-back-alt:after {
+    width: 48px;
+    height: 16px;
+    background-size: 16px;
+  }
 }

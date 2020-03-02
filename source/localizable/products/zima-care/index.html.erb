@@ -68,15 +68,17 @@ title: ZIMA Care
 </div>
 
 <div class="products-care-bg-5">
-  <div class="products-care-specs">
-    <div class="products-care-specs-title"><%= t(:'products.care.spec_1') %></div>
-    <% (1..9).each do |i| %>
-      <div class="products-care-spec">
-        <div class="products-care-spec-primary"><%= t(:"products.care.spec_#{i * 2}") %></div>
-        <div class="products-care-spec-secondary"><%= t(:"products.care.spec_#{i * 2 + 1}") %></div>
-      </div>
-    <% end %>
-    <div class="products-care-spec"></div>
+  <div class="container">
+    <div class="products-care-specs">
+      <div class="products-care-specs-title"><%= t(:'products.care.spec_1') %></div>
+      <% (1..9).each do |i| %>
+        <div class="products-care-spec">
+          <div class="products-care-spec-primary"><%= t(:"products.care.spec_#{i * 2}") %></div>
+          <div class="products-care-spec-secondary"><%= t(:"products.care.spec_#{i * 2 + 1}") %></div>
+        </div>
+      <% end %>
+      <div class="products-care-spec"></div>
+    </div>
+    <%= link_to t(:'products.back'), '/products/', class: 'products-care-back-alt' %>
   </div>
-  <%= link_to t(:'products.back'), '/products/', class: 'products-care-back-alt' %>
 </div>

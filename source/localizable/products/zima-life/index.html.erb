@@ -28,11 +28,13 @@ title: ZIMA Life
 </div>
 
 <div class="products-life-bg-2">
-  <div class="products-life-image-2"></div>
-  <div class="products-life-steps">
-    <div class="products-life-step-1"><%= t(:'products.life.step_1') %></div>
-    <div class="products-life-step-2"><%= t(:'products.life.step_2') %></div>
-    <div class="products-life-step-3"><%= t(:'products.life.step_3') %></div>
+  <div class="container">
+    <div class="products-life-image-2"></div>
+    <div class="products-life-steps">
+      <div class="products-life-step-1"><%= t(:'products.life.step_1') %></div>
+      <div class="products-life-step-2"><%= t(:'products.life.step_2') %></div>
+      <div class="products-life-step-3"><%= t(:'products.life.step_3') %></div>
+    </div>
   </div>
 </div>
 
@@ -64,16 +66,18 @@ title: ZIMA Life
 </div>
 
 <div class="products-life-bg-4">
-  <div class="products-life-specs">
-    <div class="products-life-specs-title"><%= t(:'products.life.spec_1') %></div>
-    <% (1..8).each do |i| %>
-      <div class="products-life-spec">
-        <div class="products-life-spec-primary"><%= t(:"products.life.spec_#{i * 2}") %></div>
-        <div class="products-life-spec-secondary"><%= t(:"products.life.spec_#{i * 2 + 1}") %></div>
-      </div>
-    <% end %>
-    <div class="products-life-spec"></div>
-    <div class="products-life-spec"></div>
+  <div class="container">
+    <div class="products-life-specs">
+      <div class="products-life-specs-title"><%= t(:'products.life.spec_1') %></div>
+      <% (1..8).each do |i| %>
+        <div class="products-life-spec">
+          <div class="products-life-spec-primary"><%= t(:"products.life.spec_#{i * 2}") %></div>
+          <div class="products-life-spec-secondary"><%= t(:"products.life.spec_#{i * 2 + 1}") %></div>
+        </div>
+      <% end %>
+      <div class="products-life-spec"></div>
+      <div class="products-life-spec"></div>
+    </div>
+    <%= link_to t(:'products.back'), '/products/', class: 'products-life-back-alt' %>
   </div>
-  <%= link_to t(:'products.back'), '/products/', class: 'products-life-back-alt' %>
 </div>

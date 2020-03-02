@@ -29,15 +29,17 @@ title: ZIMA Plus
 </div>
 
 <div class="products-plus-bg-2">
-  <div class="products-plus-step">
-    <div class="products-plus-step-1"><%= t(:'products.plus.step_1') %></div>
-    <div class="products-plus-step-2"><%= t(:'products.plus.step_2') %></div>
-  </div>
-  <div class="products-plus-step">
-    <div class="products-plus-step-1"><%= t(:'products.plus.step_3') %></div>
-    <div class="products-plus-step-3"><%= t(:'products.plus.step_4') %></div>
-    <div class="products-plus-step-4"><%= t(:'products.plus.step_5') %></div>
-    <div class="products-plus-step-5"><%= t(:'products.plus.step_6') %></div>
+  <div class="container">
+    <div class="products-plus-step">
+      <div class="products-plus-step-1"><%= t(:'products.plus.step_1') %></div>
+      <div class="products-plus-step-2"><%= t(:'products.plus.step_2') %></div>
+    </div>
+    <div class="products-plus-step">
+      <div class="products-plus-step-1"><%= t(:'products.plus.step_3') %></div>
+      <div class="products-plus-step-3"><%= t(:'products.plus.step_4') %></div>
+      <div class="products-plus-step-4"><%= t(:'products.plus.step_5') %></div>
+      <div class="products-plus-step-5"><%= t(:'products.plus.step_6') %></div>
+    </div>
   </div>
 </div>
 
@@ -57,15 +59,17 @@ title: ZIMA Plus
 </div>
 
 <div class="products-plus-bg-4">
-  <div class="products-plus-specs">
-    <div class="products-plus-specs-title"><%= t(:'products.plus.spec_1') %></div>
-    <% (1..9).each do |i| %>
-      <div class="products-plus-spec">
-        <div class="products-plus-spec-primary"><%= t(:"products.plus.spec_#{i * 2}") %></div>
-        <div class="products-plus-spec-secondary"><%= t(:"products.plus.spec_#{i * 2 + 1}") %></div>
-      </div>
-    <% end %>
-    <div class="products-plus-spec"></div>
+  <div class="container">
+    <div class="products-plus-specs">
+      <div class="products-plus-specs-title"><%= t(:'products.plus.spec_1') %></div>
+      <% (1..9).each do |i| %>
+        <div class="products-plus-spec">
+          <div class="products-plus-spec-primary"><%= t(:"products.plus.spec_#{i * 2}") %></div>
+          <div class="products-plus-spec-secondary"><%= t(:"products.plus.spec_#{i * 2 + 1}") %></div>
+        </div>
+      <% end %>
+      <div class="products-plus-spec"></div>
+    </div>
+    <%= link_to t(:'products.back'), '/products/', class: 'products-plus-back-alt' %>
   </div>
-  <%= link_to t(:'products.back'), '/products/', class: 'products-plus-back-alt' %>
 </div>
