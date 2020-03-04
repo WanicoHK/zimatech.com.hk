@@ -1,4 +1,180 @@
 ---
 title: ZIMA
 ---
+<% content_for :assets do %>
+  <%= stylesheet_link_tag 'index' %>
+<% end %>
 
+<div class="index-bg-1-main">
+  <div class="index-bg-1-container">
+    <div class="index-bg-1">
+      <div class="index-bg-1-wrapper">
+        <div class="index-bg-title-1"><%= t(:'index.title_1') %></div>
+        <div class="index-bg-title-2"><%= t(:'index.title_2') %></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="index-bg-2">
+  <div class="container">
+    <div class="index-bg-text-1"><%= t(:'index.text_1') %></div>
+    <div class="index-bg-text-2"><%= t(:'index.text_2') %></div>
+    <div class="index-bg-2-wrapper-0">
+      <div class="index-bg-2-wrapper-1">
+        <% (1..4).each do |i| %>
+          <input type="radio" name="index-bg-2" id="index-bg-2-<%= i %>"<%= ' checked' if i == 1 %>>
+          <label class="index-bg-2-thumb index-bg-2-thumb-<%= i %>" for="index-bg-2-<%= i %>"
+            data-title="<%= t(:"index.text_#{2 * i + 1}") %>"></label>
+        <% end %>
+        <div class="index-bg-2-thumb index-bg-2-thumb-5">
+          More Coming Soon
+        </div>
+        <div class="index-bg-2-wrapper-2">
+          <% (1..4).each do |i| %>
+            <div class="index-bg-2-wrapper-3 index-bg-2-wrapper-3-<%= i %>">
+              <div class="index-bg-2-image index-bg-2-image-<%= i %>"></div>
+              <div class="index-bg-2-wrapper-4">
+                <div class="index-bg-2-title"><%= t(:"index.text_#{2 * i + 1}") %></div>
+                <div class="index-bg-2-text"><%= t(:"index.text_#{2 * i + 2}") %></div>
+                <%= link_to t(:'index.more'), t(:"index.text_link_#{i}"), class: 'index-bg-2-link' %>
+              </div>
+            </div>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="index-bg-3">
+  <div class="container">
+    <div class="index-bg-item-1"><%= t(:'index.item_1') %></div>
+    <div class="index-bg-item-2"><%= t(:'index.item_2') %></div>
+    <div class="index-bg-3-wrapper-1">
+      <div class="index-bg-3-image"></div>
+      <div class="index-bg-3-wrapper-2">
+        <div class="index-bg-item-3"><%= t(:'index.item_3') %></div>
+        <div class="index-bg-item-4"><%= t(:'index.item_4') %></div>
+        <%= link_to t(:'index.item_5'), '/app/', class: 'index-bg-item-5' %>
+        <div class="index-bg-3-wrapper-3">
+          <%= link_to 'ZIMA iOS App - Download on the App Store', t(:'link.app_store'),
+            class: 'index-bg-3-app-link app-store' %>
+          <%= link_to 'ZIMA Android App - GET IT ON Google Play', t(:'link.google_play'),
+            class: 'index-bg-3-app-link google-play' %>
+          <%= link_to 'ZIMA Android App - DIRECT DOWNLOAD .APK FILE', t(:'link.apk_file'),
+            class: 'index-bg-3-app-link download-apk' %>
+        </div>
+        <div class="index-bg-item-6"><%= t(:'index.item_6') %></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="index-bg-4">
+  <div class="container">
+    <div class="index-bg-4-wrapper-1">
+      <div class="index-bg-part-1"><%= t(:'index.part_1') %></div>
+      <div class="index-bg-part-2"><%= t(:'index.part_2') %></div>
+    </div>
+    <div class="index-bg-4-wrapper-2">
+      <% (1..5).each do |i| %>
+        <div class="index-bg-4-wrapper-3">
+          <div class="index-bg-part-3"><%= t(:"index.part_#{2 * i + 1}") %></div>
+          <div class="index-bg-part-4"><%= t(:"index.part_#{2 * i + 2}") %></div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
+
+<div class="index-bg-5">
+  <div class="container">
+    <div class="index-bg-string-1"><%= t(:'index.string_1') %></div>
+    <div class="index-bg-string-2"><%= t(:'index.string_2') %></div>
+    <div class="index-bg-5-wrapper-1">
+      <div class="index-bg-5-wrapper-2">
+        <div class="index-bg-string-3"><%= t(:'index.string_3') %></div>
+        <div class="index-bg-5-wrapper-3">
+          <% (1..3).each do |i| %>
+            <div class="index-bg-5-wrapper-4">
+              <div class="index-bg-string-4"><%= t(:"index.string_#{2 * i + 2}") %></div>
+              <div class="index-bg-string-5"><%= t(:"index.string_#{2 * i + 3}") %></div>
+            </div>
+          <% end %>
+        </div>
+      </div>
+      <div class="index-bg-5-wrapper-2">
+        <div class="index-bg-string-3"><%= t(:'index.string_10') %></div>
+        <div class="index-bg-5-wrapper-3">
+          <% (4..7).each do |i| %>
+            <div class="index-bg-5-wrapper-4">
+              <div class="index-bg-string-4"><%= t(:"index.string_#{2 * i + 3}") %></div>
+              <div class="index-bg-string-5"><%= t(:"index.string_#{2 * i + 4}") %></div>
+            </div>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="index-bg-6">
+  <div class="container">
+    <div class="index-bg-point-1"><%= t(:'index.point_1') %></div>
+    <div class="index-bg-point-2"><%= t(:'index.point_2') %></div>
+    <% (1..5).each do |i| %>
+      <input type="radio" name="index-bg-6" id="index-bg-6-point-<%= i + 2 %>"<%= ' checked' if i == 1 %>>
+    <% end %>
+    <div class="index-bg-6-wrapper-1">
+      <% (1..5).each do |i| %>
+        <label class="index-bg-6-point index-bg-6-point-<%= i + 2 %>"
+          for="index-bg-6-point-<%= i + 2 %>"><%= t(:"index.point_#{i + 2}") %></label>
+      <% end %>
+    </div>
+    <div class="index-bg-6-wrapper-2">
+      <div class="index-bg-6-wrapper-3 index-bg-6-point-8"><%= t(:'index.point_8') %></div>
+      <div class="index-bg-6-wrapper-4 index-bg-6-point-9">
+        <div class="index-bg-6-wrapper-5">
+          <% (1..5).each do |i| %>
+            <div class="index-bg-6-extra-icon index-bg-6-extra-icon-<%= i %>"><%= t(:"index.point_#{i + 8}") %></div>
+          <% end %>
+        </div>
+        <div class="index-bg-6-point-14"><%= t(:'index.point_14') %></div>
+      </div>
+      <% (1..3).each do |i| %>
+        <div class="index-bg-6-wrapper-3 index-bg-6-point-<%= i + 9 %>"><%= t(:"index.point_#{i + 14}") %></div>
+      <% end %>
+    </div>
+  </div>
+</div>
+
+<div class="index-bg-7">
+  <div class="container">
+    <div class="index-bg-view-1"><%= t(:'index.view_1') %></div>
+    <div class="index-bg-7-wrapper-1">
+      <div class="index-bg-7-wrapper-2">
+        <div class="index-bg-view-2"><%= t(:'index.view_2') %></div>
+        <div class="index-bg-7-wrapper-3">
+          <%= link_to t(:'index.view_3'), '/contact-us/', class: 'index-bg-view-link' %>
+          <%= link_to t(:'index.view_4'), '/contact-us/', class: 'index-bg-view-link' %>
+          <%= link_to t(:'index.view_5'), '/contact-us/', class: 'index-bg-view-link' %>
+        </div>
+      </div>
+      <div class="index-bg-7-wrapper-2">
+        <div class="index-bg-view-3"><%= t(:'index.view_6') %></div>
+        <div class="index-bg-7-wrapper-3">
+          <%= link_to t(:'index.view_7'), '/contact-us/', class: 'index-bg-view-link' %>
+        </div>
+      </div>
+      <div class="index-bg-7-wrapper-2">
+        <div class="index-bg-view-4"><%= t(:'index.view_8') %></div>
+        <div class="index-bg-7-wrapper-3">
+          <%= link_to t(:'index.view_9'), '/contact-us/', class: 'index-bg-view-link' %>
+          <%= link_to t(:'index.view_10'), '/contact-us/', class: 'index-bg-view-link' %>
+          <%= link_to t(:'index.view_11'), '/contact-us/', class: 'index-bg-view-link' %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
