@@ -38,6 +38,13 @@
           <li><%= nav_link_to t(:'nav.app'), '/app/' %></li>
           <li><%= nav_link_to t(:'nav.partners'), '/partners' %></li>
           <li><%= nav_link_to t(:'nav.contact_us'), '/contact-us' %></li>
+          <li>
+            <a href="#" onclick="return false"><%= t(:'nav.languages') %></a>
+            <ul>
+              <li><%= nav_link_to '繁體中文', '/zh-HK/' %></li>
+              <li><%= nav_link_to '简体中文', '/zh-CN/' %></li>
+            </ul>
+          </li>
         </ul>
       </div>
     </div>

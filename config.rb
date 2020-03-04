@@ -19,7 +19,7 @@ activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
 
-activate :i18n, locales: [ :'zh-HK' ], path: '/:locale/', mount_at_root: false
+activate :i18n, locales: [ :'zh-HK', :'zh-CN' ], path: '/:locale/', mount_at_root: false
 # activate :livereload
 
 # Layouts
