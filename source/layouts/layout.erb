@@ -6,10 +6,14 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta content="webkit" name="renderer">
 <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="format-detection" content="telephone=no">
 <meta name="page-title" content="ZIMA">
-<meta name="theme-color" content="#2a2e3f">
+<meta name="theme-color" content="#fffff">
 <meta name="keywords" content="ZIMA, ZIMA官网, ZIMA官網">
 <meta name="description" content="ZIMA, ZIMA官网, ZIMA官網">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <title><%= current_page.data.title || 'ZIMA' %></title>
 <%= stylesheet_link_tag 'site' %>
 <% if content_for?(:assets) %><%= yield_content :assets %><% end %>
@@ -74,7 +78,7 @@
     </div>
     <div class="footer-nav">
       <div class="footer-nav-column">
-        <div class="footer-title"><%= nav_link_to t(:'nav.products'), '/products/' %></div>
+        <div class="footer-title"><%= link_to t(:'nav.products'), '/products/' %></div>
         <div class="footer-nav-links">
           <%= link_to 'ZIMA Pro', '/products/zima-pro/' %>
           <%= link_to 'ZIMA Slim', '/products/zima-slim/' %>
@@ -84,7 +88,7 @@
         </div>
       </div>
       <div class="footer-nav-column">
-        <div class="footer-title"><%= nav_link_to t(:'nav.app'), '/app/' %></div>
+        <div class="footer-title"><%= link_to t(:'nav.app'), '/app/' %></div>
         <div class="footer-nav-links">
           <%= link_to t(:'footer.nav_app.nav_1'), '/app/', anchor: 's1' %>
           <%= link_to t(:'footer.nav_app.nav_2'), '/app/', anchor: 's2' %>
@@ -93,7 +97,7 @@
         </div>
       </div>
       <div class="footer-nav-column">
-        <div class="footer-title"><%= nav_link_to t(:'nav.partners'), '/partners/' %></div>
+        <div class="footer-title"><%= link_to t(:'nav.partners'), '/partners/' %></div>
         <div class="footer-nav-links">
           <%= link_to t(:'footer.nav_partners.nav_1'), '/partners/', anchor: 's1' %>
           <%= link_to t(:'footer.nav_partners.nav_2'), '/partners/', anchor: 's2' %>
@@ -101,7 +105,7 @@
         </div>
       </div>
       <div class="footer-nav-column">
-        <div class="footer-title"><%= nav_link_to t(:'nav.contact_us'), '/contact-us/' %></div>
+        <div class="footer-title"><%= link_to t(:'nav.contact_us'), '/contact-us/' %></div>
         <div class="footer-nav-links">
           <%= link_to t(:'footer.nav_contact.nav_1'), '/contact-us/', anchor: 's1' %>
           <%= link_to t(:'footer.nav_contact.nav_2'), '/contact-us/', anchor: 's2' %>
@@ -109,7 +113,7 @@
       </div>
     </div>
     <div class="footer-contact">
-      <div class="footer-title"><%= t(:'footer.contact') %></div>
+      <div class="footer-title"><%= link_to t(:'footer.contact'), '/contact-us/', anchor: 'now' %></div>
       <div class="footer-content"><%= t(:'footer.contact_content') %></div>
     </div>
   </div>
