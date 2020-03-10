@@ -95,11 +95,16 @@
       <div class="footer-nav-column">
         <div class="footer-title"><%= nav_link_to t(:'nav.partners'), '/partners/' %></div>
         <div class="footer-nav-links">
+          <%= link_to t(:'footer.nav_partners.nav_1'), '/partners/', anchor: 's1' %>
+          <%= link_to t(:'footer.nav_partners.nav_2'), '/partners/', anchor: 's2' %>
+          <%= link_to t(:'footer.nav_partners.nav_3'), '/partners/', anchor: 's3' %>
         </div>
       </div>
       <div class="footer-nav-column">
         <div class="footer-title"><%= nav_link_to t(:'nav.contact_us'), '/contact-us/' %></div>
         <div class="footer-nav-links">
+          <%= link_to t(:'footer.nav_contact.nav_1'), '/contact-us/', anchor: 's1' %>
+          <%= link_to t(:'footer.nav_contact.nav_2'), '/contact-us/', anchor: 's2' %>
         </div>
       </div>
     </div>

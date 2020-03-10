@@ -1,0 +1,109 @@
+---
+title: ZIMA
+---
+<% content_for :assets do %>
+  <%= stylesheet_link_tag 'partners/index' %>
+<% end %>
+
+<div class="partners-bg-1-main">
+  <div class="partners-bg-1-container">
+    <div class="partners-bg-1">
+      <div class="partners-bg-1-wrapper">
+        <div class="partners-bg-title-1"><%= t(:'partners.main') %></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="partners-bg-2">
+  <div class="container">
+    <div class="partners-items">
+      <% t(:'partners.items').each.with_index do |item, i| %>
+        <% if i > 0 %><div class="partners-item-arrow"></div><% end %>
+        <div class="partners-item">
+          <div class="partners-item-q"><%= item[:q] %></div>
+          <div class="partners-item-t"><%= item[:t] %></div>
+          <ul class="partners-item-a">
+            <% item[:a].each do |li| %>
+              <li><%= li %></li>
+            <% end %>
+          </ul>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
+
+<a name="s1" class="anchor"></a>
+<div class="partners-bg-3">
+  <div class="container">
+    <div class="partners-title-1"><%= t(:'partners.title_1') %></div>
+    <div class="partners-title-2"><%= t(:'partners.title_2') %></div>
+    <div class="partners-title-3"><%= t(:'partners.title_3') %></div>
+    <div class="partners-titles">
+      <% t(:'partners.titles').each do |title| %>
+        <div class="partners-title">
+          <div class="partners-title-p"><%= title[:p] %></div>
+          <div class="partners-title-s"><%= title[:s] %></div>
+          <div class="partners-title-img"></div>
+          <div class="partners-title-t"><%= title[:t] %></div>
+          <div class="partners-title-h"><%= title[:h] %></div>
+          <div class="partners-title-d"><%= title[:d] %></div>
+        </div>
+      <% end %>
+    </div>
+    <div class="partners-title-4"><%= t(:'partners.title_4') %></div>
+    <%= link_to t(:'partners.title_5'), '/contact-us/', class: 'partners-title-5', anchor: 'now' %>
+  </div>
+</div>
+
+<a name="s2" class="anchor"></a>
+<div class="partners-bg-4">
+  <div class="container">
+    <div class="partners-part-1"><%= t(:'partners.part_1') %></div>
+    <div class="partners-parts-wrapper">
+      <div class="partners-parts">
+        <% t(:'partners.parts').each do |part| %>
+          <div class="partners-part">
+            <div class="partners-part-t"><%= part[:t] %></div>
+            <div class="partners-part-d"><%= part[:d] %></div>
+          </div>
+        <% end %>
+      </div>
+      <div class="partners-parts-image"></div>
+    </div>
+    <div class="partners-part-2"><%= t(:'partners.part_2') %></div>
+    <%= link_to t(:'partners.part_3'), '/contact-us/', class: 'partners-part-3', anchor: 'now' %>
+  </div>
+</div>
+
+<a name="s3" class="anchor"></a>
+<div class="partners-bg-5">
+  <div class="container">
+    <div class="partners-string-1"><%= t(:'partners.string_1') %></div>
+    <div class="partners-string-2"><%= t(:'partners.string_2') %></div>
+    <div class="partners-string-3"><%= t(:'partners.string_3') %></div>
+    <div class="partners-strings">
+      <% t(:'partners.strings').each do |string| %>
+        <div class="partners-string">
+          <div class="partners-string-c"><div class="partners-string-t"><%= string[:t] %></div></div>
+          <div class="partners-string-d"><%= string[:d] %></div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
+
+<div class="partners-bg-6">
+  <div class="container">
+    <div class="partners-text-wrapper-1">
+      <div class="partners-text-wrapper-2">
+        <div class="partners-text-1"><%= t(:'partners.text_1') %></div>
+        <div class="partners-text-2"><%= t(:'partners.text_2') %></div>
+      </div>
+      <div class="partners-text-wrapper-3">
+        <div class="partners-text-3"><%= t(:'partners.text_3') %></div>
+      </div>
+    </div>
+  </div>
+</div>
