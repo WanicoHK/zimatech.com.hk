@@ -1,0 +1,196 @@
+---
+title: ZIMA
+---
+<% content_for :assets do %>
+  <%= stylesheet_link_tag 'contact-us/index' %>
+<% end %>
+
+<div class="contact-bg-1-main">
+  <div class="contact-bg-1-container">
+    <div class="contact-bg-1">
+      <div class="contact-bg-1-wrapper">
+        <div class="contact-bg-title-1"><%= t(:'contact_us.title_1') %></div>
+        <div class="contact-bg-title-2"><%= t(:'contact_us.title_2') %></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<% items = t(:'contact_us.items') %>
+<div class="contact-bg-2">
+  <div class="container">
+    <div class="contact-bg-string-1"><%= t(:'contact_us.string_1') %></div>
+    <div class="contact-bg-string-2"><%= t(:'contact_us.string_2') %></div>
+    <div class="contact-bg-2-wrapper">
+      <% items.each.with_index do |item, i| %>
+        <input class="contact-radio" type="radio" name="contact-2" id="contact-2-<%= i %>"<%= ' checked' if i == 0 %>>
+        <% item[:items].each.with_index do |_, j| %>
+          <input class="contact-radio" type="radio" name="contact-2-<%= i %>" id="contact-2-<%= i %>-<%= j %>"<%= ' checked' if j == 0 %>>
+        <% end %>
+      <% end %>
+      <div class="contact-bg-2-wrapper-2">
+        <% items.each.with_index do |item, i| %>
+          <label for="contact-2-<%= i %>" class="contact-2-<%= i %>"><%= item[:name] %></label>
+        <% end %>
+      </div>
+      <% items.each.with_index do |item, i| %>
+        <div class="contact-bg-2-wrapper-3 contact-bg-2-wrapper-3-<%= i %>">
+          <div class="contact-bg-2-wrapper-5">
+            <% item[:items].each.with_index do |slot, j| %>
+              <label for="contact-2-<%= i %>-<%= j %>" class="contact-2-<%= i %>-<%= j %>"><%= slot[:name] %></label>
+            <% end %>
+            <% (8 - item[:items].size).times do %>
+              <label></label>
+            <% end %>
+          </div>
+
+          <% item[:items].each.with_index do |slot, j| %>
+            <div class="contact-bg-2-wrapper-4 contact-bg-2-wrapper-4-<%= i %>-<%= j %>">
+              <div class="contact-item-title"><%= slot[:title] %></div>
+              <div class="contact-item-desc"><%= slot[:desc] %></div>
+              <div class="contact-item-badge"><%= slot[:badge] %></div>
+              <ul class="contact-item-list">
+                <% slot[:list].split(/\n/).each do |line| %>
+                  <li><%= line %></li>
+                <% end %>
+              </ul>
+            </div>
+          <% end %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
+
+<% parts = t(:'contact_us.parts') %>
+<div class="contact-bg-3">
+  <div class="container">
+    <div class="contact-bg-part-1"><%= t(:'contact_us.part_1') %></div>
+    <div class="contact-bg-part-2"><%= t(:'contact_us.part_2') %></div>
+    <div class="contact-bg-3-wrapper">
+      <% parts.each.with_index do |part, i| %>
+        <div class="contact-bg-3-wrapper-2 contact-part-image contact-part-image-<%= i %>">
+          <div class="contact-part-badge"><%= part[:badge] %></div>
+          <div class="contact-part-secondary"><%= part[:secondary] %></div>
+          <div class="contact-part-primary"><%= part[:primary] %></div>
+          <div class="contact-part-text"><%= part[:text] %></div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
+
+<% points = t(:'contact_us.points') %>
+<div class="contact-bg-4">
+  <div class="container">
+    <div class="contact-points">
+      <% points.each.with_index do |point, i| %>
+        <div class="contact-point contact-point-<%= i %>">
+          <div class="contact-point-title"><%= point[:title] %></div>
+          <div class="contact-point-desc"><%= point[:desc] %></div>
+        </div>
+      <% end %>
+      <div class="contact-point contact-point-more"></div>
+    </div>
+  </div>
+</div>
+
+<div class="contact-bg-5">
+  <form class="container" id="form">
+    <div class="contact-form contact-mobile-only">
+      <div class="contact-form-col">
+        <div class="contact-title"><%= t(:'contact_us.form.title') %></div>
+      </div>
+    </div>
+    <div class="contact-form">
+      <div class="contact-form-col">
+        <input class="contact-control" name="country" placeholder="<%= t(:'contact_us.form.country') %>" maxlength="50">
+        <input class="contact-control" name="city" placeholder="<%= t(:'contact_us.form.city') %>" maxlength="50">
+        <select class="contact-control" name="submission_type">
+          <option value=""><%= t(:'contact_us.form.type') %></option>
+          <% t(:'contact_us.form.types').each do |type| %>
+            <option value="<%= type %>"><%= type %></option>
+          <% end %>
+        </select>
+      </div>
+      <div class="contact-form-col">
+        <input class="contact-control" name="name" placeholder="<%= t(:'contact_us.form.name') %>">
+        <input class="contact-control" name="phone" placeholder="<%= t(:'contact_us.form.phone') %>">
+        <input class="contact-control" name="email" placeholder="<%= t(:'contact_us.form.email') %>">
+      </div>
+      <div class="contact-form-col">
+        <textarea class="contact-control" name="message" placeholder="<%= t(:'contact_us.form.content') %>"></textarea>
+      </div>
+    </div>
+    <div class="contact-form">
+      <div class="contact-form-col contact-pc-only">
+        <div class="contact-title"><%= t(:'contact_us.form.title') %></div>
+      </div>
+      <div class="contact-form-col contact-pc-only">
+      </div>
+      <div class="contact-form-col">
+        <button type="submit" class="contact-submit"><%= t(:'contact_us.form.submit') %></button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.min.js"></script>
+<script>
+  $('#form').submit(function () {
+    var data = {
+      country:         $('input[name="country"]'),
+      city:            $('input[name="city"]'),
+      submission_type: $('select[name="submission_type"]'),
+      name:            $('input[name="name"]'),
+      phone:           $('input[name="phone"]'),
+      email:           $('input[name="email"]')
+    };
+    for (let key in data) {
+      let val = data[key].val();
+      if (!val) {
+        data[key].focus();
+        $('.contact-submit').prop('disabled', true).text('<%= t(:'contact_us.form.required') %>');
+        setTimeout(() => {
+          $('.contact-submit').prop('disabled', false).text('<%= t(:'contact_us.form.submit') %>');
+        }, 2000);
+        return false;
+      }
+      data[key] = val;
+    }
+    data.message = $('input[name="message"]').val()
+    $('.contact-submit').prop('disabled', true).text('<%= t(:'contact_us.form.submitting') %>');
+    $.ajax({
+      type: 'POST',
+      url: 'https://www.wanico.com.hk/submit',
+      dataType: 'json',
+      contentType: 'application/json;charset=utf-8',
+      data: JSON.stringify({
+        submission: data
+      }),
+      success: function (res) {
+        window.alert('<%= t(:'contact_us.form.submitted') %>');
+        window.location.reload();
+      },
+      complete: function () {
+        $('.contact-submit').prop('disabled', false).text('<%= t(:'contact_us.form.submit') %>');
+      },
+      error: function (err) {
+        var message = '<%= t(:'contact_us.form.unknown') %>';
+        try {
+          if (err.responseText) {
+            var errors = $.parseJSON(err.responseText).errors;
+            var msg = [];
+            for (var key in errors) {
+              msg.push(errors[key].join('\n'));
+            }
+            message = msg.join('\n');
+          }
+        } catch (e) {
+        }
+        window.alert(message);
+      }
+    });
+    return false;
+  });
+</script>
