@@ -1,0 +1,75 @@
+---
+layout: bare
+---
+<% content_for :assets do %>
+  <%= stylesheet_link_tag 'pages/utils' %>
+  <%= stylesheet_link_tag 'pages/hk-2' %>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.min.js"></script>
+  <%= javascript_include_tag 'pages/form' %>
+<% end %>
+
+<div id="hk_landed">
+  <div class="cut-pic1"></div>
+  <div class="cut-pic2"></div>
+  <div class="cut-pic3"></div>
+  <div class="cut-pic4"></div>
+  <div class="cut-pic5"></div>
+  <div class="cut-pic6"></div>
+  <div class="cut-pic7"></div>
+  <form id="info-form">
+    <div class="box">
+      <div class="text">
+        <span>登記申請 / 查詢</span>
+      </div>
+      <div class="form">
+        <div class="form-item-row">
+          <div class="form-item">
+            <p>稱呼</p>
+            <div class="input-box">
+              <input class="form-input" name="name" type="text">
+            </div>
+          </div>
+          <div class="form-item">
+            <p>聯絡電話</p>
+            <div class="input-box">
+              <input class="form-input" name="phone" type="text">
+            </div>
+          </div>
+          <div class="form-item">
+            <p>聯絡電郵</p>
+            <div class="input-box flex items-center">
+              <input class="form-input" name="email" type="text">
+            </div>
+          </div>
+        </div>
+        <div class="form-item-row">
+          <div class="form-item">
+            <p>場地名稱</p>
+            <div class="input-box">
+              <input class="form-input" name="location" type="text">
+            </div>
+          </div>
+          <div class="form-item">
+            <p>場地種類</p>
+            <div class="input-box">
+              <input class="form-input" name="type" type="text">
+            </div>
+          </div>
+          <div class="form-item">
+            <p>場地地址</p>
+            <div class="input-box">
+              <input class="form-input" name="address" type="text">
+            </div>
+          </div>
+        </div>
+      </div>
+      <button type="submit" id="submitForm" class="submit-btn-box">提交</button>
+    </div>
+  </form>
+  <div class="cut-pic8"></div>
+  <div class="cut-pic9"></div>
+  <div class="cut-pic10"></div>
+  <div class="cut-pic11"></div>
+  <div class="cut-pic12"></div>
+  <div class="cut-pic13"></div>
+</div>

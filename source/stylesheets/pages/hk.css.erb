@@ -1,0 +1,274 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#hk_landed {
+  width: 100%;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+}
+.cut-pic1,
+.cut-pic2,
+.cut-pic3,
+.cut-pic4,
+.cut-pic5,
+.cut-pic6 {
+  width: 100%;
+  height: 0;
+  padding-bottom: 42%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.cut-pic8,
+.cut-pic10,
+.cut-pic11,
+.cut-pic12,
+.cut-pic13,
+.cut-pic14,
+.cut-pic15,
+.cut-pic16 {
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.cut-pic7 {
+  width: 100%;
+  height: 0;
+  padding-bottom: 38%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.cut-pic9 {
+  width: 100%;
+  height: 0;
+  padding-bottom: 28.15%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.cut-pic1 {
+  background-image: url(<%= image_path('pages/hk/pc/image-01.jpg') %>);
+  order: 1;
+}
+.cut-pic2 {
+  background-image: url(<%= image_path('pages/hk/pc/image-02.jpg') %>);
+  order: 2;
+}
+.cut-pic3 {
+  background-image: url(<%= image_path('pages/hk/pc/image-03.jpg') %>);
+  order: 3;
+}
+.cut-pic4 {
+  background-image: url(<%= image_path('pages/hk/pc/image-04.jpg') %>);
+  order: 4;
+}
+.cut-pic5 {
+  background-image: url(<%= image_path('pages/hk/pc/image-05.jpg') %>);
+  order: 5;
+}
+.cut-pic6 {
+  background-image: url(<%= image_path('pages/hk/pc/image-06.jpg') %>);
+  order: 6;
+}
+.cut-pic7 {
+  background-image: url(<%= image_path('pages/hk/pc/image-07.jpg') %>);
+  order: 7;
+}
+.cut-pic9 {
+  background-image: url(<%= image_path('pages/hk/pc/image-09.jpg') %>);
+  order: 9;
+}
+#info-form {
+  background: #f7f7f7;
+  padding: 1rem 3rem;
+  order: 8;
+}
+#info-form .box {
+  width: 100%;
+  margin: 0 auto;
+}
+#info-form .box .text {
+  font-size: .6rem;
+  color: #313131;
+  margin-bottom: .5rem;
+}
+#info-form .box .form {
+  display: flex;
+  -webkit-display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+#info-form .box .form-item-row {
+  width: 45%;
+  margin-right: 0.6rem;
+}
+#info-form .box .form-item {
+  margin-right: 0.6rem;
+  font-size: .3rem;
+}
+#info-form .box .form-item p {
+  margin: .3rem 0 .2rem .3rem;
+  color: #535353;
+}
+#info-form .box .ab-placeholder {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  font-size: 0.28rem;
+  color: #535353;
+}
+#info-form .box .ab-placeholder-focus {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  font-size: 0.28rem;
+  color: #afafaf;
+  top: 0.1rem;
+  transform: translateY(0);
+  -webkit-transform: translateY(0);
+}
+#info-form .box .form-input {
+  width: 100%;
+  height: 1rem;
+  line-height: .76rem;
+  padding: 0 17% 0 10px;
+  color: #535353 !important;
+  background-color: #ffffff !important;
+  border-radius: 3px;
+  box-sizing: border-box;
+  border: 1px solid #BFBFBF;
+  font-size: .32rem;
+  -webkit-appearance: none;
+  appearance: none;
+}
+#info-form .box .input-box {
+  font-size: 0;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  position: relative;
+}
+#info-form .box .submit-btn-box {
+  -webkit-appearance: none;
+  cursor: pointer;
+  width: 30%;
+  height: .8rem;
+  line-height: .8rem;
+  background-color: #40b6e6;
+  -webkit-background-color: #40b6e6;
+  border-radius: 4px;
+  color: #FEFEFE;
+  font-size: .4rem;
+  margin: 0 auto;
+  display: block;
+  border: 0;
+}
+#info-form .box .submit-btn-box:disabled {
+  background-color: #ccc;
+}
+@media screen and (max-width: 960px) {
+  .cut-pic1,
+  .cut-pic2,
+  .cut-pic3,
+  .cut-pic4,
+  .cut-pic5,
+  .cut-pic6,
+  .cut-pic7,
+  .cut-pic8,
+  .cut-pic9,
+  .cut-pic10,
+  .cut-pic11,
+  .cut-pic12,
+  .cut-pic13,
+  .cut-pic14,
+  .cut-pic15,
+  .cut-pic16 {
+    height: 0;
+    padding-bottom: 80%;
+  }
+  .cut-pic1 {
+    background-image: url(<%= image_path('pages/hk/mobile/image-01.jpg') %>);
+  }
+  .cut-pic2 {
+    background-image: url(<%= image_path('pages/hk/mobile/image-02.jpg') %>);
+  }
+  .cut-pic3 {
+    background-image: url(<%= image_path('pages/hk/mobile/image-03.jpg') %>);
+  }
+  .cut-pic4 {
+    background-image: url(<%= image_path('pages/hk/mobile/image-04.jpg') %>);
+  }
+  .cut-pic5 {
+    background-image: url(<%= image_path('pages/hk/mobile/image-05.jpg') %>);
+  }
+  .cut-pic6 {
+    background-image: url(<%= image_path('pages/hk/mobile/image-06.jpg') %>);
+  }
+  .cut-pic7 {
+    background-image: url(<%= image_path('pages/hk/mobile/image-07.jpg') %>);
+  }
+  .cut-pic8 {
+    background-image: url(<%= image_path('pages/hk/mobile/image-08.jpg') %>);
+    order: 8;
+  }
+  .cut-pic9 {
+    background-image: url(<%= image_path('pages/hk/mobile/image-09.jpg') %>);
+    order: 9;
+  }
+  .cut-pic10 {
+    background-image: url(<%= image_path('pages/hk/mobile/image-10.jpg') %>);
+    order: 10;
+  }
+  .cut-pic11 {
+    background-image: url(<%= image_path('pages/hk/mobile/image-11.jpg') %>);
+    order: 11;
+  }
+  .cut-pic12 {
+    background-image: url(<%= image_path('pages/hk/mobile/image-12.jpg') %>);
+    order: 12;
+  }
+  .cut-pic13 {
+    background-image: url(<%= image_path('pages/hk/mobile/image-13.jpg') %>);
+    order: 13;
+  }
+  .cut-pic14 {
+    background-image: url(<%= image_path('pages/hk/mobile/image-14.jpg') %>);
+    order: 14;
+  }
+  .cut-pic15 {
+    background-image: url(<%= image_path('pages/hk/mobile/image-15.jpg') %>);
+    order: 15;
+  }
+  .cut-pic16 {
+    background-image: url(<%= image_path('pages/hk/mobile/image-18.jpg') %>);
+    order: 17;
+  }
+  #info-form {
+    order: 16;
+    padding: .5rem .5rem;
+  }
+  #info-form .box .text {
+    font-size: .45rem;
+  }
+  #info-form .box .form-item-row {
+    width: 90%;
+    margin-right: 0;
+  }
+  #info-form .box .form-item-row .form-item {
+    margin-right: 0;
+  }
+  #info-form .box .submit-btn-box {
+    width: 90%;
+  }
+}

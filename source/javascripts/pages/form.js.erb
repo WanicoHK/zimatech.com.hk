@@ -1,0 +1,61 @@
+$(function () {
+  $("#info-form").submit(function () {
+    if (!$("input[name='location']").val()) {
+      window.alert("場地名稱不能為空");
+      return false;
+    }
+    if (!$("input[name='type']").val()) {
+      window.alert("場地類型不能為空");
+      return false;
+    }
+    if (!$("input[name='address']").val()) {
+      window.alert("場地地址不能為空");
+      return false;
+    }
+    if ($('#submitForm').prop('disabled') !== false) return false;
+    $('#submitForm').prop('disabled', true).text('Loading');
+    var params = {
+      name: $("input[name='name']").val(),
+      phone: $("input[name='phone']").val(),
+      email: $("input[name='email']").val(),
+      message: "場地名稱：" + $("input[name='location']").val() + "\n場地類型：\n" + $("input[name='type']").val() + "\n場地地址：\n" + $("input[name='address']").val(),
+      submission_type: 'none',
+      country: 'none',
+      city: 'none'
+    };
+
+    $.ajax({
+      type: 'POST',
+      url: 'https://www.wanico.com.hk/submit',
+      dataType: 'json',
+      contentType: 'application/json;charset=utf-8',
+      data: JSON.stringify({
+        'submission': params,
+      }),
+      success: function(res) {
+        $('#info-form')[0].reset();
+        alert('成功發送！');
+      },
+      complete: function(){
+        $('#submitForm').prop('disabled', false).text('提交');
+      },
+      error: function (err) {
+        var message = '未知錯誤';
+        try {
+          if (err.responseText) {
+            var errors = $.parseJSON(err.responseText).errors;
+            var msg = [];
+            for (var key in errors) {
+              msg.push(errors[key].join('\n'));
+            }
+            message = msg.join('\n');
+          }
+        } catch (e) {
+        }
+        window.alert(message);
+      }
+    });
+
+    return false;
+  });
+});
