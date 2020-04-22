@@ -3,7 +3,7 @@ en-US:
 
   nav:
     products: 'Products'
-    app: 'ZIMA App'
+    app: 'APP'
     partners: 'Global Partner'
     contact_us: 'Contact Us'
     languages: 'Language'
@@ -11,12 +11,13 @@ en-US:
   index:
     more: 'More Info'
 
-    title_1: 'Operate each machine like a shop'
-    title_2: '4 people operate 1 machine professionally '
+    title_1: 'Operate each machine'
+    title_2: 'like a shop'
 
     text_1: 'Product Matrix'
     text_2: |-
-      Our goal is to create perfect retail solution
+      Our goal is
+      to create perfect retail solution
     text_3: 'ZIMA Slim'
     text_4: |-
       The time to reach the breakeven point is the most important part of abusiness.
@@ -226,7 +227,7 @@ en-US:
         ZIMA has all-round product matrix and widely used in food and beverage,
         dairy products, basic commodities, etc. All kind of machines can be
         utili  zed massively and suitable for different scenarios.
-      product_4: '進一步了解'
+      product_4: 'Knowing More'
       product_5: 'ZIMA Pro'
       product_6: 'New Large screen transparent showcase smart retail terminal'
       product_7: 'New screen structure  Smart Thermostat  Transparent Showcase'  # TODO 英文和中文原意略有区别，宜再做检查
@@ -307,7 +308,7 @@ en-US:
 
       spec_1: 'Machine Measurement'
       spec_2: 'Dimension'
-      spec_3: '1950*867*889 mm'
+      spec_3: '1950 * 867 * 889 mm'
       spec_4: 'Operation'
       spec_5: 'Supported screen, in-app purchase'
       spec_6: 'Area'
@@ -319,7 +320,7 @@ en-US:
       spec_12: 'Maximum Capacity'
       spec_13: '600-700+'
       spec_14: 'Exclusive Equipment:'
-      spec_15: 'Built-in drop sensor'
+      spec_15: 'built-in drop sensor'      # TODO 文档为 Built-in (Built 首字母大写），我改为 built-in
       spec_16: 'Temperature Monitoring'
       spec_17: '4-20°C'
       spec_18: 'Special Design'
@@ -336,473 +337,479 @@ en-US:
         Operate a low-cost and high-margin business is the fastest way to achieve
         breakeven point.
 
-      item_1: 'Faster rate of turnover'
+      item_1: 'Faster Rate of Turnover'
       item_2: 'Selling one product in every 5 second'
-      item_3: '靈活鋪設'  # TODO
-      item_4: '經營成本更低'
-      item_5: '成本更低'
-      item_6: '免租金免電費'
-      item_7: '24h營業'
-      item_8: '全天候盈利'
+      item_3: 'Easy to Setup'
+      item_4: 'Lower Operation Cost'
+      item_5: 'Low Cost'
+      item_6: 'No rental cost and electricity cost'
+      item_7: '24-hour Service'
+      item_8: 'Do not require manpower to operate'
 
-      step_1: '三步操作 · 五秒購物'
-      step_2: '輕輕一點，即刻到手'
-      step_3: '手機掃碼'
-      step_4: '隨意選購'
-      step_5: '結算取物'
+      step_1: '3 Steps and purchase in 5 seconds'
+      step_2: 'Got the product by just 1 click'
+      step_3: 'QR code scanning by phone'
+      step_4: 'Shopping'
+      step_5: 'Check'
 
-      title_1: '小體型大容量'
-      title_2: '讓終端鋪設更靈活'
-      title_3: '摒棄大機身的大而重，ZIMA Slim自動售賣機整體機身更小巧，性價比更高，佔地空間更小，大容量貨倉，能儲存更多商品，終端鋪設更靈活！'
-      title_4: '專為辦公場景而生'
-      title_5: '經營利潤更可觀'
-      title_6: 'ZIMA Slim不受人流量限制，可作為公司的福利機，實現公司對員工下午茶、加班等福利補貼，亦可廣泛投放於各大辦公室場景售賣零食咖啡，免租金免電費，投入更少，更快回本。'
+      title_1: 'Small size with high capacity'
+      title_2: 'High flexibility to set up'
+      title_3: 'ZIMA Slim automatic vending machine with no screen makes it much lighter and handy. Achieving cost-effective and high efficiency. ZIMA Slim also stores more products than other ZIMA members.'
+      title_4: 'Create for office use'
+      title_5: '經營利潤更可觀' # TODO 沒有找到对应的英文
+      title_6: 'ZIMA Slim is not restricted by customer flow. It can be the welfare machine of a company. To serve afternoon tea or over time working allowance. It can also be extensively set up in every office respectively for selling snacks and coffee, no rental fee and electricity fee.'
 
-      spec_1: '機器參數'
-      spec_2: '產品尺寸'
-      spec_3: '235*830*2008 mm'
-      spec_4: '操作方式'
-      spec_5: '支持APP內購物'
-      spec_6: '佔用面積'
-      spec_7: '4平方尺'
-      spec_8: '支付功能'
-      spec_9: 'APP內支付、掃碼電子支付'
-      spec_10: '最多可放置種類'
-      spec_11: '30-34種'
-      spec_12: '最高存貨量'
+      spec_1: 'Machine Measurement'
+      spec_2: 'Dimension'
+      spec_3: '235 * 830 * 2008 mm'
+      spec_4: 'Operation'
+      spec_5: 'Supported in-app purchase'
+      spec_6: 'Area'
+      spec_7: '4ft²'
+      spec_8: 'Payment Method'
+      spec_9: 'in-app payment, code screening electronic payment'
+      spec_10: 'Maximum Product Type'
+      spec_11: '30-34 type'
+      spec_12: 'Maximum Capacity'
       spec_13: '40-50+'
-      spec_14: '獨有配置'
-      spec_15: '內置出貨監測器'
-      spec_16: '溫度監控'
-      spec_17: '4-20 °C'
-      spec_18: '特別設計'
-      spec_19: '輕盈纖小設計配合室內環境'
+      spec_14: 'Exclusive Equipment'
+      spec_15: 'built-in drop sensor'  # TODO 文档为 Built-in (Built 首字母大写），我改为 built-in
+      spec_16: 'Temperature Monitoring'
+      spec_17: '4-20°C'
+      spec_18: 'Special Design'
+      spec_19: '輕盈纖小設計配合室內環境' # TODO 没有找到对应的英文
 
     life:
-      text_1: '綜合型常溫無屏零售終端'
-      text_2: '隱形冠軍 ZIMA Life'
+      text_1: 'Integrated Room Temperature Retail Terminal'
+      text_2: 'ZIMA Life'
       text_3: |-
-        總有商品需要常溫售賣，不適合冷食的麵包、常溫保存的日用品
-        在有限的體積內，既需要合適的尺寸，也需要足夠的庫存
+        There is always a product that needs to be stored in room
+        temperature, such as bread and basic commodities.
 
-      item_1: '回歸簡單'
-      item_2: '購買更便捷'
-      item_3: '常溫運作'
-      item_4: '經營成本更低'
-      item_5: '規格齊全'
-      item_6: '大小都能裝'
-      item_7: '智慧化運營'
-      item_8: '實時數據分析'
+      item_1: 'Back to Basic'
+      item_2: 'Convenient shopping'
+      item_3: 'Room Temperature'
+      item_4: 'Low maintenance cost'
+      item_5: 'well-equipped'
+      item_6: 'Adjustable product slot'
+      item_7: 'Smart Operation'
+      item_8: 'Real-time data analysis'
 
-      step_1: '回歸簡單'
-      step_2: '掃碼/APP內直接使用'
+      step_1: 'Back to Basic'
+      step_2: 'Code screening/used in app'
       step_3: |-
-        掃碼直接選購
-        使用更簡單更便捷
-        APP內購物
-        有效增加用戶粘性
+        Direct purchase through QR code screening
+        Convenient and User-friendly interface
+        in-app purchase
+        Increase customers’ tendency
 
-      title_1: '常溫運作'
-      title_2: 'ZIMA Life取消壓縮機的設計, 只需要極低的電費, 常溫運作模式, 更適合非冷藏商品的售賣'
-      title_3: '生活急需 / 零食 / 日用品'
-      title_4: '規格齊全'
-      title_5: '適應不同商品尺寸'
-      title_6: '全視角櫥窗，展示效果更好，方格式區分，商品SKU更多，不同尺寸產品展示，規格更全'
-      title_7: '滿足各種低頻剛需場景'
-      title_8: '小區、酒店、公寓：生活用品'
-      title_9: '景區、度假村：旅遊用品'
-      title_10: '碼頭、工地：飯餐'
-      title_11: '商舖、便利店旁邊：24小時商品替補'
+      title_1: 'Room Temperature Operation'
+      title_2: 'ZIMA Life cancel the use of compressor, low electricity cost, room temperature operation mode, more suitable for selling non-refrigerated product'
+      title_3: 'emergency goods / snacks / basic commodities'
+      title_4: 'Flexible Product Storage'
+      title_5: 'Adapt to different product size'
+      title_6: 'Better product display, separated by grid, more product type selection'
+      title_7: 'Satisfying High Demand With Low Frequency Location'
+      title_8: 'Community, Hotel, Apartment: living commodities'
+      title_9: 'Tourist Attractions, Villa: travel necessities'
+      title_10: 'Terminal, Construction site: meals'
+      title_11: 'Shopping centre, Unused area of shop：24-hour product replenishment'
 
-      spec_1: '機器參數'
-      spec_2: '產品尺寸'
-      spec_3: '1950*1000*320 mm'
-      spec_4: '操作方式'
-      spec_5: '支援屏幕、APP內購物'
-      spec_6: '佔用面積'
-      spec_7: '3平方尺'
-      spec_8: '支付功能'
-      spec_9: 'APP內支付、掃碼電子支付'
-      spec_10: '最多可放置種類'
-      spec_11: '50-74種'
-      spec_12: '最高存貨量'
+      spec_1: 'Machine Measurement'
+      spec_2: 'Dimension'
+      spec_3: '1950 * 1000 * 320 mm'
+      spec_4: 'Operation'
+      spec_5: 'touchscreen, in-app purchase'
+      spec_6: 'Area'
+      spec_7: '3ft²'
+      spec_8: 'Payment Method'
+      spec_9: 'in-app payment, code screening electronic payment'
+      spec_10: 'Maximum Product Type'
+      spec_11: '50-74 type'
+      spec_12: 'Maximum Capacity'
       spec_13: '50-70+'
-      spec_14: '獨有配置'
-      spec_15: '內置出貨監測器'
-      spec_16: '特別設計'
-      spec_17: '透明玻璃格設計 能近距離展示產品'
+      spec_14: 'Maximum Capacity'
+      spec_15: 'built-in drop sensor' # TODO built 我改为小写字母开头
+      spec_16: 'Special Design'
+      spec_17: 'transparent glass showcase, can display product closely'
 
     care:
-      text_1: '全新大屏智能自助終端'
-      text_2: 'ZIMA Care 衛生機'
+      text_1: 'New Large Screen Smart Retail Terminal'
+      text_2: 'ZIMA Care'
       text_3: |-
-        做零售行業的人都知道：“得女性，得天下”
-        做必需品中的急需品，無論是尷尬時刻的衛生巾還是日常的紙巾
-        在被需要時刻總能提供貼心呵護，既抓住了女性又是即時剛需，這樣的生意當然會長盛不衰
+        A rule from retail industry - “If you understand women, u could understand the
+        world”. Selling emergency commodities in the category of living necessities, such
+        as the product we always need at the embarrass moment, napkin, or tissue that we
+        need in our daily life. By satisfying women’s emergency needs and daily needs, we
+        are able to give caring and thoughtfulness to all the women.
 
-      item_1: '小巧便捷'
-      item_2: '鋪設更靈活'
-      item_3: '高清大屏'
-      item_4: '帶來更多廣告價值'
-      item_5: '24h自動售賣'
-      item_6: '節省人力成本'
-      item_7: '智慧化運營'
-      item_8: '實時數據分析'
+      item_1: 'Light and Handy'
+      item_2: 'Easy to Setup'
+      item_3: 'HD Large screen'
+      item_4: 'Create more advertisement value'
+      item_5: '24-hour service'
+      item_6: 'Save labor costs' # TODO 自己翻译的
+      item_7: 'Smart operation'
+      item_8: 'Real-time data analysis'
 
-      title_1: '超薄機身'
-      title_2: '精緻小巧不佔地'
-      title_3: '470mm輕薄機身，可自由靠壁擺設，輕鬆融入所有公共場所洗手間'
-      title_4: '超大容量'
-      title_5: '可容納80件商品'
-      title_6: '大容量貨倉設計，儲存量可達60-80件，告別頻繁補貨,節省更多配送成本'
-      title_7: '大屏互動'
-      title_8: '廣告智能投放'
-      title_9: '高清廣告屏，可以展示商品，也可以做品牌推廣，帶來更多廣告收益；與商品櫥窗雙展示，建立與用戶溝通的窗口，帶來更多商品收益'
+      title_1: 'Thin Machine Body'
+      title_2: 'Light and Handy'
+      title_3: '470mm thin body, can be installed on wall, can easily fit in any public toilet.'
+      title_4: 'High Capacity'
+      title_5: 'Can store 80 products'
+      title_6: 'High capacity design, can store 60-80 products. Reduce the frequency of product replenishment and delivery cost.'
+      title_7: 'Large HD Screen Interaction'
+      title_8: 'Smart advertising'
+      title_9: 'HD advertisement display for product showcase and brand promotion.'
 
-      step_1: '專為女性設計'
-      step_2: '解決特殊時期應急剛需'
+      step_1: 'Especially Design for Women'
+      step_2: 'Solving special emergency need'
       step_3: |-
-        出門在外，大姨媽突然駕到，
-        尷尬的詢問？找不到售賣點？需整包購買？
-        有洗手間的地方就有衛生巾！
-        ZIMA Care，讓衛生巾在公共場所衛生間的存在，像紙巾一樣普遍!
-      step_4: '按需領取'
-      step_5: '單片獨立包裝/整盒購買'
-      step_6: '一站就購'
-      step_7: '兼售紙巾紙巾、濕巾'
-      step_8: '配套供應'
-      step_9: '配套供應商品，省去採購煩惱'
+        When you are on your period and have sudden needs?
+        Couldn’t find a store nearby? have to buy the whole pack?
+        ZIMA care, let the existence of napkin in washroom become as common as toilet paper.
+      step_4: 'Purchase the amount needed'
+      step_5: 'Purchase Single individual package/the whole box'
+      step_6: 'Purchase in one spot'
+      step_7: 'Both tissue and wet wipes are available'
+      step_8: 'Complementary product supply'
+      step_9: 'Provide complementary products, less troublesome'
 
-      part_1: '公共場所必備'
-      part_2: '“女性應急需求”配套服務'
-      part_3: '使用場景：'
-      part_4: '購物中心/高鐵/機場/學校/旅遊景區/公共廁所等公共場所洗手間'
+      part_1: 'Essential for public facilities'
+      part_2: '"Woman Emergency Need" services'
+      part_3: 'Usage scenarios: ' # TODO 自己翻译的
+      part_4: 'Shopping malls / high-speed rails / airports / schools / tourist scenic spots / public toilets and other public places' # TODO 自己翻译的
 
-      spec_1: '機器參數'
-      spec_2: '產品尺寸'
-      spec_3: '1950*867*889 mm'
-      spec_4: '操作方式'
-      spec_5: '支持屏幕、 APP 內購物'
-      spec_6: '佔用面積'
-      spec_7: '6平方尺'
-      spec_8: '支付功能'
-      spec_9: 'APP內支付，掃碼電子支付、八達通、信用卡'
-      spec_10: '最多可放置種類'
-      spec_11: '40-48種'
-      spec_12: '最高存貨量'
+      spec_1: 'Machine Measurement'
+      spec_2: 'Dimension'
+      spec_3: '1950 * 867 * 889 mm'
+      spec_4: 'Operation'
+      spec_5: 'touchscreen, in-app purchase'
+      spec_6: 'Area'
+      spec_7: '6ft²'
+      spec_8: 'Payment Method'
+      spec_9: 'in-app payment, code screening electronic payment, octopus, credit card'
+      spec_10: 'Maximum Product Type'
+      spec_11: '40-48 type'
+      spec_12: 'Maximum Capacity'
       spec_13: '60-80+'
-      spec_14: '獨有配置'
-      spec_15: '內置出貨監測器'
-      spec_16: '溫度監控'
-      spec_17: '室溫'
-      spec_18: '特別設計'
-      spec_19: '雙展示模式，配合各種產品大小'
+      spec_14: 'Exclusive Equipment'
+      spec_15: 'built-in drop sensor'
+      spec_16: 'Temperature Monitoring'
+      spec_17: 'room temperature'
+      spec_18: 'Special Design'
+      spec_19: 'double display, customise size of different product'
 
     plus:
-      text_1: '43寸大屏智能零售終端'
-      text_2: '盈利能手 ZIMA Plus'
-      text_3: |-
+      text_1: '43-Inch large screen smart retail terminal'
+      text_2: 'ZIMA Plus'
+      text_3: |- # TODO 没有对应英文
         超大屏幕，搭載更多營銷組件，結合終端售賣，更能吸引消費者
         活動營銷，廣告收益，品牌聯營
         選擇大屏的ZIMA Plus的理由在於：一筆投入，收穫的不止於商品售賣
 
-      item_1: '43寸大屏幕'
-      item_2: '更高廣告價值'
-      item_3: '常溫製冷雙出餐'
-      item_4: '取餐速度快'
-      item_5: '儲存容量大'
-      item_6: '節省配送成本'
-      item_7: '智慧化運營'
-      item_8: '實時數據分析'
+      item_1: '43-Inch large screen'
+      item_2: 'Greater advertisement value'
+      item_3: 'Integrated refrigeration and room temperature control system'  # TODO 太長了，效果不好，宜修正
+      item_4: 'Faster finishing speed for meals'
+      item_5: 'High Capacity'
+      item_6: 'Reduce delivery cost'
+      item_7: 'Smart Operation '
+      item_8: 'real-time data analysis'
 
-      step_1: '大屏互動，賦能終端零售'
+      step_1: 'Large Screen Interaction'
       step_2: |-
-        32寸大屏幕, 帶來更多廣告價值
-        互動體驗式消費, 拉動營業額
-      step_3: '常溫+製冷，同時出餐'
-      step_4: '輕鬆應對高客流取餐問題'
+        32-Inch large screen, create more advertisement value
+        Interactional experimental consumption, boost sales
+      step_3: 'Room temperature + refrigeration'
+      step_4: 'Handle the problem of high frequency in serving meals'
       step_5: |-
-        常溫運作，適合非冷藏商品。製冷模式，保鮮效果更強
-        常溫+製冷，同時極速出餐，更適合上班族解決早餐問題，享受雙重商品收益
-      step_6: 飲料 · 奶製類 · 西式點心 · 大包裝食品
+        Room temperature operation, suitable for non-refrigerated product.
+        Cooling mode available, good for freshness retain.
+        Room temperature+refrigeration, serve meal and drinks at a time,
+        serving breakfast for working force,
+        create profit from selling variable products
+      step_6: drinks · dairy products · pastry · instant food
 
-      title_1: '超大儲存，更能裝'
-      title_2: '可售賣商品更多'
-      title_3: '大容量倉儲空間，存貨量可達600-700+，一次配送能裝納更多商品，節省更多配送成本'
-      title_4: '有人流的地方就能賺錢'
-      title_5: '把便利店裝進ZIMA Plus'
-      title_6: '早餐飲品零食綜合售賣，寫字樓、辦公室、宿舍樓道、車站、食堂的便利店等場景都適用'
+      title_1: 'More space for stocking, higher capacity'
+      title_2: '可售賣商品更多' # TODO 没有对应英文
+      title_3: 'Inventory can up to 600-700+, storing more products for one time delivery, saving delivery cost.'
+      title_4: 'Where people flow, you can make money'   # TODO 自己翻译的
+      title_5: 'Make ZIMA Plus a convenience store'
+      title_6: 'Integrated retail of breakfast, drinks and snacks that suitable for office, dormitories, bus terminal or canteen, etc.'
 
-      spec_1: '機器參數'
-      spec_2: '產品尺寸'
-      spec_3: '1950*867*889 mm'
-      spec_4: '操作方式'
-      spec_5: '支援屏幕、APP內購物'
-      spec_6: '佔用面積'
-      spec_7: '6平方尺'
-      spec_8: '支付功能'
-      spec_9: 'APP內支付，掃碼電子支付、八達通、信用卡'
-      spec_10: '最多可放置種類'
-      spec_11: '40-48種'
-      spec_12: '最高存貨量'
+      spec_1: 'Machine Measurement'
+      spec_2: 'Dimension'
+      spec_3: '1950 * 867 * 889 mm'
+      spec_4: 'Operation'
+      spec_5: 'touchscreen, in-app purchase'
+      spec_6: 'Area'
+      spec_7: '6ft²'
+      spec_8: 'Payment Method'
+      spec_9: 'in-app payment, code screening electronic payment, octopus, credit card'
+      spec_10: 'Maximum Product Type'
+      spec_11: '40-48 type'
+      spec_12: 'Maximum Capacity'
       spec_13: '600-700+'
-      spec_14: '獨有配置'
-      spec_15: '內置出貨監測器'
-      spec_16: '溫度監控'
-      spec_17: '4-20 °C'
-      spec_18: '特別設計'
-      spec_19: '雙展示模式、輸送帶設計，配合各種產品大小'
+      spec_14: 'Exclusive Equipment:'
+      spec_15: 'built-in drop sensor'
+      spec_16: 'Temperature Monitoring'
+      spec_17: '4-20°C'
+      spec_18: 'Special Design'
+      spec_19: 'Double display, conveyor design, customise size of different product'
 
   contact_us:
-    title_1: 'ZIMA商業合作'
-    title_2: |-
-      高效運營才是低成本
-      更快回本才是真省錢
+    title_1: 'Business Cooperation'
+    title_2: |-  # TODO 自己翻译的
+      Efficient operation is low cost
+      Saving money faster is really saving money
 
-    string_1: 'ZIMA 十大合作模式'
-    string_2: '為您量身定制專屬方案'
+    string_1: '10 Cooperation type'
+    string_2: 'The specialised scheme tailor-made for you'
 
     items:
-      - name: '我有售賣機'
+      - name: 'I have vending machine'
         items:
-          - name: '接入APP'
-            title: '接入APP'
-            desc: '將ZIMA APP接入已有的售賣機'
-            badge: '收益分析'
-            list: |-
+          - name: 'connect to ZIMA APP'
+            title: 'connect to ZIMA APP'
+            desc: '將ZIMA APP接入已有的售賣機' # TODO 无对应英文
+            badge: 'Benefit Analysis' # TODO 自己翻译的
+            list: |- # TODO 无对应英文
               增加售賣機商品線上APP銷售通道
               實現用戶管理、推券、積分等更多營銷手段
-          - name: '代運營'
-            title: '代運營'
-            desc: '採購、選品、客服、倉儲、配送、上架、營銷，我們為您一站解決，您只管甩手當掌櫃'
-            badge: '收益分析'
-            list: |-
+          - name: 'ZIMA operates for you'
+            title: 'ZIMA operates for you'
+            desc: '採購、選品、客服、倉儲、配送、上架、營銷，我們為您一站解決，您只管甩手當掌櫃' # TODO 无对应英文
+            badge: 'Benefit Analysis'
+            list: |- # TODO 无对应英文
               享受更專業的運營服務，節省運營成本和麻煩
               精細化運營及更多營銷活動的實現
               除日常租金、電費支出，您僅需支付少額貨品銷售的提成
           - name: '機器升級'
             title: '機器升級'
-            desc: '擁有獨家經營權，享受區域保護政策；管理當地所有單機加盟商，並獲得豐厚利潤'
-            badge: '收益分析'
-            list: |-
+            desc: '擁有獨家經營權，享受區域保護政策；管理當地所有單機加盟商，並獲得豐厚利潤' # TODO 无对应英文
+            badge: 'Benefit Analysis'
+            list: |- # TODO 上面一句没有找到对应英文
               一鍵精準獲取貨品進銷存情況，減少不必要的配送，方便管理
-              對接APP進行銷售，營銷工具的使用
-      - name: '我無售賣機'
+              All unmanned machines can connect to our APP, utilise our marketing tools to boost sales
+      - name: 'I do not have vending machine'
         items:
-          - name: '品牌聯營'
-            title: '品牌聯營'
-            desc: '幫當地品牌定制機器並代運營'
-            badge: '收益分析'
-            list: |-
+          - name: 'Brand Cooperation'
+            title: 'Brand Cooperation'
+            desc: '幫當地品牌定制機器並代運營' # TODO 无对应英文
+            badge: 'Benefit Analysis'
+            list: |- # TODO 无对应英文
               簡單的機器硬件費用投入，即可享受更高效的終端銷售支持
               無需支付超市和商場的上架費，投入更低
-          - name: '單機加盟商'
-            title: '單機加盟商'
-            desc: '在本地已建立運營中心的情況下，加盟單獨某台機器，獲得分紅權；無需經營，自負盈虧'
-            badge: '收益分析'
-            list: |-
+          - name: 'Machine investment'
+            title: 'Machine investment'
+            desc: '在本地已建立運營中心的情況下，加盟單獨某台機器，獲得分紅權；無需經營，自負盈虧'  # TODO 无对应英文
+            badge: 'Benefit Analysis'
+            list: |- # TODO 无对应英文
               享受合夥公司在贏利中按一定份額支付的紅利
               機器的屏幕和機身廣告費收益
               您僅需承擔單機加盟費、配送費和軟件管理費
-          - name: '城市獨家代理'
-            title: '城市獨家代理'
-            desc: '在本地已建立運營中心的情況下，加盟單獨某台機器，獲得分紅權；無需經營，自負盈虧'
-            badge: '收益分析'
-            list: |-
+          - name: 'City Exclusive Agent'
+            title: 'City Exclusive Agent'
+            desc: '在本地已建立運營中心的情況下，加盟單獨某台機器，獲得分紅權；無需經營，自負盈虧' # TODO 无对应英文
+            badge: 'Benefit Analysis'
+            list: |- # TODO 无对应英文
               管理區域+單機運作，利潤多元化
               享受原公司銷售和廣告費收益
               擁有購買公司股分優先名額
               經營自負盈虧
-          - name: '城市合夥人'
-            title: '城市合夥人'
-            desc: '每款機型需至少購買5台以上支持運營；自建倉庫，負責採購、倉儲、配送、場地等工作；我們負責客服、選品、數據整理以及廣告投放幫助找'
-            badge: '收益分析'
-            list: |-
+          - name: 'City Partner'
+            title: 'City Partner'
+            desc: '每款機型需至少購買5台以上支持運營；自建倉庫，負責採購、倉儲、配送、場地等工作；我們負責客服、選品、數據整理以及廣告投放幫助找' # TODO 无对应英文
+            badge: 'Benefit Analysis'
+            list: |- # TODO 无对应英文
               享受更低折扣拿機器，遠程服務
               享受機身廣告及屏幕廣告收益
-          - name: '機器購買'
-            title: '機器購買'
-            desc: '購買機器，擁有後台系統和下單界面，需要額外購買配件；支持APP下單，但是分成要和對接APP一樣算，我們會提供遠程活動推送'
-            badge: '收益分析'
-            list: |-
+          - name: 'Purchase Machine' # TODO 自己翻译的
+            title: 'Purchase Machine'
+            desc: '購買機器，擁有後台系統和下單界面，需要額外購買配件；支持APP下單，但是分成要和對接APP一樣算，我們會提供遠程活動推送' # TODO 无对应英文
+            badge: 'Benefit Analysis'
+            list: |- # TODO 无对应英文
               無須經驗，無需技術，強大後台系統支持，遠程活動推送
-          - name: '機器定制'
-            title: '機器定制'
-            desc: '可根據不同需求定制硬件尺寸、功能（如修改貨道、出貨方式、支付方式），最遲可60天完成軟硬件修改'
-            badge: '收益分析'
+          - name: 'Machine Customisation and Production'
+            title: 'Machine Customisation and Production'
+            desc: '可根據不同需求定制硬件尺寸、功能（如修改貨道、出貨方式、支付方式），Can finish modification of hardware or software within 60days.' # TODO 前面一句没有找到对应英文
+            badge: 'Benefit Analysis'
             list: |-
-              硬件定制，配件可選，點面俱到
-          - name: '場地推薦'
-            title: '場地推薦'
-            desc: '為公司提交潛力選址並獲得相應獎勵'
-            badge: '收益分析'
-            list: |-
+              Hardware customisation, Optional Equipment, Consideration on Every Aspect
+          - name: 'Location Recommendation'
+            title: 'Location Recommendation'
+            desc: 'Help us to find the suitable location for setting machine and gain bonus'
+            badge: 'Benefit Analysis'
+            list: |- # TODO 无对应英文
               推薦費獎勵
               該場地優先加盟權
 
-    part_1: 'ZIMA 十大合作權益'
-    part_2: '致力於讓合作商更賺錢'
+    part_1: 'ZIMA 10 cooperation rights'
+    part_2: '致力於讓合作商更賺錢' # TODO 无对应英文
     parts:
-      - badge: 'APP支持'
-        secondary: '智能APP鏈接'
-        primary: '引爆終端營銷'
-        text: '一個app鏈接所有售賣機，共享用戶資源支持公司福利補貼，更有各種營銷活動，為終端零售帶來更多銷量'
-      - badge: '廣告收益'
-        secondary: '雲廣告平台全面上線'
-        primary: '開機即賺錢'
-        text: '無論是機身或者是屏幕廣告位置，都可以參與廣告收益'
-      - badge: '支付支持'
-        secondary: '各種支付方式定制'
-        primary: '應對各種交易場景'
-        text: '支付是商業變現必不可少的環節，ZIMA覆蓋所有主流支付渠道，給你定制最簡單、快捷的支付體驗，從容應對任何交易場景的挑戰'
+      - badge: 'APP Support'
+        secondary: 'Smart APP connection'
+        primary: 'Direct to end-user marketing'
+        text: 'Connect all the vending machine through one app to increase customers’loyalty, turning new customers into regular customers.'
+      - badge: 'Advertisement Income'
+        secondary: 'Cloud advertisement platform'
+        primary: 'Start to earn money once the machine is on'
+        text: 'Machine body, screen display, APP Targeting the right audience by locating them through ZIMA APP for effective advertising'
+      - badge: 'Payment system support'
+        secondary: 'Different payment method set up'
+        primary: 'Handle different kind of transaction easily'
+        text: 'Payment is a must in business. ZIMA covers all the main stream payment methods. Establish the most easy and fastest payment'
 
     points:
-      - title: '貨品收益'
+      - title: 'Retail Profit'
         desc: |-
-          公司提供的貨源支持
-          所產生的差價歸屬合夥人
-          貨品銷售所產生的高額利潤
-      - title: '會員收益'
-        desc: '在 App 上留存並成為會員保持消費粘性'
-      - title: '機器升級'
-        desc: '直接獲取機器功能升級、配件安裝模塊供您選擇'
-      - title: '貨源供應'
+          Earn the high margin of
+          retail profit
+      - title: 'Membership Benefit'
+        desc: 'Consumers become ZIMA members to enjoy more discount or promotion'
+      - title: 'Machine Upgrade'
+        desc: 'Upgrade machine function, parts and module installation'
+      - title: 'Product Supply'
         desc: |-
-          公司提供的貨源支持
-          所產生的差價歸屬合夥人
-      - title: '硬件支持'
-        desc: '定制硬件尺寸、功能，模塊化組裝多機型支持'
-      - title: '營銷活動'
-        desc: '用戶管理，推券、積分商城，精準、高效、點對點觸發的營銷活動支持'
-      - title: '售後服務'
-        desc: '7*24 在線客服，1v1 售後服務隨時反饋問題'
+          Partners get the profit from
+          the price differences of ZIMA
+          retail price and ZIMA Supply
+      - title: 'Hardware Support'
+        desc: 'Customize hardware dimension, function, multi-model type support'
+      - title: 'Marketing Event'
+        desc: 'Member management, coupon promotion, loyalty point system, accurate and high efficiency point to point marketing event support'
+      - title: 'After-sale Service'
+        desc: '7/24 online customer service, 1 to 1after-sale service, report problem at any time'
 
-    form:
-      country: '請填寫國家'
-      city: '請填寫城市'
-      type: '請選擇合作方式'
+    form: # TODO 整个表单自己翻译的，看看是否准确
+      country: 'Please fill in the country'
+      city: 'Please fill in the city'
+      type: 'Please select a cooperation method'
       types:
-        - '商品供應商'
-        - '機械製造供應商'
-        - '場地推薦人'
-        - '廣告主'
-        - '機器升級需求方'
-        - '代運營需求方'
-        - '機器定制需求方'
-        - '代理商'
-      name: '怎樣稱呼你？'
-      phone: '請填寫聯繫電話'
-      email: '請填寫電郵地址'
-      content: '留言'
-      title: |-
-        留資料
-        獲取更多信息
-      submit: '提交'
-      submitted: '成功提交，我們將儘快回覆你。'
-      submitting: '正在提交⋯'
-      required: '請提供必須的信息'
-      unknown: '未知錯誤'
+        - 'Commodity supplier'
+        - 'Machinery Manufacturing Supplier'
+        - 'Venue recommender'
+        - 'Advertisers'
+        - 'Machine upgrade demand side'
+        - 'Acting demand side'
+        - 'Machine customization demand side'
+        - 'Agent'
+      name: 'How to call you?'
+      phone: 'Please fill in the contact number'
+      email: 'Please fill in the email address'
+      content: 'leave a message'
+      title: |- # TODO 自己翻译的，看看是否准确
+        Leave information
+        Get more information
+      submit: 'submit'
+      submitted: 'Submit successfully，we will reply you as soon as possible.' # TODO 自己翻译的，看看是否准确
+      submitting: 'Submitting⋯'
+      required: 'Please provide the required information' # TODO 自己翻译的，看看是否准确
+      unknown: 'unknown error' # TODO 自己翻译的，看看是否准确
 
   partners:
-    main: 'ZIMA 全球合夥人計劃'
+    main: 'ZIMA Global Partner Scheme'
 
     items:
-      - q: '海外華人本地做生意最頭疼什麼？'
+      - q: 'What are the difficulties when Chinese do business in overseas?'
         a:
-          - '英語不熟練'
-          - '初期投入大'
-          - '租金工資高，日常開銷大'
-          - '市場飽和'
-          - '需要專業技術'
-          - '投入時間過多，無法兼顧家庭與工作'
-          - '本地人脈與資源較少'
-      - q: '什麼生意能同時規避所有問題？'
-        t: 'ZIMA自動販賣機矩陣創業項目'
+          - 'Language barrier'
+          - 'High investment cost in the beginning stage'
+          - 'high rental cost, labour cost and operation cost'
+          - 'Saturated market'
+          - 'Need professional skills' # TODO 自己翻译的，看看是否准确
+          - 'Spend too much time, no time for family'
+          - 'Lacking resources and social network'
+      - q: 'What kind of business can avoid all these problems?'
+        t: 'ZIMA automatic vending machine business startup project'
         a:
-          - '無人經營 —— 無需英語能力'
-          - '初期成本小 —— 幾萬元可起步'
-          - '無日常開銷 —— 一人啟動，無需辦公室'
-          - '全新機型全新模式經營 —— 開闊藍海市場'
-          - '人人都能做 —— 無需專業知識'
-          - '耗時少且靈活 —— 兼職或家庭主婦也能做'
-          - '遠程廣告投放協助 —— 對本地資源要求低'
+          - 'Unmanned operation ———— English language ability is unnecessary'
+          - 'Low start-up cost ———— can start-up from 10000 dollar'
+          - 'No daily operation cost ———— 1-man start-up, office is unnecessary'
+          - 'New management model ———— expand Blue Ocean Market'
+          - 'Everyone can do it ———— do not require any professional skills'
+          - 'Flexible ———— part time or housewife can also handle'
+          - 'Remote advertisement input support ———— require less local resources'
 
-    title_1: '擁有最完整的產品矩陣'
-    title_2: '不止是賣飲料的自動販賣機'
+    title_1: 'The most complete product matrix'
+    title_2: 'not a vending machine just to sell drinks'
     title_3: |-
-      超過六款機器，適應超過九個場景，在所有國家和城市都能找到空白市場。
-      每款機器都可大規模鋪設，都有高毛利率，成功跑通便有更高成長空間，所有機器可以共享場地資源、運營中心，更多地平攤成本。
-      不同場地和資源對應不同機型，成功率更高，失敗率更低。
+      Over 6 type of machine, adapt to more than 9 conditions, can find
+      unsaturated market in every countries and cities. Each series of machine
+      can be massively set up. Matching the right model type to different
     titles:
-      - p: '回本王'
+      - p: '回本王' # TODO 没有对应英文
         s: 'ZIMA Slim'
-        t: |-
+        t: |- # TODO 没有对应英文
           沒有屏幕的超低成本自動販賣機
           在高頻剛需的封閉場景使用APP支付
-        h: '必賺場景'
-        d: |-
+        h: '必賺場景' # TODO 没有对应英文
+        d: |- # TODO 没有对应英文
           辦公室內賣飲料零食
           公寓樓下賣日用品與飯餐
-      - p: '盈利能手'
+      - p: 'Profit Expert' # TODO 自己翻译的，看看是否准确
         s: 'ZIMA Pro'
         t: |-
           全新結構的屏幕+透視的自動販賣機
           更省位置，更搶眼，更大庫存，且可做
-        h: '常用場景'
-        d: |-
+        h: 'Common scenes' # TODO 自己翻译的，看看是否准确
+        d: |- # TODO 自己翻译的，看看是否准确
           公共場合、交通樞紐等人多場合
           辦公室樓下賣飯餐、飲料零食
-      - p: '隱形冠軍'
+      - p: 'Stealth Champion' # TODO 自己翻译的，看看是否准确
         s: 'ZIMA Life'
-        t: |-
+        t: |- # TODO 没有对应英文
           超低成本，超低電費，無憂運營，極快回本
           適應大多數不同規格產品
-        h: '低頻剛需場景'
+        h: 'High demand with low frequency location'
         d: |-
-          酒店、Motel賣一次性用品
-          景區、度假村賣旅遊用品
-          碼頭、工廠等封閉工作空間賣飯餐
+          Community, hotel, apartment: living commodities
+          Tourist Attractions, Villa: travel necessities
+          Terminal, construction site:  meals
     title_4: '更多隱藏機型，進一步聯繫獲得信息'
     title_5: '馬上聯繫'
 
-    part_1: '智能APP連結一切'
+    part_1: '智能APP連結一切' # TODO 没有对应英文
     parts:
-      - t: '獨創無人機器APP'
+      - t: 'Unmanned Machine'
         d: |-
-          一個app下單所有機器，共享用戶、數據、積分、優惠券解決一切不方便支付場景
-      - t: '完善的營銷系統'
+          One ZIMA APP to support the usage of all kind of unmanned machine.
+          Through the connection between app and end user, allowing the execution of
+          marketing scheme such as loyalty points, sharing, promotion, membership, etc.
+      - t: '完善的營銷系統' # TODO 没有对应英文
         d: |-
           積分、優惠券、充值、印花一應俱全將自動販賣機生意從街客變成常客的法寶
-      - t: '全面支付方案'
-        d: |-
-          信用卡、Apple Pay、Google Pay、Alipay、WechatPay更多當地銀行或者機器刷卡配件可定製
-      - t: '公司補貼功能'
-        d: |-
+      - t: '全面支付方案' # TODO 没有对应英文
+        d: |- # TODO 下面语子中的中文部份没对应英文
+          Credit Card, Apple Pay, Google Pay, Alipay, WechatPay更多當地銀行或者機器刷卡配件可定製
+      - t: 'Corporate Allowance'
+        d: |- # TODO 没有对应英文
           幫助公司更方便地發放福利
           可根據時間、人數、補貼金額發放“早餐補貼”“加班補貼”“銷售冠軍福利”
-    part_2: '更多隱藏機型，進一步聯繫獲得信息'
-    part_3: '馬上聯繫'
+    part_2: '更多隱藏機型，進一步聯繫獲得信息' # TODO 没有对应英文
+    part_3: '馬上聯繫' # TODO 没有对应英文
 
-    string_1: '總部遠程強力協助'
-    string_2: '一人即可經營的秘密'
-    string_3: '你能想到最輕鬆的做生意方式，無日常成本，賺到錢再分成'
+    string_1: '總部遠程強力協助' # TODO 没有对应英文
+    string_2: '一人即可經營的秘密' # TODO 没有对应英文
+    string_3: '你能想到最輕鬆的做生意方式，無日常成本，賺到錢再分成' # TODO 没有对应英文
     strings:
-      - t: '選址支持'
-        d: |-
+      - t: 'Location'
+        d: |- # TODO 没有对应英文
           獨特的選址計算機制，並經常根據實際經營進行調整。保證每個選址都有最優的租金、配送、電費下儘快回本。
-      - t: '運營支持'
-        d: |-
+      - t: 'Operation'
+        d: |- # TODO 没有对应英文
           最麻煩瑣碎的機器選品、客服、進銷存、數據統計幫助。讓你可以專注更重要的事情。
-      - t: '廣告支持'
-        d: |-
+      - t: 'Advertising'
+        d: |- # TODO 没有对应英文
           幫助當地運營商投選址推薦廣告，找到各個場地核心人物，無需本地資源和人脈即可擴點。
-      - t: '進一步合作'
-        d: |-
+      - t: '進一步合作' # TODO 没有对应英文
+        d: |- # TODO 没有对应英文
           資金不足不要擔心，經營最好的代理商我們將投資扶持，總部出資，成立當地分公司，幫你擴大經營
 
-    text_1: '合作形式'
-    text_2: '試運營折扣套裝'
-    text_3: |-
+    text_1: 'Cooperation Type'
+    text_2: '試運營折扣套裝' # TODO 没有对应英文
+    text_3: |- # TODO 没有对应英文
       1. 一個貨櫃，四款機器，每款三台，同時出口，開機即用。
       （裡麵包含多套配件，無需維修，簡單換件）
 
@@ -818,21 +825,22 @@ en-US:
     apk_file: 'https://app.zimatech.com.hk/android'
 
   footer:
-    app: '下載 ZIMA App'
+    app: 'Download ZIMA App'
     nav_app:
-      nav_1: 'O2O 購物功能'
-      nav_2: '智能 CRM 體系'
-      nav_3: '營銷玩法'
-      nav_4: '福利補貼功能'
+      nav_1: 'O2O Purchase Function'
+      nav_2: 'Smart CRM system'
+      nav_3: 'Ways of marketing strategy'
+      nav_4: 'Welfare Allowance Function'
     nav_partners:
-      nav_1: '產品矩陣'
-      nav_2: '智能 App'
-      nav_3: '總部強力協助'
+      nav_1: 'Product Matrix'
+      nav_2: 'Smart APP'
+      nav_3: '總部強力協助' # TODO 没有找到对应英文
     nav_contact:
-      nav_1: '合作模式'
-      nav_2: '合作權益'
-    contact: '聯繫我們'
+      nav_1: 'Cooperation Type'
+      nav_2: 'cooperation Rights'
+    contact: 'Contact Us'
     contact_content: |-
       Tel: (+852) 39979042
       E-mail: hello@zimatech.com.hk
-      地址: 觀塘榮業街6號海濱工業大廈13樓E2室
+      Address: Room E2, Floor13, Hoi Bun Industrial Building, No.6 Wing Yip
+      street, Kwun Tong
