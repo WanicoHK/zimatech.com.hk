@@ -317,7 +317,7 @@ en-US:
       spec_8: 'Payment Method'
       spec_9: 'in-app payment, code screening electronic payment, octopus, credit card'
       spec_10: 'Maximum Product Type'
-      spec_11: '40-48 type' # TODO 和中文的有出入, 中文版为 30-34 种
+      spec_11: '30-34 type'
       spec_12: 'Maximum Capacity'
       spec_13: '600-700+'
       spec_14: 'Exclusive Equipment:'
@@ -628,13 +628,13 @@ en-US:
               Enjoy revenue from body advertising and screen advertising
           - name: 'Purchase Machine' # TODO Google
             title: 'Purchase Machine'
-            desc: '購買機器，擁有後台系統和下單界面，需要額外購買配件；支持APP下單，但是分成要和對接APP一樣算，我們會提供遠程活動推送' # TODO 无对应英文
+            desc: 'Purchase machine, with background system and order interface, need to purchase additional accessories; support APP order, but divided into the same as docking APP, we will provide remote activity push' # TODO Google
             badge: 'Benefit Analysis'
             list: |- # TODO Google
               No experience, no technology, strong background system support, remote activity push
           - name: 'Machine Customisation and Production'
             title: 'Machine Customisation and Production'
-            desc: '可根據不同需求定制硬件尺寸、功能（如修改貨道、出貨方式、支付方式），Can finish modification of hardware or software within 60days.' # TODO 前面一句没有找到对应英文
+            desc: 'The hardware size and function can be customized according to different needs (such as modifying the goods lane, shipping method, payment method)，Can finish modification of hardware or software within 60days.' # TODO 前面一句为 Google
             badge: 'Benefit Analysis'
             list: |-
               Hardware customisation, Optional Equipment, Consideration on Every Aspect
@@ -683,7 +683,7 @@ en-US:
       - title: 'After-sale Service'
         desc: '7/24 online customer service, 1 to 1after-sale service, report problem at any time'
 
-    form: # TODO 整个表单自己翻译的，看看是否准确
+    form: # TODO 整个表单都是 Google
       country: 'Please fill in the country'
       city: 'Please fill in the city'
       type: 'Please select a cooperation method'
@@ -700,14 +700,14 @@ en-US:
       phone: 'Please fill in the contact number'
       email: 'Please fill in the email address'
       content: 'leave a message'
-      title: |- # TODO 自己翻译的，看看是否准确
+      title: |- # TODO Google
         Leave information
         Get more information
       submit: 'submit'
-      submitted: 'Submit successfully，we will reply you as soon as possible.' # TODO 自己翻译的，看看是否准确
+      submitted: 'Submit successfully，we will reply you as soon as possible.' # TODO Google
       submitting: 'Submitting⋯'
-      required: 'Please provide the required information' # TODO 自己翻译的，看看是否准确
-      unknown: 'unknown error' # TODO 自己翻译的，看看是否准确
+      required: 'Please provide the required information' # TODO Google
+      unknown: 'unknown error' # TODO Google
 
   partners:
     main: 'ZIMA Global Partner Scheme'
@@ -780,9 +780,10 @@ en-US:
           marketing scheme such as loyalty points, sharing, promotion, membership, etc.
       - t: 'Perfect marketing system' # TODO Google
         d: |-
-          積分、優惠券、充值、印花一應俱全將自動販賣機生意從街客變成常客的法寶
+          Points, coupons, recharge, printing are all available to change
+          the vending machine business from street customers to regular customers
       - t: 'Comprehensive payment plan' # TODO Google
-        d: |- # TODO 下面语子中的中文部份没对应英文
+        d: |- # TODO Google
           Credit Card, Apple Pay, Google Pay, Alipay, WechatPay and
           more local bank or machine credit card accessories can be customized
       - t: 'Corporate Allowance'
