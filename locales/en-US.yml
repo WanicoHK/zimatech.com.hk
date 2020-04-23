@@ -47,16 +47,16 @@ en-US:
     item_2: |-
       Smarter,
       ZIMA APP connects to all machines
-    item_3: 'loyalty Points / Membership / Coupons / Stamps / Corporate Allowance'
+    item_3: 'Points / Membership / Coupons / Stamps / Company Discounts'
     item_4: |-
       Datamation retailingWe master all the keys for boosting sales
     item_5: 'APP Features'
-    item_6: '* iOS 須使用 10.0 或以上版本，Android 須使用 4.0 或以上版本' # TODO 未找到对应英文
+    item_6: 'Requires iOS 10.0 or later, Android 4.0 or later.'
 
     part_1: 'Integrated Structure'
     part_2: |-
       "Ideal" is a mature consideration on every aspect
-    part_3: 'Research and Development '
+    part_3: 'Research and Development'
     part_4: |-
       Metal body design
       Electronic Circuit development
@@ -81,9 +81,9 @@ en-US:
     string_7: 'All unmanned machines can connect to our APP, utilise our marketing tools to boost sales'
     string_8: 'ZIMA works for you'
     string_9: 'Daily merchandise, warehouse storage, filling and customer service'
-    string_10: 'I dont have my own machine'
+    string_10: 'I don''t have my own machine'
     string_11: 'Location Recommendation'
-    string_12: 'Help us to find the suitable location for setting machine and gain bonusPurchase Machine'
+    string_12: 'Help us to find the suitable location for setting machine and gain bonus'
     string_13: 'Purchase Machine'
     string_14: 'Purchase hardware equipment with software system support'
     string_15: 'Franchise'
@@ -112,7 +112,7 @@ en-US:
 
     view_1: 'Grow with us'
     view_2: 'Be our supplier'
-    view_3: 'Machine  manufacturing'
+    view_3: 'Machine manufacturing'
     view_4: 'Product merchandising'
     view_5: 'Optional equipment'
     view_6: 'advertising on our platform'
@@ -139,20 +139,20 @@ en-US:
       title_10: 'member value-added(stamp)'
       title_11: 'member loyalty points'
       title_12: 'membership system'
-      title_13: 'Receive a stamp after a Successful transaction, stamp can be redeemed for coupons.'
+      title_13: 'Receive a stamp after a successful transaction, stamp can be redeemed for coupons.'
       title_14: 'Member shopping, consumption, joining event can collect loyalty points, for redeeming products.'
       title_15: 'Member rank, member privilege... a complete membership system can help you to retain more customers.'
       title_16: 'Effective marketing'
       title_17: 'Near hundred ways of marketing strategy'
       title_18: 'Data collection based on consumption activities through online platform and considering every aspect from customers acquisition, repurchase, retention to referral.'
-      title_19: 'Attract new customers '
+      title_19: 'Attract new customers'
       title_20: 'More groupons, gift for referral, exclusive price for new members'
-      title_21: 'higher   conversion   rate,   turning   visitors   to   consumers,   more transactions and sales'
-      title_22: 'limited discount    limited time offer   coupons....'
+      title_21: 'higher conversion rate, turning visitors to consumers, more transactions and sales'
+      title_22: 'limited discount limited time offer coupons....'
       title_23: 'more sales and profits'
-      title_24: 'Discount for higher purchase amount, discount package, free gift for target purchase  amount'
-      title_25: 'higher Customer retention rate and repurchase rate, reduce customerattrition rate'
-      title_26: 'Sign-in  loyalty point shopping mall    membership system'
+      title_24: 'Discount for higher purchase amount, discount package, free gift for target purchase amount'
+      title_25: 'higher Customer retention rate and repurchase rate, reduce customer attrition rate'
+      title_26: 'Sign-in loyalty point shopping mall membership system'
       title_27: 'more cost saving and help increase employees’ satisfaction'
       title_28: 'Corporate welfare allowance function'
       title_29: 'Allowing corporate to execute employee welfare/ benefit easily by adjusting the offer discount period and discount rate etc. ZIMA provides all-round services , including products, operation and services regarding to corporate purchasing.  Saving cost for employer while increasing employees’satisfaction.'
@@ -164,7 +164,7 @@ en-US:
       title_35: 'holiday duty allowance'
 
   products:
-    back: '返回產品列表'    # TODO 没有找到对应英文
+    back: 'Back to Products'
 
     index:
       text_1: 'ZIMA unmanned machine'
@@ -226,11 +226,11 @@ en-US:
       product_3: |-
         ZIMA has all-round product matrix and widely used in food and beverage,
         dairy products, basic commodities, etc. All kind of machines can be
-        utili  zed massively and suitable for different scenarios.
+        utilized massively and suitable for different scenarios.
       product_4: 'Knowing More'
       product_5: 'ZIMA Pro'
       product_6: 'New Large screen transparent showcase smart retail terminal'
-      product_7: 'New screen structure  Smart Thermostat  Transparent Showcase'  # TODO 英文和中文原意略有区别，宜再做检查
+      product_7: 'New screen structure, Smart Thermostat, Transparent Showcase'  # TODO 英文和中文原意略有区别，宜再做检查
       product_8: 'ZIMA Slim'
       product_9: 'QR code scanning smart retail terminal'
       product_10: 'Light and handy Easy to setup Cost-effective'
@@ -255,7 +255,7 @@ en-US:
       string_3: 'Accept different transaction methods'
       string_4: 'Electronic Payment'
       string_5: 'Card Payment'
-      string_6: 'Support payment through QR code scanning/Pay in APP'
+      string_6: 'Support payment through QR code scanning / Pay in APP'
       string_7: 'Visa, Octopus'
       string_8: 'ZIMA Smart Operation Platform'
       string_9: 'Make operation more effective'
@@ -514,7 +514,7 @@ en-US:
       item_4: 'Faster finishing speed for meals'
       item_5: 'High Capacity'
       item_6: 'Reduce delivery cost'
-      item_7: 'Smart Operation '
+      item_7: 'Smart Operation'
       item_8: 'real-time data analysis'
 
       step_1: 'Large Screen Interaction'
@@ -651,7 +651,7 @@ en-US:
       - badge: 'APP Support'
         secondary: 'Smart APP connection'
         primary: 'Direct to end-user marketing'
-        text: 'Connect all the vending machine through one app to increase customers’loyalty, turning new customers into regular customers.'
+        text: 'Connect all the vending machine through one app to increase customers'' loyalty, turning new customers into regular customers.'
       - badge: 'Advertisement Income'
         secondary: 'Cloud advertisement platform'
         primary: 'Start to earn money once the machine is on'
