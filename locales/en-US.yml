@@ -208,15 +208,15 @@ en-US:
       part_1: 'ZIMA solves marketing problem for partners'
       part_2: 'dedicated to help partners to earn more income'
       part_3: 'Sales'
-      part_4: '60%^'
+      part_4: '60%'
       part_5: 'Operate 7/24'
       part_6: 'Labour cost'
-      part_7: '90%↓'
+      part_7: '90%'
       part_8: |-
         do not required highlabour cost.
         do not required manpower.
       part_9: 'Rate of repurchase'
-      part_10: '37%^'
+      part_10: '37%'
       part_11: |-
         strong operation backup
         effective marketing
@@ -274,7 +274,7 @@ en-US:
         Effective for corporate and local business to advertise
 
     pro:
-      text_1: '32-Inch Large screen transparent showcase smart retail terminal'
+      text_1: '32-inch Large screen transparent showcase smart retail terminal'
       text_2: 'ZIMA Pro'
       text_3: |-
         An opaque machine always makes us lack of security as we never know what is inside.
@@ -284,7 +284,7 @@ en-US:
         But why don't we combine these two to have it visible to users and at the same time
         having a large screen!
 
-      item_1: '32-Inch large screen'
+      item_1: '32-inch large screen'
       item_2: 'Smart Advertising'
       item_3: 'Product Visibility'
       item_4: 'High Conversion Rate'
@@ -294,7 +294,7 @@ en-US:
       item_8: 'Real-time Data Analysis'
 
       title_1: 'Interactive large screen, all in one solution'
-      title_2: '32-Inch large screen create more advertisement value. Interactive and experimental consumption elevate sales'
+      title_2: '32-inch large screen create more advertisement value. Interactive and experimental consumption elevate sales'
       title_3: 'Smart Temperature Control System'
       title_4: 'Stable temperature control, temperature control up to 4°C. Easily handle the storage of fresh dairy product'
       title_5: 'Product visible, higher sales volume'
@@ -502,14 +502,14 @@ en-US:
       spec_19: 'double display, customise size of different product'
 
     plus:
-      text_1: '43-Inch large screen smart retail terminal'
+      text_1: '43-inch large screen smart retail terminal'
       text_2: 'ZIMA Plus'
       text_3: |- # TODO Google
         Large screen, equipped with more marketing components, combined with terminal sales, can attract consumers more
         Event marketing, advertising revenue, brand association
         The reason for choosing the big screen ZIMA Plus lies in: the investment is not only for the sale of goods
 
-      item_1: '43-Inch large screen'
+      item_1: '43-inch large screen'
       item_2: 'Greater advertisement value'
       item_3: 'Integrated refrigeration and room temperature control system'  # TODO 太長了，效果不好，宜修正
       item_4: 'Faster finishing speed for meals'
@@ -520,7 +520,7 @@ en-US:
 
       step_1: 'Large Screen Interaction'
       step_2: |-
-        32-Inch large screen, create more advertisement value
+        32-inch large screen, create more advertisement value
         Interactional experimental consumption, boost sales
       step_3: 'Room temperature + refrigeration'
       step_4: 'Handle the problem of high frequency in serving meals'
