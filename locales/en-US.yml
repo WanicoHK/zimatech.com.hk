@@ -129,13 +129,14 @@ en-US:
       title_3: 'Users only need to use ONE ZIMA APP to connect all the unmanned machine when handling different transaction, reducing any inconvenience caused by switching APPS and machines during consumption.'
       title_4: 'Easy transaction, effective outcome'
       title_5: 'O2O Purchase Function'
-      title_6: |-  # TODO "经营更高效，创收更简单" 一句未翻译
+      title_6: |-  # TODO "经营更高效，创收更简单" 一句为使用 Google
         Showing all the ZIMA vending machine nearby,
         helping you to find the nearest machine!Online ordering and product pre-ordering,
-        pick up product from offline vending machineGather loyalty point online, redeem offline
+        pick up product from offline vending machineGather loyalty point online, redeem offline,
+        more efficient operation and easier income generation!
       title_7: 'more members, more sales'
       title_8: 'Smart CRM system'
-      title_9: '用線上千人千面的方法進行精確CRM，幫您持續挖掘單客價值，讓街客變成常客，搭建顧客增值系統，提升用戶粘性，提高複購率！' # TODO 沒有对应英文
+      title_9: 'Accurate CRM with thousands of online methods will help you to continuously tap the value of single customers, turn street customers into regular customers, build customer value-added systems, increase user stickiness and increase repurchase rate!' # TODO 沒有对应英文
       title_10: 'member value-added(stamp)'
       title_11: 'member loyalty points'
       title_12: 'membership system'
@@ -169,7 +170,7 @@ en-US:
     index:
       text_1: 'ZIMA unmanned machine'
       text_2: 'Retail Solution design for'   # TODO 中文版此处为一句分为两行，英文版可再检查分行处是否合适
-      text_3: 'Global marketbusiness'
+      text_3: 'Global market business'
       text_4: 'Hardware support for all kind of conditions+software marketingtools   +cloud operation centre= effective marketing'
 
       title_1: 'Undefeatable golden triangle'
@@ -236,7 +237,7 @@ en-US:
       product_10: 'Light and handy Easy to setup Cost-effective'
       product_11: 'ZIMA Life'
       product_12: 'Integrated room temperature smart retail terminal'
-      product_13: '全視角櫥窗 · 適應不同商品尺寸 · 更多SKU展示' # TODO 未找到对应英文
+      product_13: 'Full view window · Adapt to different product sizes · More SKU display' # TODO Google
       product_14: 'ZIMA Care'
       product_15: 'New large screen room temperature smart retail terminal'
       product_16: 'Thin Body Light and handy High Capacity'
@@ -316,7 +317,7 @@ en-US:
       spec_8: 'Payment Method'
       spec_9: 'in-app payment, code screening electronic payment, octopus, credit card'
       spec_10: 'Maximum Product Type'
-      spec_11: '40-48 type' # TODO 和中文的不符
+      spec_11: '40-48 type' # TODO 和中文的有出入, 中文版为 30-34 种
       spec_12: 'Maximum Capacity'
       spec_13: '600-700+'
       spec_14: 'Exclusive Equipment:'
@@ -356,7 +357,7 @@ en-US:
       title_2: 'High flexibility to set up'
       title_3: 'ZIMA Slim automatic vending machine with no screen makes it much lighter and handy. Achieving cost-effective and high efficiency. ZIMA Slim also stores more products than other ZIMA members.'
       title_4: 'Create for office use'
-      title_5: '經營利潤更可觀' # TODO 沒有找到对应的英文
+      title_5: 'Operating profit is more substantial' # TODO Google
       title_6: 'ZIMA Slim is not restricted by customer flow. It can be the welfare machine of a company. To serve afternoon tea or over time working allowance. It can also be extensively set up in every office respectively for selling snacks and coffee, no rental fee and electricity fee.'
 
       spec_1: 'Machine Measurement'
@@ -377,7 +378,7 @@ en-US:
       spec_16: 'Temperature Monitoring'
       spec_17: '4-20°C'
       spec_18: 'Special Design'
-      spec_19: '輕盈纖小設計配合室內環境' # TODO 没有找到对应的英文
+      spec_19: 'Lightweight and slim design to match the indoor environment' # TODO Google
 
     life:
       text_1: 'Integrated Room Temperature Retail Terminal'
@@ -448,7 +449,7 @@ en-US:
       item_3: 'HD Large screen'
       item_4: 'Create more advertisement value'
       item_5: '24-hour service'
-      item_6: 'Save labor costs' # TODO 自己翻译的
+      item_6: 'Save labor costs' # TODO Google
       item_7: 'Smart operation'
       item_8: 'Real-time data analysis'
 
@@ -477,8 +478,8 @@ en-US:
 
       part_1: 'Essential for public facilities'
       part_2: '"Woman Emergency Need" services'
-      part_3: 'Usage scenarios: ' # TODO 自己翻译的
-      part_4: 'Shopping malls / high-speed rails / airports / schools / tourist scenic spots / public toilets and other public places' # TODO 自己翻译的
+      part_3: 'Usage scenarios: ' # TODO Google
+      part_4: 'Shopping malls / high-speed rails / airports / schools / tourist scenic spots / public toilets and other public places' # TODO Google
 
       spec_1: 'Machine Measurement'
       spec_2: 'Dimension'
@@ -503,10 +504,10 @@ en-US:
     plus:
       text_1: '43-Inch large screen smart retail terminal'
       text_2: 'ZIMA Plus'
-      text_3: |- # TODO 没有对应英文
-        超大屏幕，搭載更多營銷組件，結合終端售賣，更能吸引消費者
-        活動營銷，廣告收益，品牌聯營
-        選擇大屏的ZIMA Plus的理由在於：一筆投入，收穫的不止於商品售賣
+      text_3: |- # TODO Google
+        Large screen, equipped with more marketing components, combined with terminal sales, can attract consumers more
+        Event marketing, advertising revenue, brand association
+        The reason for choosing the big screen ZIMA Plus lies in: the investment is not only for the sale of goods
 
       item_1: '43-Inch large screen'
       item_2: 'Greater advertisement value'
@@ -532,9 +533,9 @@ en-US:
       step_6: drinks · dairy products · pastry · instant food
 
       title_1: 'More space for stocking, higher capacity'
-      title_2: '可售賣商品更多' # TODO 没有对应英文
+      title_2: 'Saleable goods more' # TODO Google
       title_3: 'Inventory can up to 600-700+, storing more products for one time delivery, saving delivery cost.'
-      title_4: 'Where people flow, you can make money'   # TODO 自己翻译的
+      title_4: 'Where people flow, you can make money'   # TODO Google
       title_5: 'Make ZIMA Plus a convenience store'
       title_6: 'Integrated retail of breakfast, drinks and snacks that suitable for office, dormitories, bus terminal or canteen, etc.'
 
@@ -560,7 +561,7 @@ en-US:
 
   contact_us:
     title_1: 'Business Cooperation'
-    title_2: |-  # TODO 自己翻译的
+    title_2: |-  # TODO Google
       Efficient operation is low cost
       Saving money faster is really saving money
 
@@ -572,65 +573,65 @@ en-US:
         items:
           - name: 'connect to ZIMA APP'
             title: 'connect to ZIMA APP'
-            desc: '將ZIMA APP接入已有的售賣機' # TODO 无对应英文
-            badge: 'Benefit Analysis' # TODO 自己翻译的
-            list: |- # TODO 无对应英文
-              增加售賣機商品線上APP銷售通道
-              實現用戶管理、推券、積分等更多營銷手段
+            desc: 'Connect ZIMA APP to existing vending machines' # TODO Google
+            badge: 'Benefit Analysis' # TODO Google
+            list: |- # TODO Google
+              Increase online APP sales channels for vending machine products
+              Realize more marketing methods such as user management, coupon promotion, and points
           - name: 'ZIMA operates for you'
             title: 'ZIMA operates for you'
-            desc: '採購、選品、客服、倉儲、配送、上架、營銷，我們為您一站解決，您只管甩手當掌櫃' # TODO 无对应英文
+            desc: 'Purchasing, product selection, customer service, warehousing, distribution, shelves, marketing, we will solve it for you in one stop, you just throw your hand as the shopkeeper' # TODO Google
             badge: 'Benefit Analysis'
-            list: |- # TODO 无对应英文
-              享受更專業的運營服務，節省運營成本和麻煩
-              精細化運營及更多營銷活動的實現
-              除日常租金、電費支出，您僅需支付少額貨品銷售的提成
-          - name: '機器升級'
-            title: '機器升級'
-            desc: '擁有獨家經營權，享受區域保護政策；管理當地所有單機加盟商，並獲得豐厚利潤' # TODO 无对应英文
+            list: |- # TODO Google
+              Enjoy more professional operation service, save operation cost and trouble
+              Refined operation and realization of more marketing activities
+              In addition to the daily rent and electricity expenses, you only need to pay a commission for the sale of a small amount of goods
+          - name: 'Machine Upgrade'
+            title: 'Machine Upgrade'
+            desc: 'Having exclusive management rights and enjoy regional protection policies; manage all local stand-alone franchisees and get huge profits' # TODO Google, 我把开头的 Have 改为 Having
             badge: 'Benefit Analysis'
-            list: |- # TODO 上面一句没有找到对应英文
-              一鍵精準獲取貨品進銷存情況，減少不必要的配送，方便管理
+            list: |- # TODO 上面一句使用 Google
+              One-click accurate acquisition of goods invoicing, inventory and storage, reduce unnecessary distribution, and facilitate management
               All unmanned machines can connect to our APP, utilise our marketing tools to boost sales
       - name: 'I do not have vending machine'
         items:
           - name: 'Brand Cooperation'
             title: 'Brand Cooperation'
-            desc: '幫當地品牌定制機器並代運營' # TODO 无对应英文
+            desc: 'Help local brands customize machines and operate on behalf of them' # TODO Google
             badge: 'Benefit Analysis'
-            list: |- # TODO 无对应英文
-              簡單的機器硬件費用投入，即可享受更高效的終端銷售支持
-              無需支付超市和商場的上架費，投入更低
+            list: |- # TODO Google
+              Simple machine hardware investment, you can enjoy more efficient terminal sales support
+              No need to pay the shelf fees for supermarkets and shopping malls, lower investment
           - name: 'Machine investment'
             title: 'Machine investment'
-            desc: '在本地已建立運營中心的情況下，加盟單獨某台機器，獲得分紅權；無需經營，自負盈虧'  # TODO 无对应英文
+            desc: 'When an operation center has been established locally, join a single machine to obtain the dividend rights; no operation is required, and you will be responsible for profit and loss'  # TODO Google
             badge: 'Benefit Analysis'
-            list: |- # TODO 无对应英文
-              享受合夥公司在贏利中按一定份額支付的紅利
-              機器的屏幕和機身廣告費收益
-              您僅需承擔單機加盟費、配送費和軟件管理費
+            list: |- # TODO Google
+              Enjoy the dividend paid by the partnership company in a certain share of the profit
+              Machine screen and body advertising revenue
+              You only need to bear the stand-alone joining fee, distribution fee and software management fee
           - name: 'City Exclusive Agent'
             title: 'City Exclusive Agent'
-            desc: '在本地已建立運營中心的情況下，加盟單獨某台機器，獲得分紅權；無需經營，自負盈虧' # TODO 无对应英文
+            desc: 'When an operation center has been established locally, join a single machine to obtain the dividend rights; no operation is required, and you will be responsible for profit and loss' # TODO Google
             badge: 'Benefit Analysis'
-            list: |- # TODO 无对应英文
-              管理區域+單機運作，利潤多元化
-              享受原公司銷售和廣告費收益
-              擁有購買公司股分優先名額
-              經營自負盈虧
+            list: |- # TODO Google
+              Management area + stand-alone operation, diversified profits
+              Enjoy the original company's sales and advertising revenue
+              Possess a priority quota for buying company shares
+              Operating self-financing
           - name: 'City Partner'
             title: 'City Partner'
-            desc: '每款機型需至少購買5台以上支持運營；自建倉庫，負責採購、倉儲、配送、場地等工作；我們負責客服、選品、數據整理以及廣告投放幫助找' # TODO 无对应英文
+            desc: 'Each model needs to purchase at least 5 or more to support operation; self-built warehouse, responsible for procurement, warehousing, distribution, venues, etc .; we are responsible for customer service, product selection, data collation, and advertising to help find' # TODO 无对应英文
             badge: 'Benefit Analysis'
-            list: |- # TODO 无对应英文
-              享受更低折扣拿機器，遠程服務
-              享受機身廣告及屏幕廣告收益
-          - name: 'Purchase Machine' # TODO 自己翻译的
+            list: |- # TODO Google
+              Enjoy lower discounts to get the machine, remote service
+              Enjoy revenue from body advertising and screen advertising
+          - name: 'Purchase Machine' # TODO Google
             title: 'Purchase Machine'
             desc: '購買機器，擁有後台系統和下單界面，需要額外購買配件；支持APP下單，但是分成要和對接APP一樣算，我們會提供遠程活動推送' # TODO 无对应英文
             badge: 'Benefit Analysis'
-            list: |- # TODO 无对应英文
-              無須經驗，無需技術，強大後台系統支持，遠程活動推送
+            list: |- # TODO Google
+              No experience, no technology, strong background system support, remote activity push
           - name: 'Machine Customisation and Production'
             title: 'Machine Customisation and Production'
             desc: '可根據不同需求定制硬件尺寸、功能（如修改貨道、出貨方式、支付方式），Can finish modification of hardware or software within 60days.' # TODO 前面一句没有找到对应英文
@@ -641,12 +642,12 @@ en-US:
             title: 'Location Recommendation'
             desc: 'Help us to find the suitable location for setting machine and gain bonus'
             badge: 'Benefit Analysis'
-            list: |- # TODO 无对应英文
-              推薦費獎勵
-              該場地優先加盟權
+            list: |- # TODO Google
+              Referral fee reward
+              Priority to join the venue
 
     part_1: 'ZIMA 10 cooperation rights'
-    part_2: '致力於讓合作商更賺錢' # TODO 无对应英文
+    part_2: 'Committed to making partners more profitable' # TODO Google
     parts:
       - badge: 'APP Support'
         secondary: 'Smart APP connection'
@@ -739,85 +740,95 @@ en-US:
       unsaturated market in every countries and cities. Each series of machine
       can be massively set up. Matching the right model type to different
     titles:
-      - p: '回本王' # TODO 没有对应英文
+      - p: 'Champion of cost recovery' # TODO Google
         s: 'ZIMA Slim'
-        t: |- # TODO 没有对应英文
-          沒有屏幕的超低成本自動販賣機
-          在高頻剛需的封閉場景使用APP支付
-        h: '必賺場景' # TODO 没有对应英文
-        d: |- # TODO 没有对应英文
-          辦公室內賣飲料零食
-          公寓樓下賣日用品與飯餐
-      - p: 'Profit Expert' # TODO 自己翻译的，看看是否准确
+        t: |- # TODO Google
+          Ultra low cost vending machine without screen
+          Use APP to pay in closed scenarios where high frequency is just needed
+        h: 'Certainly profitable scenario' # TODO Google
+        d: |- # TODO Google
+          Drink snacks in the office
+          Apartment downstairs sells daily necessities and meals
+      - p: 'Profit Expert' # TODO Google
         s: 'ZIMA Pro'
-        t: |-
-          全新結構的屏幕+透視的自動販賣機
-          更省位置，更搶眼，更大庫存，且可做
-        h: 'Common scenes' # TODO 自己翻译的，看看是否准确
-        d: |- # TODO 自己翻译的，看看是否准确
-          公共場合、交通樞紐等人多場合
-          辦公室樓下賣飯餐、飲料零食
-      - p: 'Stealth Champion' # TODO 自己翻译的，看看是否准确
+        t: |- # TODO “且可做” 是否不太正確？
+          New structured screen + perspective vending machine
+          More space-saving, more eye-catching, more inventory, and can be done
+        h: 'Common scenes' # TODO Google
+        d: |- # TODO Google
+          Public places, transportation hubs and many other occasions
+          Office downstairs selling meals, snacks
+      - p: 'Stealth Champion' # TODO Google
         s: 'ZIMA Life'
-        t: |- # TODO 没有对应英文
-          超低成本，超低電費，無憂運營，極快回本
-          適應大多數不同規格產品
+        t: |- # TODO Google
+          Ultra-low cost, ultra-low electricity bill, worry-free operation, and quick return to cost
+          Adapt to most different specifications
         h: 'High demand with low frequency location'
         d: |-
           Community, hotel, apartment: living commodities
           Tourist Attractions, Villa: travel necessities
           Terminal, construction site:  meals
-    title_4: '更多隱藏機型，進一步聯繫獲得信息'
-    title_5: '馬上聯繫'
+    title_4: 'More hidden models, further contact for information' # TODO Google
+    title_5: 'Contact now' # TODO Google
 
-    part_1: '智能APP連結一切' # TODO 没有对应英文
+    part_1: 'Smart APP connects everything' # TODO Google
     parts:
       - t: 'Unmanned Machine'
         d: |-
           One ZIMA APP to support the usage of all kind of unmanned machine.
           Through the connection between app and end user, allowing the execution of
           marketing scheme such as loyalty points, sharing, promotion, membership, etc.
-      - t: '完善的營銷系統' # TODO 没有对应英文
+      - t: 'Perfect marketing system' # TODO Google
         d: |-
           積分、優惠券、充值、印花一應俱全將自動販賣機生意從街客變成常客的法寶
-      - t: '全面支付方案' # TODO 没有对应英文
+      - t: 'Comprehensive payment plan' # TODO Google
         d: |- # TODO 下面语子中的中文部份没对应英文
-          Credit Card, Apple Pay, Google Pay, Alipay, WechatPay更多當地銀行或者機器刷卡配件可定製
+          Credit Card, Apple Pay, Google Pay, Alipay, WechatPay and
+          more local bank or machine credit card accessories can be customized
       - t: 'Corporate Allowance'
-        d: |- # TODO 没有对应英文
-          幫助公司更方便地發放福利
-          可根據時間、人數、補貼金額發放“早餐補貼”“加班補貼”“銷售冠軍福利”
-    part_2: '更多隱藏機型，進一步聯繫獲得信息' # TODO 没有对应英文
-    part_3: '馬上聯繫' # TODO 没有对应英文
+        d: |- # TODO Google
+          Help companies to pay benefits more conveniently
+          "Breakfast subsidy", "Overtime subsidy" and "Sales champion welfare" can be issued according to time, number of people and subsidy amount
+    part_2: 'More hidden models, further contact for information' # TODO Google
+    part_3: 'Contact now' # TODO Google
 
-    string_1: '總部遠程強力協助' # TODO 没有对应英文
-    string_2: '一人即可經營的秘密' # TODO 没有对应英文
-    string_3: '你能想到最輕鬆的做生意方式，無日常成本，賺到錢再分成' # TODO 没有对应英文
+    string_1: 'Strong remote assistance from headquarters' # TODO Google
+    string_2: 'The secret that one person can manage' # TODO Google
+    string_3: 'You can think of the easiest way to do business without daily costs' # TODO Google
     strings:
       - t: 'Location'
-        d: |- # TODO 没有对应英文
-          獨特的選址計算機制，並經常根據實際經營進行調整。保證每個選址都有最優的租金、配送、電費下儘快回本。
+        d: |- # TODO Google
+          Unique location selection computer system, and often adjusted
+          according to actual operation. Ensure that each site has the best
+          rent, distribution, and electricity bills as soon as possible.
       - t: 'Operation'
-        d: |- # TODO 没有对应英文
-          最麻煩瑣碎的機器選品、客服、進銷存、數據統計幫助。讓你可以專注更重要的事情。
+        d: |- # TODO Google
+          The most troublesome and trivial machine selection,
+          customer service, invoicing, data statistics help.
+          Allows you to focus on more important things.
       - t: 'Advertising'
-        d: |- # TODO 没有对应英文
-          幫助當地運營商投選址推薦廣告，找到各個場地核心人物，無需本地資源和人脈即可擴點。
-      - t: '進一步合作' # TODO 没有对应英文
-        d: |- # TODO 没有对应英文
-          資金不足不要擔心，經營最好的代理商我們將投資扶持，總部出資，成立當地分公司，幫你擴大經營
+        d: |- # TODO Google
+          Help local operators to vote for site-recommended advertisements,
+          find the core characters of each venue, and expand points without
+          local resources and contacts
+      - t: 'Further Cooperation' # TODO Google
+        d: |- # TODO Google
+          Don’t worry about insufficient funds, we will provide investment
+          support with the best operating agents, fund the headquarters,
+          set up a local branch to help you expand your business
 
     text_1: 'Cooperation Type'
-    text_2: '試運營折扣套裝' # TODO 没有对应英文
-    text_3: |- # TODO 没有对应英文
-      1. 一個貨櫃，四款機器，每款三台，同時出口，開機即用。
-      （裡麵包含多套配件，無需維修，簡單換件）
+    text_2: 'Trial operation discount package' # TODO Google
+    text_3: |- # TODO Google
+      1. One container, four machines, three of each, exported at the same time, ready to use.
+      （It contains multiple sets of accessories, no maintenance, simple replacement）
 
-      2. 免費遠程培訓，關於選品、採購、倉儲、配送、機器維護等所有問題。
+      2. Free remote training on all issues such as product selection, procurement, warehousing,
+      distribution, machine maintenance, etc.
 
-      * 下單支付後60日內即可發貨
-      * 每個城市僅限有限名額
-      * 有零售業經驗合夥人優先
+      * Can be shipped within 60 days after payment
+      * Limited places per city
+      * Partners with retail experience are preferred
 
   link:
     app_store: 'https://apps.apple.com/hk/app/zima/id1490361862'
@@ -834,7 +845,7 @@ en-US:
     nav_partners:
       nav_1: 'Product Matrix'
       nav_2: 'Smart APP'
-      nav_3: '總部強力協助' # TODO 没有找到对应英文
+      nav_3: 'Headquarters strong assistance' # TODO Google
     nav_contact:
       nav_1: 'Cooperation Type'
       nav_2: 'cooperation Rights'
