@@ -405,6 +405,7 @@ label.index-bg-2-thumb {
   content: '';
   display: block;
   margin: 0 auto 10px;
+  flex: 0 0 32px;
   width: 32px;
   height: 32px;
   background-size: contain;
@@ -671,7 +672,8 @@ label.index-bg-2-thumb {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px 0;
+  padding: 20px 5px;
+  text-align: center;
   box-sizing: border-box;
   cursor: pointer;
   position: relative;
@@ -886,7 +888,7 @@ input[name="index-bg-6"] {
 
 .index-bg-view-link {
   display: block;
-  width: 110px;
+  width: 200px;
   height: 36px;
   line-height: 36px;
   padding: 0 10px;
@@ -1064,7 +1066,7 @@ input[name="index-bg-6"] {
   }
 
   .index-bg-4-wrapper-3 {
-    height: 200px !important;
+    height: 240px !important;
     width: calc(50% - 10px);
     margin: 5px;
   }
@@ -1213,5 +1215,9 @@ input[name="index-bg-6"] {
     font-size: 12px;
     line-height: 28px;
     height: 30px;
+    width: 90%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
 }

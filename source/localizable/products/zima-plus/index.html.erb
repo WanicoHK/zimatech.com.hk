@@ -14,7 +14,7 @@ title: ZIMA Plus
       <div class="products-plus-features">
         <% (1..4).each do |i| %>
           <div class="products-plus-feature">
-            <div class="products-plus-feature-title<%= ' products-plus-feature-title-shrink' if i == 2 %>"><%=
+            <div class="products-plus-feature-title<%= ' products-plus-feature-title-shrink' if I18n.locale.to_s.include?('zh') && i == 2 %>"><%=
               t(:"products.plus.item_#{2 * i - 1}") %></div>
             <div class="products-plus-feature-subtitle"><%= t(:"products.plus.item_#{2 * i}") %></div>
           </div>
