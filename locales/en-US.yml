@@ -3,8 +3,8 @@ en-US:
 
   nav:
     products: 'Products'
-    app: 'APP'
-    partners: 'Global Partner'
+    app: 'ZIMA App'
+    partners: 'Global Partners'
     contact_us: 'Contact Us'
     languages: 'Language'
 
@@ -16,25 +16,24 @@ en-US:
 
     text_1: 'Product Matrix'
     text_2: |-
-      Our goal is
-      to create perfect retail solution
+      Our goal is to
+      create perfect retail solution
     text_3: 'ZIMA Slim'
     text_4: |-
-      The time to reach the breakeven point is the most important part of abusiness.
-      Eliminate the display and big machine body, saving energy results in costsaving.
-      Operate a low-cost and high-margin business is the fastest way to achievebreakeven point.
+      The time to reach the breakeven point is the most important part of a business.
+      Eliminate the display and big machine body, saving energy results in cost saving.
+      Operate a low-cost and high-margin business is the fastest way to achieve breakeven point.
     text_5: 'ZIMA Pro'
     text_6: |-
       An opaque machine always makes us lack of security as we never know what is inside.
       We can manufacture large display machine which is more suitable for advertisement.
-      We can also manufacture transparent machine which is more eye-catching and havingbetter sales.
-      But why don't we combine these two to have it visible to users and at the same timehaving a large screen!
+      We can also manufacture transparent machine which is more eye-catching and having better sales.
+      But why don't we combine these two to have it visible to users and at the same time having a large screen!
     text_7: 'ZIMA Plus'
     text_8: |-
       Large screen with more marketing components, combined with terminal sales, more attrative to consumers.
       Event Marketing, Advertising Revenue, Brand Affiliation.
-      The reason for choosing the ZIMA Plus with large scrren is: you get more than just
-      the goods you sell with the investment.
+      The reason for choosing the ZIMA Plus with large scrren is: you get more than just the goods you sell with the investment.
     text_9: 'ZIMA Life'
     text_10: |-
       There is always a product that needs to be stored in room temperature, such as bread and basic commodities.
@@ -49,37 +48,38 @@ en-US:
       ZIMA APP connects to all machines
     item_3: 'Points / Membership / Coupons / Stamps / Company Discounts'
     item_4: |-
-      Datamation retailingWe master all the keys for boosting sales
+      Datamation retailing - We master all the keys for boosting sales
     item_5: 'APP Features'
     item_6: 'Requires iOS 10.0 or later, Android 4.0 or later.'
 
     part_1: 'Integrated Structure'
     part_2: |-
       "Ideal" is a mature consideration on every aspect
-    part_3: 'Research and Development'
+    part_3: 'R&D'
     part_4: |-
       Metal body design
       Electronic Circuit development
       APP development
       Server operation and maintenance
     part_5: 'Production'
-    part_6: 'Low production cost as raw materials are direct supplied from factories -Strict quality control on production process'
+    part_6: 'Low production cost as raw materials are direct supplied from factories - Strict quality control on production process'
     part_7: 'Intelligence'
     part_8: 'Big data analysis - Collect data from user apps for analysis, for bug fixing and service improvement'
     part_9: 'Operation'
     part_10: 'ZIMA Machines are manufactured by our own factory with high quality operation centre and operating strategy'
     part_11: 'More'
-    part_12: 'Future is full of possibilities and surprise.....stay tuned'
+    part_12: 'Future is full of possibilities and surprise... Stay tuned'
 
     string_1: 'Integration'
     string_2: |-
-      Every one of you has your own strengths, ZIMA needs every one of you
+      Every one of you has your own strengths,
+      ZIMA needs every one of you
     string_3: 'I have my own machine'
-    string_4: 'upgrade machine'
+    string_4: 'Upgrade Machine'
     string_5: 'Upgrade the electronic circuit and system of traditional non-intelligent machine to the version that is available for app ordering, inventory review, remote smart feedback'
-    string_6: 'App integration'
+    string_6: 'App Integration'
     string_7: 'All unmanned machines can connect to our APP, utilise our marketing tools to boost sales'
-    string_8: 'ZIMA works for you'
+    string_8: 'ZIMA Works For You'
     string_9: 'Daily merchandise, warehouse storage, filling and customer service'
     string_10: 'I don''t have my own machine'
     string_11: 'Location Recommendation'
@@ -91,7 +91,7 @@ en-US:
     string_17: 'City Partner'
     string_18: 'Be our City Partner in the city where we have not explored'
 
-    point_1: 'Consideration on every aspect'
+    point_1: 'Consideration on Every Aspect'
     point_2: |-
       Flexible, local and global
     point_3: 'Hardware customisation'
@@ -100,27 +100,27 @@ en-US:
     point_6: 'Fast feedback'
     point_7: 'Product adjustment'
     point_8: 'Customise hardware size and function according to local conditions.'
-    point_9: 'Octopus slot'
-    point_10: 'paper money and coin slot'
-    point_11: 'credit card'
-    point_12: 'lighting strip'
-    point_13: 'More Equipment'
-    point_14: 'All optional equipment such as Octopus slot , paper money and coin slot, credit card, lighting strip can be selected to build in the machine.'
+    point_9: 'Octopus'
+    point_10: 'Cash/Coin Slot'
+    point_11: 'Credit Card'
+    point_12: 'Lighting Strip'
+    point_13: 'More'
+    point_14: 'All optional equipments such as Octopus, cash/coin slot, credit card, lighting strip can be selected to build in the machine.'
     point_15: 'Adjust according to local preference for better user experience.'
-    point_16: 'Can finish modification of hardware or software within 60days.'
-    point_17: 'Ad just product selection, conveyor and the way of product pick up according to local consumer needs.'
+    point_16: 'Can finish modification of hardware or software within 60 days.'
+    point_17: 'Adjust product types, pick-up method and others according to local consumer needs.'
 
-    view_1: 'Grow with us'
+    view_1: 'Grow With Us'
     view_2: 'Be our supplier'
     view_3: 'Machine manufacturing'
     view_4: 'Product merchandising'
     view_5: 'Optional equipment'
-    view_6: 'advertising on our platform'
-    view_7: 'advertisement'
-    view_8: 'become cooperation partner'
-    view_9: 'location recommendation'
-    view_10: 'join our franchise'
-    view_11: 'be a city partner'
+    view_6: 'Advertising on our platform'
+    view_7: 'Advertisement'
+    view_8: 'Become cooperation partner'
+    view_9: 'Recommend location'
+    view_10: 'Join our franchise'
+    view_11: 'Be a city partner'
 
   app:
     index:
@@ -129,49 +129,48 @@ en-US:
       title_3: 'Users only need to use ONE ZIMA APP to connect all the unmanned machine when handling different transaction, reducing any inconvenience caused by switching APPS and machines during consumption.'
       title_4: 'Easy transaction, effective outcome'
       title_5: 'O2O Purchase Function'
-      title_6: |-  # TODO "经营更高效，创收更简单" 一句为使用 Google
-        Showing all the ZIMA vending machine nearby,
-        helping you to find the nearest machine!Online ordering and product pre-ordering,
-        pick up product from offline vending machineGather loyalty point online, redeem offline,
-        more efficient operation and easier income generation!
-      title_7: 'more members, more sales'
-      title_8: 'Smart CRM system'
-      title_9: 'Accurate CRM with thousands of online methods will help you to continuously tap the value of single customers, turn street customers into regular customers, build customer value-added systems, increase user stickiness and increase repurchase rate!' # TODO 沒有对应英文
-      title_10: 'member value-added(stamp)'
-      title_11: 'member loyalty points'
-      title_12: 'membership system'
+      title_6: |-  # google
+        Showing all the ZIMA vending machine nearby, helping you to find the nearest machine!
+        Online ordering and product pre-ordering, pick up product from offline vending machine.
+        Gather loyalty point online, redeem offline, more efficient operation and easier income generation!
+      title_7: 'More members, more sales'
+      title_8: 'Smart CRM System'
+      title_9: 'Accurate CRM with thousands of online methods will help you to continuously tap the value of single customers, turn street customers into regular customers, build customer value-added systems, increase user stickiness and increase repurchase rate!' # google
+      title_10: 'Stamps'
+      title_11: 'Points'
+      title_12: 'Membership'
       title_13: 'Receive a stamp after a successful transaction, stamp can be redeemed for coupons.'
       title_14: 'Member shopping, consumption, joining event can collect loyalty points, for redeeming products.'
       title_15: 'Member rank, member privilege... a complete membership system can help you to retain more customers.'
       title_16: 'Effective marketing'
-      title_17: 'Near hundred ways of marketing strategy'
+      title_17: 'More ways of marketing strategy'
       title_18: 'Data collection based on consumption activities through online platform and considering every aspect from customers acquisition, repurchase, retention to referral.'
       title_19: 'Attract new customers'
-      title_20: 'More groupons, gift for referral, exclusive price for new members'
-      title_21: 'higher conversion rate, turning visitors to consumers, more transactions and sales'
-      title_22: 'limited discount limited time offer coupons....'
-      title_23: 'more sales and profits'
+      title_20: 'More coupon, gift for referral, exclusive price for new members'
+      title_21: 'Higher conversion rate, turning visitors to consumers, more transactions and sales'
+      title_22: 'Limited discount, limited-time coupons and more'
+      title_23: 'More sales and profits'
       title_24: 'Discount for higher purchase amount, discount package, free gift for target purchase amount'
-      title_25: 'higher Customer retention rate and repurchase rate, reduce customer attrition rate'
+      title_25: 'Higher customer retention rate and repurchase rate, reduce customer attrition rate'
       title_26: 'Sign-in loyalty point shopping mall membership system'
-      title_27: 'more cost saving and help increase employees’ satisfaction'
+      title_27: 'More cost saving and help increase employees'' satisfaction'
       title_28: 'Corporate welfare allowance function'
-      title_29: 'Allowing corporate to execute employee welfare/ benefit easily by adjusting the offer discount period and discount rate etc. ZIMA provides all-round services , including products, operation and services regarding to corporate purchasing.  Saving cost for employer while increasing employees’satisfaction.'
-      title_30: 'Afternoon tea'
-      title_31: 'breakfast allowance'
-      title_32: 'overtime allowance'
-      title_33: 'Night shift subsidy'
-      title_34: 'outstanding employee/team achievement'
-      title_35: 'holiday duty allowance'
+      title_29: 'Allowing corporate to execute employee welfare / benefit easily by adjusting the offer discount period and discount rate etc. ZIMA provides all-round services, including products, operation and services regarding to corporate purchasing. Saving cost for employer while increasing employees''satisfaction.'
+      title_30: 'Afternoon Tea'
+      title_31: 'Breakfast Allowance'
+      title_32: 'Overtime Allowance'
+      title_33: 'Night Shift Subsidy'
+      title_34: 'Outstanding employee / team achievement'
+      title_35: 'Holiday duty allowance'
 
   products:
     back: 'Back to Products'
 
     index:
       text_1: 'ZIMA unmanned machine'
-      text_2: 'Retail Solution design for'   # TODO 中文版此处为一句分为两行，英文版可再检查分行处是否合适
-      text_3: 'Global market business'
-      text_4: 'Hardware support for all kind of conditions+software marketingtools   +cloud operation centre= effective marketing'
+      text_2: 'Retail Solution Design For'
+      text_3: 'Global Market Business'
+      text_4: 'Hardware support for all kind of conditions + software marketing tools + cloud operation centre = effective marketing'
 
       title_1: 'Undefeatable golden triangle'
       title_2: '3 ZIMA unmanned machine solution'
@@ -182,44 +181,36 @@ en-US:
         Provide a personalised marketing scheme for global partner
       item_3: |-
         One ZIMA APP to support the usage of all kind of unmanned machine.
-        Through the connection between app and end user,
-        allowing the execution of marketing scheme such as
-        loyalty points, sharing, promotion, membership, etc.,
-        turning more new customers into regular customers.
+        Through the connection between app and end user, allowing the execution of marketing scheme such as loyalty points, sharing, promotion, membership, etc., turning more new customers into regular customers.
       item_4: 'Hardware Development'
       item_5: |-
-        Providing different kind of unmanned machine
-        depend of different business situation in the world
+        Providing different kind of unmanned machine depend of different business situation in the world
       item_6: |-
-        ZIMA focuses development in the hardware aspect, provides solution
-        for different location like office, community and hotel. Besides
-        normal vending machine, more unmanned machines will be release in
-        the future to bring convenience to people’s life and achieving higher
-        commercial profit
+        ZIMA focuses development in the hardware aspect, provides solution for different location like office, community and hotel.
+        Besides normal vending machine, more unmanned machines will be release in the future to bring convenience to people's life and achieving higher
+        commercial profit.
       item_7: 'Cloud Operation Centre'
       item_8: |-
-        Provide effective operation to global partner to help reducing cost and
-        increase performance.
+        Provide effective operation to global partner to help reducing cost and increase performance
       item_9: |-
-        Execute effective operation on each machine including product selection, operation
-        and marketing. In order to reduce unnecessary operation cost, datamation and
-        effective marketing is a must.
+        Execute effective operation on each machine including product selection, operation and marketing.
+        In order to reduce unnecessary operation cost, datamation and effective marketing is a must.
 
-      part_1: 'ZIMA solves marketing problem for partners'
+      part_1: 'ZIMA solves marketing problems for partners'
       part_2: 'dedicated to help partners to earn more income'
-      part_3: 'Sales'
+      part_3: 'Sales Increased'
       part_4: '60%'
       part_5: 'Operate 7/24'
-      part_6: 'Labour cost'
+      part_6: 'Labour cost reduced'
       part_7: '90%'
       part_8: |-
-        do not required highlabour cost.
-        do not required manpower.
+        Require less labour cost
+        Require less manpower
       part_9: 'Rate of repurchase'
-      part_10: '37%'
+      part_10: '≥ 37%'
       part_11: |-
-        strong operation backup
-        effective marketing
+        Strong operation backup
+        Effective marketing
       part_12: 'ZIMA already helped many partners to solve the problem of high costing, low repurchase rate and low profit rate.'
 
       product_1: 'Core Product'
@@ -228,22 +219,22 @@ en-US:
         ZIMA has all-round product matrix and widely used in food and beverage,
         dairy products, basic commodities, etc. All kind of machines can be
         utilized massively and suitable for different scenarios.
-      product_4: 'Knowing More'
+      product_4: 'More Details'
       product_5: 'ZIMA Pro'
-      product_6: 'New Large screen transparent showcase smart retail terminal'
-      product_7: 'New screen structure, Smart Thermostat, Transparent Showcase'  # TODO 英文和中文原意略有区别，宜再做检查
+      product_6: 'Large screen, clear showcase, smart terminal'
+      product_7: 'New screen structure, smart thermostat, transparent showcase'  # google
       product_8: 'ZIMA Slim'
       product_9: 'QR code scanning smart retail terminal'
-      product_10: 'Light and handy Easy to setup Cost-effective'
+      product_10: 'Light and handy easy to setup cost-effective'
       product_11: 'ZIMA Life'
-      product_12: 'Integrated room temperature smart retail terminal'
-      product_13: 'Full view window · Adapt to different product sizes · More SKU display' # TODO Google
+      product_12: 'Integrated room temperature, smart retail terminal'
+      product_13: 'Full view window, adapt to different product sizes, more room to display' # google
       product_14: 'ZIMA Care'
-      product_15: 'New large screen room temperature smart retail terminal'
-      product_16: 'Thin Body Light and handy High Capacity'
+      product_15: 'New large screen, room-temp, smart terminal'
+      product_16: 'Thin body light and handy high capacity'
       product_17: 'ZIMA Plus'
       product_18: 'New large screen smart retail terminal'
-      product_19: 'HD Large screen．Integrated Cooling and Thermal Insulation system, high capacity'
+      product_19: 'HD Large screen, integrated cooling and thermal insulation system, high capacity'
 
       product_link_1: '/products/zima-pro/'
       product_link_2: '/products/zima-slim/'
@@ -253,7 +244,7 @@ en-US:
 
       string_1: 'More Features'
       string_2: 'ZIMA Smart Payment System'
-      string_3: 'Accept different transaction methods'
+      string_3: 'Accept various payment methods'
       string_4: 'Electronic Payment'
       string_5: 'Card Payment'
       string_6: 'Support payment through QR code scanning / Pay in APP'
@@ -261,28 +252,22 @@ en-US:
       string_8: 'ZIMA Smart Operation Platform'
       string_9: 'Make operation more effective'
       string_10: |-
-        Monitoring, management, analysis, marketing all together, support real-
-        time monitoring, income can be reviewed at any time. Operator is able to
-        check inventory status by just one click, smart remote monitoring
-        management can help you to operate easily.
+        Monitoring, management, analysis, marketing all together, support real-time monitoring, income can be reviewed at any time.
+        Operator is able to check inventory status by just one click, smart remote monitoring management can help you to operate easily.
       string_11: '3 type of ZIMA advertisement'
       string_12: 'Generate income immediately once the machine is on'
       string_13: |-
-        Machine body, Screen display, APP
-        Receive income from 3 type of advertisement at a time
-        Targeting right audience by locating customers geographically by ZIMA APP
-        Effective for corporate and local business to advertise
+        Machine body, screen display, app receive income from 3 type of advertisement at a time.
+        Targeting right audience by locating customers geographically by ZIMA APP.
+        Effective for corporate and local business to advertise.
 
     pro:
-      text_1: '32-inch Large screen transparent showcase smart retail terminal'
+      text_1: '32-inch screen smart retail terminal'
       text_2: 'ZIMA Pro'
       text_3: |-
-        An opaque machine always makes us lack of security as we never know what is inside.
-        We can manufacture large display machine which is more suitable for advertisement.
-        We can also manufacture transparent machine which is more eye-catching and having
-        better sales.
-        But why don't we combine these two to have it visible to users and at the same time
-        having a large screen!
+        An opaque machine always makes us lack of security as we never know what is inside. We manufacture large display machine which is more suitable for advertisement.
+
+        We also manufacture transparent machine which is more eye-catching and having better sales. But why don't we combine these two to have it visible to users and at the same time having a large screen!
 
       item_1: '32-inch large screen'
       item_2: 'Smart Advertising'
@@ -293,21 +278,18 @@ en-US:
       item_7: 'Smart Operation'
       item_8: 'Real-time Data Analysis'
 
-      title_1: 'Interactive large screen, all in one solution'
-      title_2: '32-inch large screen create more advertisement value. Interactive and experimental consumption elevate sales'
-      title_3: 'Smart Temperature Control System'
-      title_4: 'Stable temperature control, temperature control up to 4°C. Easily handle the storage of fresh dairy product'
+      title_1: 'Interactive screen, all-in-one solution'
+      title_2: '32-inch large screen create more advertisement value. Interactive and experimental consumption elevate sales.'
+      title_3: 'Smart temperature control system'
+      title_4: 'Stable temperature control, temperature control up to 4°C. Easily handle the storage of fresh dairy products.'
       title_5: 'Product visible, higher sales volume'
       title_6: |-
-        Transparent showcase + large screen.
-        Visible product, higher conversion rate
-      title_7: 'Fresh dairy product, great demand and big market'
+        Transparent showcase + large screen. Visible product, higher conversion rate.
+      title_7: 'Fresh high-demand dairy products'
       title_8: |-
-        ZIMA Pro is the best choice for selling fresh milk or dairy product.
-        Community, school and dormitories are the ideal location for setting up ZIMA machine,
-        customer flow is concentrated and the market is huge.
+        ZIMA Pro is the best choice for selling fresh milk or dairy product. Community, school and dormitories are the ideal location for setting up ZIMA machine, customer flow is concentrated and the market is huge.
 
-      spec_1: 'Machine Measurement'
+      spec_1: 'Specifications'
       spec_2: 'Dimension'
       spec_3: '1950 * 867 * 889 mm'
       spec_4: 'Operation'
@@ -315,28 +297,27 @@ en-US:
       spec_6: 'Area'
       spec_7: '6ft²'
       spec_8: 'Payment Method'
-      spec_9: 'in-app payment, code screening electronic payment, octopus, credit card'
+      spec_9: 'In-app payment, electronic payment, octopus, credit card'
       spec_10: 'Maximum Product Type'
       spec_11: '30-34 type'
       spec_12: 'Maximum Capacity'
       spec_13: '600-700+'
-      spec_14: 'Exclusive Equipment:'
-      spec_15: 'built-in drop sensor'      # TODO 文档为 Built-in (Built 首字母大写），我改为 built-in
+      spec_14: 'Exclusive Equipment'
+      spec_15: 'Built-in drop sensor'
       spec_16: 'Temperature Monitoring'
       spec_17: '4-20°C'
       spec_18: 'Special Design'
-      spec_19: 'Double display, conveyor design, customise size of different product'
+      spec_19: '2-way display, conveyor design, customise size of different product'
 
     slim:
       text_1: 'QR code scanning smart retail terminal'
       text_2: 'ZIMA Slim'
       text_3: |-
-        The time to reach the breakeven point is the most important part of a
-        business.
-        Eliminate the display and big machine body, saving energy results in cost
-        saving.
-        Operate a low-cost and high-margin business is the fastest way to achieve
-        breakeven point.
+        The time to reach the breakeven point is the most important part of a business.
+
+        Eliminate the display and big machine body, saving energy results in cost saving.
+
+        Operate a low-cost and high-margin business is the fastest way to achieve breakeven point.
 
       item_1: 'Faster Rate of Turnover'
       item_2: 'Selling one product in every 5 second'
@@ -347,20 +328,25 @@ en-US:
       item_7: '24-hour Service'
       item_8: 'Do not require manpower to operate'
 
-      step_1: '3 Steps and purchase in 5 seconds'
-      step_2: 'Got the product by just 1 click'
-      step_3: 'QR code scanning by phone'
-      step_4: 'Shopping'
-      step_5: 'Check'
+      step_1: '3 steps to purchase in 5 seconds'
+      step_2: 'Got the product by just one click'
+      step_3: 'Scan QR code'
+      step_4: 'Choose Product'
+      step_5: 'Pay'
 
       title_1: 'Small size with high capacity'
       title_2: 'High flexibility to set up'
-      title_3: 'ZIMA Slim automatic vending machine with no screen makes it much lighter and handy. Achieving cost-effective and high efficiency. ZIMA Slim also stores more products than other ZIMA members.'
+      title_3: |-
+        ZIMA Slim automatic vending machine with no screen makes it much lighter and handy.
+        Achieving cost-effective and high efficiency. ZIMA Slim also stores more products than other ZIMA machines.
       title_4: 'Create for office use'
-      title_5: 'Operating profit is more substantial' # TODO Google
-      title_6: 'ZIMA Slim is not restricted by customer flow. It can be the welfare machine of a company. To serve afternoon tea or over time working allowance. It can also be extensively set up in every office respectively for selling snacks and coffee, no rental fee and electricity fee.'
+      title_5: 'Operating profit is more substantial' # google
+      title_6: |-
+        ZIMA Slim is not restricted by customer flow. It can be the welfare machine of a company.
+        To serve afternoon tea or over time working allowance.
+        It can also be extensively set up in every office respectively for selling snacks and coffee with less rental fee and electricity fee.
 
-      spec_1: 'Machine Measurement'
+      spec_1: 'Specifications'
       spec_2: 'Dimension'
       spec_3: '235 * 830 * 2008 mm'
       spec_4: 'Operation'
@@ -368,20 +354,20 @@ en-US:
       spec_6: 'Area'
       spec_7: '4ft²'
       spec_8: 'Payment Method'
-      spec_9: 'in-app payment, code screening electronic payment'
+      spec_9: 'In-app payment, electronic payment'
       spec_10: 'Maximum Product Type'
       spec_11: '30-34 type'
       spec_12: 'Maximum Capacity'
       spec_13: '40-50+'
       spec_14: 'Exclusive Equipment'
-      spec_15: 'built-in drop sensor'  # TODO 文档为 Built-in (Built 首字母大写），我改为 built-in
+      spec_15: 'Built-in drop sensor'
       spec_16: 'Temperature Monitoring'
       spec_17: '4-20°C'
       spec_18: 'Special Design'
-      spec_19: 'Lightweight and slim design to match the indoor environment' # TODO Google
+      spec_19: 'Lightweight and slim design to match the indoor environment' # google
 
     life:
-      text_1: 'Integrated Room Temperature Retail Terminal'
+      text_1: 'Integrated room temperature retail terminal'
       text_2: 'ZIMA Life'
       text_3: |-
         There is always a product that needs to be stored in room
@@ -397,59 +383,57 @@ en-US:
       item_8: 'Real-time data analysis'
 
       step_1: 'Back to Basic'
-      step_2: 'Code screening/used in app'
+      step_2: 'QR Code'
       step_3: |-
-        Direct purchase through QR code screening
-        Convenient and User-friendly interface
-        in-app purchase
-        Increase customers’ tendency
+        Direct purchase by scanning QR code
+        Convenient and user-friendly interface
+        In-app purchase
+        Increase customers' tendency
 
       title_1: 'Room Temperature Operation'
       title_2: 'ZIMA Life cancel the use of compressor, low electricity cost, room temperature operation mode, more suitable for selling non-refrigerated product'
-      title_3: 'emergency goods / snacks / basic commodities'
+      title_3: 'Emergency products / Snacks / Basic commodities'
       title_4: 'Flexible Product Storage'
       title_5: 'Adapt to different product size'
       title_6: 'Better product display, separated by grid, more product type selection'
-      title_7: 'Satisfying High Demand With Low Frequency Location'
-      title_8: 'Community, Hotel, Apartment: living commodities'
-      title_9: 'Tourist Attractions, Villa: travel necessities'
-      title_10: 'Terminal, Construction site: meals'
-      title_11: 'Shopping centre, Unused area of shop：24-hour product replenishment'
+      title_7: 'Satisfying High Demand With Low-Traffic Location'
+      title_8: 'Communities, Hotels, Apartments: Living commodities'
+      title_9: 'Tourist Attractions, Villas: Travel necessities'
+      title_10: 'Terminals, Construction Sites: Meals'
+      title_11: 'Shopping centres, shops: 24-hour product replenishment'
 
-      spec_1: 'Machine Measurement'
+      spec_1: 'Specifications'
       spec_2: 'Dimension'
       spec_3: '1950 * 1000 * 320 mm'
       spec_4: 'Operation'
-      spec_5: 'touchscreen, in-app purchase'
+      spec_5: 'Touch screen, in-app purchase'
       spec_6: 'Area'
       spec_7: '3ft²'
       spec_8: 'Payment Method'
-      spec_9: 'in-app payment, code screening electronic payment'
+      spec_9: 'In-app payment, electronic payment'
       spec_10: 'Maximum Product Type'
       spec_11: '50-74 type'
       spec_12: 'Maximum Capacity'
       spec_13: '50-70+'
       spec_14: 'Maximum Capacity'
-      spec_15: 'built-in drop sensor' # TODO built 我改为小写字母开头
+      spec_15: 'Built-in drop sensor'
       spec_16: 'Special Design'
-      spec_17: 'transparent glass showcase, can display product closely'
+      spec_17: 'Transparent glass showcase, can display product closely'
 
     care:
       text_1: 'New Large Screen Smart Retail Terminal'
       text_2: 'ZIMA Care'
       text_3: |-
-        A rule from retail industry - “If you understand women, u could understand the
-        world”. Selling emergency commodities in the category of living necessities, such
-        as the product we always need at the embarrass moment, napkin, or tissue that we
-        need in our daily life. By satisfying women’s emergency needs and daily needs, we
-        are able to give caring and thoughtfulness to all the women.
+        A rule from retail industry - "If you understand women, you could understand the world".
+        Selling emergency commodities in the category of living necessities, such as the product we always need at the embarrass moment, napkin, or tissue that we need in our daily life.
+        By satisfying women's emergency needs and daily needs, we are able to give caring and thoughtfulness to all the women.
 
       item_1: 'Light and Handy'
       item_2: 'Easy to Setup'
       item_3: 'HD Large screen'
-      item_4: 'Create more advertisement value'
+      item_4: 'Create more value'
       item_5: '24-hour service'
-      item_6: 'Save labor costs' # TODO Google
+      item_6: 'Less labor costs'
       item_7: 'Smart operation'
       item_8: 'Real-time data analysis'
 
@@ -467,101 +451,100 @@ en-US:
       step_2: 'Solving special emergency need'
       step_3: |-
         When you are on your period and have sudden needs?
-        Couldn’t find a store nearby? have to buy the whole pack?
+        Couldn't find a store nearby? have to buy the whole pack?
         ZIMA care, let the existence of napkin in washroom become as common as toilet paper.
-      step_4: 'Purchase the amount needed'
-      step_5: 'Purchase Single individual package/the whole box'
+      step_4: 'Buy on demand'
+      step_5: 'Purchase single individual package / the whole box'
       step_6: 'Purchase in one spot'
       step_7: 'Both tissue and wet wipes are available'
-      step_8: 'Complementary product supply'
-      step_9: 'Provide complementary products, less troublesome'
+      step_8: 'Better supplies'
+      step_9: 'Provide complementary products'
 
       part_1: 'Essential for public facilities'
       part_2: '"Woman Emergency Need" services'
-      part_3: 'Usage scenarios: ' # TODO Google
-      part_4: 'Shopping malls / high-speed rails / airports / schools / tourist scenic spots / public toilets and other public places' # TODO Google
+      part_3: 'Usage scenarios:'
+      part_4: |-
+        Shopping malls / high-speed rails / airports / schools /
+        tourist scenic spots / public toilets and other public places
 
-      spec_1: 'Machine Measurement'
+      spec_1: 'Specifications'
       spec_2: 'Dimension'
       spec_3: '1950 * 867 * 889 mm'
       spec_4: 'Operation'
-      spec_5: 'touchscreen, in-app purchase'
+      spec_5: 'Touch screen, in-app purchase'
       spec_6: 'Area'
       spec_7: '6ft²'
       spec_8: 'Payment Method'
-      spec_9: 'in-app payment, code screening electronic payment, octopus, credit card'
+      spec_9: 'In-app payment, electronic payment, Octopus, credit card'
       spec_10: 'Maximum Product Type'
       spec_11: '40-48 type'
       spec_12: 'Maximum Capacity'
       spec_13: '60-80+'
       spec_14: 'Exclusive Equipment'
-      spec_15: 'built-in drop sensor'
+      spec_15: 'Built-in drop sensor'
       spec_16: 'Temperature Monitoring'
-      spec_17: 'room temperature'
+      spec_17: 'Room temperature'
       spec_18: 'Special Design'
-      spec_19: 'double display, customise size of different product'
+      spec_19: '2-way display, customise size of different product'
 
     plus:
       text_1: '43-inch large screen smart retail terminal'
       text_2: 'ZIMA Plus'
-      text_3: |- # TODO Google
-        Large screen, equipped with more marketing components, combined with terminal sales, can attract consumers more
-        Event marketing, advertising revenue, brand association
-        The reason for choosing the big screen ZIMA Plus lies in: the investment is not only for the sale of goods
+      text_3: |- # google
+        Large screen, equipped with more marketing components, combined with terminal sales, can attract more consumers.
+        Event marketing, advertising revenue, brand association.
+        The reason for choosing the big screen ZIMA Plus lies in: the investment is not only for the sale of goods.
 
       item_1: '43-inch large screen'
-      item_2: 'Greater advertisement value'
-      item_3: 'Integrated refrigeration and room temperature control system'  # TODO 太長了，效果不好，宜修正
+      item_2: 'Greater ads value'
+      item_3: 'Temperature control'
       item_4: 'Faster finishing speed for meals'
       item_5: 'High Capacity'
       item_6: 'Reduce delivery cost'
       item_7: 'Smart Operation'
-      item_8: 'real-time data analysis'
+      item_8: 'Real-time data analysis'
 
       step_1: 'Large Screen Interaction'
       step_2: |-
         32-inch large screen, create more advertisement value
         Interactional experimental consumption, boost sales
-      step_3: 'Room temperature + refrigeration'
-      step_4: 'Handle the problem of high frequency in serving meals'
+      step_3: 'Temperature Control'
+      step_4: 'Handle high frequency in serving meals'
       step_5: |-
-        Room temperature operation, suitable for non-refrigerated product.
-        Cooling mode available, good for freshness retain.
-        Room temperature+refrigeration, serve meal and drinks at a time,
-        serving breakfast for working force,
-        create profit from selling variable products
+        Room temperature operation, suitable for non-refrigerated product. Cooling mode available, good for freshness retain.
+        Room temperature + refrigeration, serve meal and drinks at a time, serving breakfast for working force, create profit from selling variable products.
       step_6: drinks · dairy products · pastry · instant food
 
-      title_1: 'More space for stocking, higher capacity'
-      title_2: 'Saleable goods more' # TODO Google
-      title_3: 'Inventory can up to 600-700+, storing more products for one time delivery, saving delivery cost.'
-      title_4: 'Where people flow, you can make money'   # TODO Google
+      title_1: 'Higher capacity'
+      title_2: 'More products to selll'
+      title_3: 'Inventory up to 600-700+, storing more products for one time delivery, saving delivery cost.'
+      title_4: 'Like a convenience store'
       title_5: 'Make ZIMA Plus a convenience store'
       title_6: 'Integrated retail of breakfast, drinks and snacks that suitable for office, dormitories, bus terminal or canteen, etc.'
 
-      spec_1: 'Machine Measurement'
+      spec_1: 'Specifications'
       spec_2: 'Dimension'
       spec_3: '1950 * 867 * 889 mm'
       spec_4: 'Operation'
-      spec_5: 'touchscreen, in-app purchase'
+      spec_5: 'Touch screen, in-app purchase'
       spec_6: 'Area'
       spec_7: '6ft²'
       spec_8: 'Payment Method'
-      spec_9: 'in-app payment, code screening electronic payment, octopus, credit card'
+      spec_9: 'In-app payment, electronic payment, octopus, credit card'
       spec_10: 'Maximum Product Type'
       spec_11: '40-48 type'
       spec_12: 'Maximum Capacity'
       spec_13: '600-700+'
-      spec_14: 'Exclusive Equipment:'
-      spec_15: 'built-in drop sensor'
+      spec_14: 'Exclusive Equipment'
+      spec_15: 'Built-in drop sensor'
       spec_16: 'Temperature Monitoring'
       spec_17: '4-20°C'
       spec_18: 'Special Design'
-      spec_19: 'Double display, conveyor design, customise size of different product'
+      spec_19: '2-way display, conveyor design, customise size of different product'
 
   contact_us:
     title_1: 'Business Cooperation'
-    title_2: |-  # TODO Google
+    title_2: |-  # google
       Efficient operation is low cost
       Saving money faster is really saving money
 
@@ -571,83 +554,83 @@ en-US:
     items:
       - name: 'I have vending machine'
         items:
-          - name: 'connect to ZIMA APP'
-            title: 'connect to ZIMA APP'
-            desc: 'Connect ZIMA APP to existing vending machines' # TODO Google
-            badge: 'Benefit Analysis' # TODO Google
-            list: |- # TODO Google
+          - name: 'Connect to ZIMA APP'
+            title: 'Connect to ZIMA APP'
+            desc: 'Connect ZIMA APP to existing vending machines' # google
+            badge: 'Benefit Analysis' # google
+            list: |- # google
               Increase online APP sales channels for vending machine products
               Realize more marketing methods such as user management, coupon promotion, and points
-          - name: 'ZIMA operates for you'
-            title: 'ZIMA operates for you'
-            desc: 'Purchasing, product selection, customer service, warehousing, distribution, shelves, marketing, we will solve it for you in one stop, you just throw your hand as the shopkeeper' # TODO Google
+          - name: 'ZIMA Operates For You'
+            title: 'ZIMA Operates For You'
+            desc: 'Purchasing, product selection, customer service, warehousing, distribution, shelves, marketing, we will solve it for you in one stop, you just throw your hand as the shopkeeper' # google
             badge: 'Benefit Analysis'
-            list: |- # TODO Google
+            list: |- # google
               Enjoy more professional operation service, save operation cost and trouble
               Refined operation and realization of more marketing activities
               In addition to the daily rent and electricity expenses, you only need to pay a commission for the sale of a small amount of goods
           - name: 'Machine Upgrade'
             title: 'Machine Upgrade'
-            desc: 'Having exclusive management rights and enjoy regional protection policies; manage all local stand-alone franchisees and get huge profits' # TODO Google, 我把开头的 Have 改为 Having
+            desc: 'Having exclusive management rights and enjoy regional protection policies; manage all local stand-alone franchisees and get huge profits' # google
             badge: 'Benefit Analysis'
-            list: |- # TODO 上面一句使用 Google
+            list: |- # google
               One-click accurate acquisition of goods invoicing, inventory and storage, reduce unnecessary distribution, and facilitate management
               All unmanned machines can connect to our APP, utilise our marketing tools to boost sales
       - name: 'I do not have vending machine'
         items:
           - name: 'Brand Cooperation'
             title: 'Brand Cooperation'
-            desc: 'Help local brands customize machines and operate on behalf of them' # TODO Google
+            desc: 'Help local brands customize machines and operate on behalf of them' # google
             badge: 'Benefit Analysis'
-            list: |- # TODO Google
+            list: |- # google
               Simple machine hardware investment, you can enjoy more efficient terminal sales support
               No need to pay the shelf fees for supermarkets and shopping malls, lower investment
-          - name: 'Machine investment'
-            title: 'Machine investment'
-            desc: 'When an operation center has been established locally, join a single machine to obtain the dividend rights; no operation is required, and you will be responsible for profit and loss'  # TODO Google
+          - name: 'Machine Investment'
+            title: 'Machine Investment'
+            desc: 'When an operation center has been established locally, join a single machine to obtain the dividend rights; no operation is required, and you will be responsible for profit and loss'  # google
             badge: 'Benefit Analysis'
-            list: |- # TODO Google
+            list: |- # google
               Enjoy the dividend paid by the partnership company in a certain share of the profit
               Machine screen and body advertising revenue
               You only need to bear the stand-alone joining fee, distribution fee and software management fee
           - name: 'City Exclusive Agent'
             title: 'City Exclusive Agent'
-            desc: 'When an operation center has been established locally, join a single machine to obtain the dividend rights; no operation is required, and you will be responsible for profit and loss' # TODO Google
+            desc: 'When an operation center has been established locally, join a single machine to obtain the dividend rights; no operation is required, and you will be responsible for profit and loss' # google
             badge: 'Benefit Analysis'
-            list: |- # TODO Google
+            list: |- # google
               Management area + stand-alone operation, diversified profits
               Enjoy the original company's sales and advertising revenue
               Possess a priority quota for buying company shares
               Operating self-financing
           - name: 'City Partner'
             title: 'City Partner'
-            desc: 'Each model needs to purchase at least 5 or more to support operation; self-built warehouse, responsible for procurement, warehousing, distribution, venues, etc .; we are responsible for customer service, product selection, data collation, and advertising to help find' # TODO 无对应英文
+            desc: 'Each model needs to purchase at least 5 or more to support operation; self-built warehouse, responsible for procurement, warehousing, distribution, venues, etc .; we are responsible for customer service, product selection, data collation, and advertising to help find' # google
             badge: 'Benefit Analysis'
-            list: |- # TODO Google
+            list: |- # google
               Enjoy lower discounts to get the machine, remote service
               Enjoy revenue from body advertising and screen advertising
-          - name: 'Purchase Machine' # TODO Google
+          - name: 'Purchase Machine' # google
             title: 'Purchase Machine'
-            desc: 'Purchase machine, with background system and order interface, need to purchase additional accessories; support APP order, but divided into the same as docking APP, we will provide remote activity push' # TODO Google
+            desc: 'Purchase machine, with background system and order interface, need to purchase additional accessories; support APP order, but divided into the same as docking APP, we will provide remote activity push' # google
             badge: 'Benefit Analysis'
-            list: |- # TODO Google
+            list: |- # google
               No experience, no technology, strong background system support, remote activity push
           - name: 'Machine Customisation and Production'
             title: 'Machine Customisation and Production'
-            desc: 'The hardware size and function can be customized according to different needs (such as modifying the goods lane, shipping method, payment method)，Can finish modification of hardware or software within 60days.' # TODO 前面一句为 Google
+            desc: 'The hardware size and function can be customized according to different needs (such as modifying the goods lane, shipping method, payment method)，Can finish modification of hardware or software within 60 days.' # google
             badge: 'Benefit Analysis'
             list: |-
               Hardware customisation, Optional Equipment, Consideration on Every Aspect
-          - name: 'Location Recommendation'
-            title: 'Location Recommendation'
+          - name: 'Recommned Location'
+            title: 'Recommned Location'
             desc: 'Help us to find the suitable location for setting machine and gain bonus'
             badge: 'Benefit Analysis'
-            list: |- # TODO Google
+            list: |- # google
               Referral fee reward
               Priority to join the venue
 
     part_1: 'ZIMA 10 cooperation rights'
-    part_2: 'Committed to making partners more profitable' # TODO Google
+    part_2: 'Committed to making partners more profitable' # google
     parts:
       - badge: 'APP Support'
         secondary: 'Smart APP connection'
@@ -657,7 +640,7 @@ en-US:
         secondary: 'Cloud advertisement platform'
         primary: 'Start to earn money once the machine is on'
         text: 'Machine body, screen display, APP Targeting the right audience by locating them through ZIMA APP for effective advertising'
-      - badge: 'Payment system support'
+      - badge: 'Payment System Support'
         secondary: 'Different payment method set up'
         primary: 'Handle different kind of transaction easily'
         text: 'Payment is a must in business. ZIMA covers all the main stream payment methods. Establish the most easy and fastest payment'
@@ -665,17 +648,14 @@ en-US:
     points:
       - title: 'Retail Profit'
         desc: |-
-          Earn the high margin of
-          retail profit
+          Earn the high margin of retail profit
       - title: 'Membership Benefit'
         desc: 'Consumers become ZIMA members to enjoy more discount or promotion'
       - title: 'Machine Upgrade'
         desc: 'Upgrade machine function, parts and module installation'
       - title: 'Product Supply'
         desc: |-
-          Partners get the profit from
-          the price differences of ZIMA
-          retail price and ZIMA Supply
+          Partners get the profit from the price differences of ZIMA retail price and ZIMA Supply
       - title: 'Hardware Support'
         desc: 'Customize hardware dimension, function, multi-model type support'
       - title: 'Marketing Event'
@@ -683,144 +663,141 @@ en-US:
       - title: 'After-sale Service'
         desc: '7/24 online customer service, 1 to 1after-sale service, report problem at any time'
 
-    form: # TODO 整个表单都是 Google
-      country: 'Please fill in the country'
-      city: 'Please fill in the city'
+    form:
+      country: 'Your Country'
+      city: 'Your City'
       type: 'Please select a cooperation method'
       types:
-        - 'Commodity supplier'
+        - 'Commodity Supplier'
         - 'Machinery Manufacturing Supplier'
-        - 'Venue recommender'
+        - 'Venue Recommender'
         - 'Advertisers'
-        - 'Machine upgrade demand side'
-        - 'Acting demand side'
-        - 'Machine customization demand side'
+        - 'Machine Upgrade'
+        - 'Operating Agency'
+        - 'Machine Customization'
         - 'Agent'
-      name: 'How to call you?'
-      phone: 'Please fill in the contact number'
-      email: 'Please fill in the email address'
-      content: 'leave a message'
-      title: |- # TODO Google
+      name: 'Your Name'
+      phone: 'Phone Number'
+      email: 'E-mail Address'
+      content: 'Leave a message'
+      title: |-
         Leave information
         Get more information
-      submit: 'submit'
-      submitted: 'Submit successfully，we will reply you as soon as possible.' # TODO Google
-      submitting: 'Submitting⋯'
-      required: 'Please provide the required information' # TODO Google
-      unknown: 'unknown error' # TODO Google
+      submit: 'Submit'
+      submitted: 'Submit successfully，we will reply you as soon as possible.'
+      submitting: 'Submitting...'
+      required: 'Please provide the required information'
+      unknown: 'Unknown error'
 
   partners:
-    main: 'ZIMA Global Partner Scheme'
+    main: 'ZIMA Global Partners'
 
     items:
       - q: 'What are the difficulties when Chinese do business in overseas?'
         a:
           - 'Language barrier'
           - 'High investment cost in the beginning stage'
-          - 'high rental cost, labour cost and operation cost'
+          - 'High rental cost, labour cost and operation cost'
           - 'Saturated market'
-          - 'Need professional skills' # TODO 自己翻译的，看看是否准确
+          - 'Need professional skills'
           - 'Spend too much time, no time for family'
           - 'Lacking resources and social network'
       - q: 'What kind of business can avoid all these problems?'
         t: 'ZIMA automatic vending machine business startup project'
         a:
-          - 'Unmanned operation ———— English language ability is unnecessary'
-          - 'Low start-up cost ———— can start-up from 10000 dollar'
-          - 'No daily operation cost ———— 1-man start-up, office is unnecessary'
-          - 'New management model ———— expand Blue Ocean Market'
-          - 'Everyone can do it ———— do not require any professional skills'
-          - 'Flexible ———— part time or housewife can also handle'
-          - 'Remote advertisement input support ———— require less local resources'
+          - 'Unmanned operation: English language ability is unnecessary'
+          - 'Low start-up cost: can start-up from 10000 dollar'
+          - 'No daily operation cost: 1-man start-up, office is unnecessary'
+          - 'New management model: expand Blue Ocean Market'
+          - 'Everyone can do it: do not require any professional skills'
+          - 'Flexible: part time or housewife can also handle'
+          - 'Remote advertisement input support: require less local resources'
 
     title_1: 'The most complete product matrix'
-    title_2: 'not a vending machine just to sell drinks'
+    title_2: 'not only a vending machine just to sell drinks'
     title_3: |-
       Over 6 type of machine, adapt to more than 9 conditions, can find
       unsaturated market in every countries and cities. Each series of machine
-      can be massively set up. Matching the right model type to different
+      can be massively set up. Matching the right model type to different.
     titles:
-      - p: 'Champion of cost recovery' # TODO Google
-        s: 'ZIMA Slim'
-        t: |- # TODO Google
+      - p: 'ZIMA Slim'
+        s: ''
+        t: |- # google
           Ultra low cost vending machine without screen
           Use APP to pay in closed scenarios where high frequency is just needed
-        h: 'Certainly profitable scenario' # TODO Google
-        d: |- # TODO Google
+        h: 'Profitable Scenario' # google
+        d: |- # google
           Drink snacks in the office
           Apartment downstairs sells daily necessities and meals
-      - p: 'Profit Expert' # TODO Google
-        s: 'ZIMA Pro'
-        t: |- # TODO “且可做” 是否不太正確？
+      - p: 'ZIMA Pro'
+        s: ''
+        t: |- # google
           New structured screen + perspective vending machine
           More space-saving, more eye-catching, more inventory, and can be done
-        h: 'Common scenes' # TODO Google
-        d: |- # TODO Google
+        h: 'Common Scenes' # google
+        d: |- # google
           Public places, transportation hubs and many other occasions
           Office downstairs selling meals, snacks
-      - p: 'Stealth Champion' # TODO Google
-        s: 'ZIMA Life'
-        t: |- # TODO Google
+      - p: 'ZIMA Life' # google
+        s: ''
+        t: |- # google
           Ultra-low cost, ultra-low electricity bill, worry-free operation, and quick return to cost
           Adapt to most different specifications
-        h: 'High demand with low frequency location'
+        h: 'High demand with low traffic location'
         d: |-
           Community, hotel, apartment: living commodities
           Tourist Attractions, Villa: travel necessities
           Terminal, construction site:  meals
-    title_4: 'More hidden models, further contact for information' # TODO Google
-    title_5: 'Contact now' # TODO Google
+    title_4: 'Contact us for more models'
+    title_5: 'Contact Us'
 
-    part_1: 'Smart APP connects everything' # TODO Google
+    part_1: 'Smart APP connects everything' # google
     parts:
       - t: 'Unmanned Machine'
         d: |-
           One ZIMA APP to support the usage of all kind of unmanned machine.
           Through the connection between app and end user, allowing the execution of
           marketing scheme such as loyalty points, sharing, promotion, membership, etc.
-      - t: 'Perfect marketing system' # TODO Google
+      - t: 'Perfect marketing system' # google
         d: |-
           Points, coupons, recharge, printing are all available to change
           the vending machine business from street customers to regular customers
-      - t: 'Comprehensive payment plan' # TODO Google
-        d: |- # TODO Google
+      - t: 'Comprehensive payment plan' # google
+        d: |- # google
           Credit Card, Apple Pay, Google Pay, Alipay, WechatPay and
           more local bank or machine credit card accessories can be customized
       - t: 'Corporate Allowance'
-        d: |- # TODO Google
+        d: |- # google
           Help companies to pay benefits more conveniently
-          "Breakfast subsidy", "Overtime subsidy" and "Sales champion welfare" can be issued according to time, number of people and subsidy amount
-    part_2: 'More hidden models, further contact for information' # TODO Google
-    part_3: 'Contact now' # TODO Google
+          "Breakfast subsidy", "Overtime subsidy" and "Sales champion welfare"
+          can be issued according to time, number of people and subsidy amount
+    part_2: 'Contact us for more models' # google
+    part_3: 'Contact Us' # google
 
-    string_1: 'Strong remote assistance from headquarters' # TODO Google
-    string_2: 'The secret that one person can manage' # TODO Google
-    string_3: 'You can think of the easiest way to do business without daily costs' # TODO Google
+    string_1: 'Remote assistance from headquarters' # google
+    string_2: 'The secret that one person can manage' # google
+    string_3: 'You can think of the easiest way to do business without daily costs' # google
     strings:
       - t: 'Location'
-        d: |- # TODO Google
-          Unique location selection computer system, and often adjusted
-          according to actual operation. Ensure that each site has the best
-          rent, distribution, and electricity bills as soon as possible.
+        d: |- # google
+          Unique location selection computer system, and often adjusted according to actual operation.
+
+          Ensure that each site has the best rent, distribution, and electricity bills as soon as possible.
       - t: 'Operation'
-        d: |- # TODO Google
-          The most troublesome and trivial machine selection,
-          customer service, invoicing, data statistics help.
+        d: |- # google
+          The most troublesome and trivial machine selection, customer service, invoicing, data statistics help.
+
           Allows you to focus on more important things.
       - t: 'Advertising'
-        d: |- # TODO Google
-          Help local operators to vote for site-recommended advertisements,
-          find the core characters of each venue, and expand points without
-          local resources and contacts
-      - t: 'Further Cooperation' # TODO Google
-        d: |- # TODO Google
-          Don’t worry about insufficient funds, we will provide investment
-          support with the best operating agents, fund the headquarters,
-          set up a local branch to help you expand your business
+        d: |- # google
+          Help local operators to vote for site-recommended advertisements, find the core characters of each venue, and expand points without local resources and contacts.
+      - t: 'Further Cooperation' # google
+        d: |- # google
+          Don't worry about insufficient funds, we will provide investment support with the best operating agents, fund the headquarters, set up a local branch to help you expand your business
 
     text_1: 'Cooperation Type'
-    text_2: 'Trial operation discount package' # TODO Google
-    text_3: |- # TODO Google
+    text_2: 'Trial operation discount package' # google
+    text_3: |- # google
       1. One container, four machines, three of each, exported at the same time, ready to use.
       （It contains multiple sets of accessories, no maintenance, simple replacement）
 
@@ -839,20 +816,19 @@ en-US:
   footer:
     app: 'Download ZIMA App'
     nav_app:
-      nav_1: 'O2O Purchase Function'
+      nav_1: 'O2O Functions'
       nav_2: 'Smart CRM system'
-      nav_3: 'Ways of marketing strategy'
-      nav_4: 'Welfare Allowance Function'
+      nav_3: 'Marketing strategy'
+      nav_4: 'Functions'
     nav_partners:
       nav_1: 'Product Matrix'
       nav_2: 'Smart APP'
-      nav_3: 'Headquarters strong assistance' # TODO Google
+      nav_3: 'Assistance'
     nav_contact:
-      nav_1: 'Cooperation Type'
-      nav_2: 'cooperation Rights'
+      nav_1: 'Cooperation Types'
+      nav_2: 'Cooperation Rights'
     contact: 'Contact Us'
     contact_content: |-
       Tel: (+852) 39979042
       E-mail: hello@zimatech.com.hk
-      Address: Room E2, Floor13, Hoi Bun Industrial Building, No.6 Wing Yip
-      street, Kwun Tong
+      Address: Flat E2, 13/F, Hoi Bun Industrial Building, 6 Wing Yip Street, KWUN TONG, KOWLOON

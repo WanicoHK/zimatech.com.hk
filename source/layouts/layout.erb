@@ -115,7 +115,11 @@
     </div>
     <div class="footer-contact">
       <div class="footer-title"><%= link_to t(:'footer.contact'), '/contact-us/', anchor: 'now' %></div>
-      <div class="footer-content"><%= t(:'footer.contact_content') %></div>
+      <div class="footer-content">
+        <% t(:'footer.contact_content').lines.each do |line| %>
+          <p><%= line.strip %></p>
+        <% end %>
+      </div>
       <div class="footer-copy">Copyright &copy; 2020 萬城合一科技有限公司 (Wanico Technology Company Limited)</div>
     </div>
   </div>
