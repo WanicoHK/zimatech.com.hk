@@ -37,10 +37,16 @@ en-US:
     text_9: 'ZIMA Life'
     text_10: |-
       There is always a product that needs to be stored in room temperature, such as bread and basic commodities.
+    text_11: 'ZIMA Care'
+    text_12: |-
+      A rule from retail industry - "If you understand women, you could understand the world".
+      Selling emergency commodities in the category of living necessities, such as the product we always need at the embarrass moment, napkin, or tissue that we need in our daily life.
+      By satisfying women's emergency needs and daily needs, we are able to give caring and thoughtfulness to all the women.
     text_link_1: '/products/zima-slim/'
     text_link_2: '/products/zima-pro/'
     text_link_3: '/products/zima-plus/'
     text_link_4: '/products/zima-life/'
+    text_link_5: '/products/zima-care/'
 
     item_1: 'Smart Connect' #
     item_2: |-

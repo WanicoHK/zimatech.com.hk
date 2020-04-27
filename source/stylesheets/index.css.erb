@@ -188,7 +188,12 @@ label.index-bg-2-thumb {
   background-image: url(<%= image_path('index/product-life.png') %>);
 }
 
-<% (1..4).each do |i| %>
+.index-bg-2-image-5,
+.index-bg-2-thumb-5 {
+  background-image: url(<%= image_path('index/product-care.png') %>);
+}
+
+<% (1..5).each do |i| %>
   #index-bg-2-<%= i %>:checked ~ .index-bg-2-thumb-<%= i %>:after {
     display: block;
   }
@@ -207,7 +212,7 @@ label.index-bg-2-thumb {
 
 <% end %>
 
-.index-bg-2-thumb-5 {
+.index-bg-2-thumb-x {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -217,7 +222,7 @@ label.index-bg-2-thumb {
   box-sizing: border-box;
 }
 
-.index-bg-2-thumb-5:before {
+.index-bg-2-thumb-x:before {
   content: '';
   display: block;
   width: 40px;
@@ -961,7 +966,7 @@ input[name="index-bg-6"] {
     font-size: 10px;
   }
 
-  .index-bg-2-thumb-5 {
+  .index-bg-2-thumb-x {
     display: none;
   }
 
