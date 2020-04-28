@@ -6,7 +6,7 @@ zh-CN:
     app: 'App 简介'
     partners: '全球合伙人'
     contact_us: '合作联系'
-    languages: '其他语言'
+    languages: 'Languages'
 
   index:
     more: '更多信息'
@@ -31,11 +31,14 @@ zh-CN:
     text_9: 'ZIMA Life'
     text_10: |-
       我们总寻找大人流高流转的场景，却忽略了某些时候的偶然需求。足够低的机器成本与足够低的电费，让盈亏平衡点更容易摸到。可灵活调节的格子大小，能适应所有的商品，并且同时售卖超过80种商品。
-
+    text_11: 'ZIMA Care'
+    text_12: |-
+      做零售行业的人都知道：“得女性，得天下”，做必需品中的急需品，无论是尴尬时刻的卫生巾还是日常的纸巾，在被需要时刻总能提供贴心呵护，既抓住了女性又是即时刚需，这样的生意当然会长盛不衰！
     text_link_1: '/products/zima-slim/'
     text_link_2: '/products/zima-pro/'
     text_link_3: '/products/zima-plus/'
     text_link_4: '/products/zima-life/'
+    text_link_5: '/products/zima-care/'
 
     item_1: '智能互联'
     item_2: |-
