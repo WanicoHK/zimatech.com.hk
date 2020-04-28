@@ -110,8 +110,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  middleman (~> 4.2)
-  middleman-autoprefixer (~> 2.7)
+  middleman (~> 4.3)
+  middleman-autoprefixer (~> 2.10)
   middleman-livereload (~> 3.4)
 
 BUNDLED WITH

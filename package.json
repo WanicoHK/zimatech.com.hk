@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "serve": "middleman serve",
+    "build": "middleman build"
+  },
+  "license": "UNLICENSED"
+}

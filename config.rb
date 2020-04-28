@@ -24,6 +24,11 @@ configure :build do
 end
 
 activate :i18n, locales: [ :'en-US', :'zh-HK', :'zh-CN' ], path: '/:locale/', mount_at_root: false
+
+configure :development do
+  redirect 'index.html', to: '/zh-HK/'
+end
+
 # activate :livereload
 
 # Layouts
