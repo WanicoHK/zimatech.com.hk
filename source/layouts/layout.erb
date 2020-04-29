@@ -1,22 +1,31 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta content="webkit" name="renderer">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="format-detection" content="telephone=no">
-<meta name="page-title" content="ZIMA">
-<meta name="theme-color" content="#fffff">
-<meta name="keywords" content="ZIMA, ZIMA官网, ZIMA官網">
-<meta name="description" content="ZIMA, ZIMA官网, ZIMA官網">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<title><%= current_page.data.title || 'ZIMA' %></title>
-<%= stylesheet_link_tag 'site' %>
-<% if content_for?(:assets) %><%= yield_content :assets %><% end %>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta content="webkit" name="renderer">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="page-title" content="ZIMA">
+  <meta name="theme-color" content="#fffff">
+  <meta name="keywords" content="ZIMA, ZIMA官网, ZIMA官網">
+  <meta name="description" content="ZIMA, ZIMA官网, ZIMA官網">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+  <!--  引入 Swiper 插件 -->
+  <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+
+  <!--  引入 jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+
+  <title><%= current_page.data.title || 'ZIMA' %></title>
+  <%= stylesheet_link_tag 'site' %>
+  <% if content_for?(:assets) %><%= yield_content :assets %>
+  <% end %>
 </head>
 
 <body>
@@ -47,9 +56,9 @@
             <ul>
               <%
                 {
-                  'zh-HK': '繁體中文',
-                  'zh-CN': '简体中文',
-                  'en-US': 'English',
+                    'zh-HK': '繁體中文',
+                    'zh-CN': '简体中文',
+                    'en-US': 'English',
                 }.each do |locale, text|
               %>
                 <li><%= nav_link_to text, current_page.url.sub(I18n.locale.to_s, locale.to_s) %></li>
@@ -70,11 +79,11 @@
       <div class="footer-title"><%= link_to t(:'footer.app'), 'https://app.zimatech.com.hk/' %></div>
       <div class="footer-app-links">
         <%= link_to 'ZIMA iOS App - Download on the App Store', t(:'link.app_store'),
-          class: 'footer-app-link app-store' %>
+                    class: 'footer-app-link app-store' %>
         <%= link_to 'ZIMA Android App - GET IT ON Google Play', t(:'link.google_play'),
-          class: 'footer-app-link google-play' %>
+                    class: 'footer-app-link google-play' %>
         <%= link_to 'ZIMA Android App - DIRECT DOWNLOAD .APK FILE', t(:'link.apk_file'),
-          class: 'footer-app-link download-apk' %>
+                    class: 'footer-app-link download-apk' %>
       </div>
     </div>
     <div class="footer-nav">

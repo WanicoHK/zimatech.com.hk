@@ -5,12 +5,42 @@ title: ZIMA
   <%= stylesheet_link_tag 'index' %>
 <% end %>
 
+<!--初始化 Swiper-->
+<script>
+    $(document).ready(function () {
+        var mySwiper = new Swiper('.swiper-container', {
+            speed: 500,   // 每张图片的切换速度为 500（500ms 切换完毕）
+            autoplay: {
+                delay: 3000    // 3s 切換一次
+            },
+            // 如果需要前进后退按钮
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        })
+    })
+</script>
 <div class="index-bg-1-main">
   <div class="index-bg-1-container">
     <div class="index-bg-1">
       <div class="index-bg-1-wrapper">
-        <div class="index-bg-title-1"><%= t(:'index.title_1') %></div>
-        <div class="index-bg-title-2"><%= t(:'index.title_2') %></div>
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img class="banner" src="images/banner1.jpeg" alt=""/>
+            </div>
+            <div class="swiper-slide">
+              <img class="banner" src="images/banner2.jpeg" alt=""/>
+            </div>
+            <div class="swiper-slide">
+              <img class="banner" src="images/banner3.jpeg" alt=""/>
+            </div>
+          </div>
+        </div>
+        <!-- 如果需要导航按钮 -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
       </div>
     </div>
   </div>
@@ -25,7 +55,7 @@ title: ZIMA
         <% (1..5).each do |i| %>
           <input type="radio" name="index-bg-2" id="index-bg-2-<%= i %>"<%= ' checked' if i == 1 %>>
           <label class="index-bg-2-thumb index-bg-2-thumb-<%= i %>" for="index-bg-2-<%= i %>"
-            data-title="<%= t(:"index.text_#{2 * i + 1}") %>"></label>
+                 data-title="<%= t(:"index.text_#{2 * i + 1}") %>"></label>
         <% end %>
         <div class="index-bg-2-thumb index-bg-2-thumb-x">
           More Coming Soon
@@ -59,11 +89,11 @@ title: ZIMA
         <%= link_to t(:'index.item_5'), '/app/', class: 'index-bg-item-5' %>
         <div class="index-bg-3-wrapper-3">
           <%= link_to 'ZIMA iOS App - Download on the App Store', t(:'link.app_store'),
-            class: 'index-bg-3-app-link app-store' %>
+                      class: 'index-bg-3-app-link app-store' %>
           <%= link_to 'ZIMA Android App - GET IT ON Google Play', t(:'link.google_play'),
-            class: 'index-bg-3-app-link google-play' %>
+                      class: 'index-bg-3-app-link google-play' %>
           <%= link_to 'ZIMA Android App - DIRECT DOWNLOAD .APK FILE', t(:'link.apk_file'),
-            class: 'index-bg-3-app-link download-apk' %>
+                      class: 'index-bg-3-app-link download-apk' %>
         </div>
         <div class="index-bg-item-6"><%= t(:'index.item_6') %></div>
       </div>
@@ -129,7 +159,7 @@ title: ZIMA
     <div class="index-bg-6-wrapper-1">
       <% (1..5).each do |i| %>
         <label class="index-bg-6-point index-bg-6-point-<%= i + 2 %>"
-          for="index-bg-6-point-<%= i + 2 %>"><%= t(:"index.point_#{i + 2}") %></label>
+               for="index-bg-6-point-<%= i + 2 %>"><%= t(:"index.point_#{i + 2}") %></label>
       <% end %>
     </div>
     <div class="index-bg-6-wrapper-2">
