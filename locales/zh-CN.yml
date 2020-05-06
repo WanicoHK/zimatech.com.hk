@@ -8,6 +8,12 @@ zh-CN:
     contact_us: '合作联系'
     languages: 'Languages'
 
+  titles:
+    products: '产品简介'
+    app: 'App 简介'
+    partners: '全球合伙人'
+    contact_us: '合作联系'
+
   index:
     more: '更多信息'
 
@@ -40,12 +46,13 @@ zh-CN:
     text_link_4: '/products/zima-life/'
     text_link_5: '/products/zima-care/'
 
-    image_link_1: '/images/index/images/zh-CN/image-1.jpg'
-    image_link_2: '/images/index/images/zh-CN/image-2.jpg'
-    image_link_3: '/images/index/images/zh-CN/image-3.jpg'
-    image_link_4: '/images/index/images/zh-CN/image-4.jpg'
-
-    partner_link: '/partners/'
+    images:
+      - image: '/images/index/images/zh-CN/image-1.jpg'
+      - image: '/images/index/images/zh-CN/image-2.jpg'
+      - image: '/images/index/images/zh-CN/image-3.jpg'
+        link: '/products/zima-life/'
+      - image: '/images/index/images/zh-CN/image-4.jpg'
+        link: '/partners/'
 
     item_1: '智能互联'
     item_2: |-
