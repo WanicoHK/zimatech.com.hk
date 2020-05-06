@@ -1,16 +1,53 @@
 ---
-title: ZIMA
 ---
 <% content_for :assets do %>
+  <script src="/vendor/swiper.min.js"></script>
+  <link rel="stylesheet" href="/vendor/swiper.min.css">
   <%= stylesheet_link_tag 'index' %>
 <% end %>
-
+<script>
+  var callback = function () {
+    new Swiper('.swiper-container', {
+      speed: 500,
+      autoplay: {
+        delay: 3000
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  };
+  if (document.readyState !== 'loading') {
+    callback();
+  } else {
+    document.addEventListener('DOMContentLoaded', callback);
+  }
+</script>
+<% items = t(:'index.images') %>
 <div class="index-bg-1-main">
   <div class="index-bg-1-container">
     <div class="index-bg-1">
       <div class="index-bg-1-wrapper">
-        <div class="index-bg-title-1"><%= t(:'index.title_1') %></div>
-        <div class="index-bg-title-2"><%= t(:'index.title_2') %></div>
+        <div class="swiper-main">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <% items.each do |item| %>
+                <div class="swiper-slide">
+                  <% if item[:link] %>
+                    <% link_to item[:link] do %>
+                      <%= image_tag item[:image], class: 'swiper-image' %>
+                    <% end %>
+                  <% else %>
+                    <%= image_tag item[:image], class: 'swiper-image' %>
+                  <% end %>
+                </div>
+              <% end %>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-prev" style="margin-left: 2vw; z-index: 1"></div>
+        <div class="swiper-button-next" style="margin-right: 2vw; z-index: 1"></div>
       </div>
     </div>
   </div>
