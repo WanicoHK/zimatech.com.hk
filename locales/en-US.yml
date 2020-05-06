@@ -48,6 +48,13 @@ en-US:
     text_link_4: '/products/zima-life/'
     text_link_5: '/products/zima-care/'
 
+    image_link_1: '/images/index/images/en-US/image-1.jpg'
+    image_link_2: '/images/index/images/en-US/image-2.jpg'
+    image_link_3: '/images/index/images/en-US/image-3.jpg'
+    image_link_4: '/images/index/images/en-US/image-4.jpg'
+
+    partner_link: '/partners/'
+
     item_1: 'Smart Connect' #
     item_2: |-
       Smarter,

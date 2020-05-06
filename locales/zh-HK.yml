@@ -42,6 +42,13 @@ zh-HK:
     text_link_4: '/products/zima-life/'
     text_link_5: '/products/zima-care/'
 
+    image_link_1: '/images/index/images/zh-HK/image-1.jpg'
+    image_link_2: '/images/index/images/zh-HK/image-2.jpg'
+    image_link_3: '/images/index/images/zh-HK/image-3.jpg'
+    image_link_4: '/images/index/images/zh-HK/image-4.jpg'
+
+    partner_link: '/partners/'
+
     item_1: '智能互聯'
     item_2: |-
       變得聰明

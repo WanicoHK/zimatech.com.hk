@@ -40,6 +40,13 @@ zh-CN:
     text_link_4: '/products/zima-life/'
     text_link_5: '/products/zima-care/'
 
+    image_link_1: '/images/index/images/zh-CN/image-1.jpg'
+    image_link_2: '/images/index/images/zh-CN/image-2.jpg'
+    image_link_3: '/images/index/images/zh-CN/image-3.jpg'
+    image_link_4: '/images/index/images/zh-CN/image-4.jpg'
+
+    partner_link: '/partners/'
+
     item_1: '智能互联'
     item_2: |-
       变得聪明
