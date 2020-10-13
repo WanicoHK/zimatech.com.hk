@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "serve": "middleman serve",
-    "build": "middleman build"
+    "serve": "bundle exec middleman serve",
+    "build": "bundle exec middleman build"
   },
   "license": "UNLICENSED"
 }

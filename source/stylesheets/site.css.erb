@@ -66,9 +66,15 @@ a {
   height: 32px;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url(<%= asset_data_uri('images/logo.png') %>);
+  background-image: url(<%= asset_data_uri('images/logo.svg') %>);
   align-self: center;
   font-size: 0;
+}
+
+.logo.zh-CN {
+  width: 200px;
+  height: 32px;
+  background-image: url(<%= asset_data_uri('images/logo_zh_CN.png') %>);
 }
 
 .anchor {
@@ -322,6 +328,11 @@ a {
 
   .logo {
     width: 120px;
+    height: 24px;
+  }
+
+  .logo.zh-CN {
+    width: 150px;
     height: 24px;
   }
 
