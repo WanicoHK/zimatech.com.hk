@@ -1,0 +1,107 @@
+---
+layout: bare
+---
+
+<% content_for :assets do %>
+<%= stylesheet_link_tag 'showroom' %>
+<% end %>
+
+<div class="header">
+    <ul class="nav">
+        <li>
+            <a href="https://www.zimatech.com.hk/zh-HK" target="_blank">官方网站</a>
+        </li>
+        <li>
+            <a href="#contact-form">联系我们</a>
+        </li>
+    </ul>
+</div>
+<div class="main">
+    <div>
+        <img src=<%= image_path('showroom.png')%>>
+    </div>
+    <form id="contact-form">
+        <div class="contact-left">
+            <input class="contact-control" name="country" placeholder="请填写国家" maxlength="50">
+            <input class="contact-control" name="city" placeholder="请填写城市" maxlength="50">
+            <select class="contact-control" name="submission_type">
+                <option value="">请选择合作方式</option>
+                <option value="商品供应商">商品供应商</option>
+                <option value="机械制造供应商">机械制造供应商</option>
+                <option value="场地推荐人">场地推荐人</option>
+                <option value="广告主">广告主</option>
+                <option value="机器升级需求方">机器升级需求方</option>
+                <option value="代运营需求方">代运营需求方</option>
+                <option value="机器定制需求方">机器定制需求方</option>
+                <option value="代理商">代理商</option>
+            </select>
+        </div>
+        <div class="contact-right">
+            <input class="contact-control" name="name" placeholder="怎样称呼你？">
+            <input class="contact-control" name="phone" placeholder="请填写联系电话">
+            <input class="contact-control" name="email" placeholder="请填写邮箱地址">
+        </div>
+        <textarea id="contact-message" class="contact-control" name="message" placeholder="留言"></textarea>
+        <button id="contact-submit" type="submit">提交</button>
+    </form>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.min.js"></script>
+<script>
+    $('#contact-form').submit(function () {
+        var data = {
+            country: $('input[name="country"]'),
+            city: $('input[name="city"]'),
+            submission_type: $('select[name="submission_type"]'),
+            name: $('input[name="name"]'),
+            phone: $('input[name="phone"]'),
+            email: $('input[name="email"]')
+        };
+        for (let key in data) {
+            let val = data[key].val();
+            if (!val) {
+                data[key].focus();
+                $('#contact-submit').prop('disabled', true).text('请提供必须的信息');
+                setTimeout(() => {
+                    $('#contact-submit').prop('disabled', false).text('提交');
+                }, 2000);
+                return false;
+            }
+            data[key] = val;
+        }
+        data.message = $('input[name="message"]').val()
+        $('#contact-submit').prop('disabled', true).text('正在提交⋯');
+        $.ajax({
+            type: 'POST',
+            url: 'https://www.wanico.com.hk/submit',
+            dataType: 'json',
+            contentType: 'application/json;charset=utf-8',
+            data: JSON.stringify({
+                submission: data
+            }),
+            success: function (res) {
+                window.alert('成功提交，我们将尽快回覆你。');
+                window.location.reload();
+            },
+            complete: function () {
+                $('#contact-submit').prop('disabled', false).text('提交');
+            },
+            error: function (err) {
+                var message = '未知错误';
+                try {
+                    if (err.responseText) {
+                        var errors = $.parseJSON(err.responseText).errors;
+                        var msg = [];
+                        for (var key in errors) {
+                            msg.push(errors[key].join('\n'));
+                        }
+                        message = msg.join('\n');
+                    }
+                } catch (e) {
+                }
+                window.alert(message);
+            }
+        });
+        return false;
+    });
+</script>
