@@ -57,24 +57,8 @@
 }
 
 @media screen and (max-width: 750px) {
-  .header {
+  .content {
     width: 100vw;
-  }
-  .main {
-    width: 100vw;
-  }
-
-  .nav {
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-  }
-
-  .nav li {
-    font-size: 5vw;
-    display: inline;
-    margin: 0 10px;
   }
   .contact-left {
     box-sizing: border-box;
