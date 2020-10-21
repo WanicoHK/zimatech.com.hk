@@ -11,27 +11,24 @@
     </div>
     <form id="contact-form">
         <div class="contact-left">
-            <input class="contact-control" name="country" placeholder="请填写国家" maxlength="50">
-            <input class="contact-control" name="city" placeholder="请填写城市" maxlength="50">
+            <input class="contact-control" name="country" placeholder="<%= t(:'contact_us.form.country') %>"
+                maxlength="50">
+            <input class="contact-control" name="city" placeholder="<%= t(:'contact_us.form.city') %>" maxlength="50">
             <select class="contact-control" name="submission_type">
-                <option value="">请选择合作方式</option>
-                <option value="商品供应商">商品供应商</option>
-                <option value="机械制造供应商">机械制造供应商</option>
-                <option value="场地推荐人">场地推荐人</option>
-                <option value="广告主">广告主</option>
-                <option value="机器升级需求方">机器升级需求方</option>
-                <option value="代运营需求方">代运营需求方</option>
-                <option value="机器定制需求方">机器定制需求方</option>
-                <option value="代理商">代理商</option>
+                <option value=""><%= t(:'contact_us.form.type') %></option>
+                <% t(:'contact_us.form.types').each do |type| %>
+                <option value="<%= type %>"><%= type %></option>
+                <% end %>
             </select>
         </div>
         <div class="contact-right">
-            <input class="contact-control" name="name" placeholder="怎样称呼你？">
-            <input class="contact-control" name="phone" placeholder="请填写联系电话">
-            <input class="contact-control" name="email" placeholder="请填写邮箱地址">
+            <input class="contact-control" name="name" placeholder="<%= t(:'contact_us.form.name') %>">
+            <input class="contact-control" name="phone" placeholder="<%= t(:'contact_us.form.phone') %>">
+            <input class="contact-control" name="email" placeholder="<%= t(:'contact_us.form.email') %>">
         </div>
-        <textarea id="contact-message" class="contact-control" name="message" placeholder="留言"></textarea>
-        <button id="contact-submit" type="submit">提交</button>
+        <textarea id="contact-message" class="contact-control" name="message"
+            placeholder="<%= t(:'contact_us.form.content') %>"></textarea>
+        <button id="contact-submit" type="submit"><%= t(:'contact_us.form.submit') %></button>
     </form>
 </div>
 
@@ -50,16 +47,16 @@
             let val = data[key].val();
             if (!val) {
                 data[key].focus();
-                $('#contact-submit').prop('disabled', true).text('请提供必须的信息');
+                $('#contact-submit').prop('disabled', true).text("<%= t(:'contact_us.form.required') %>");
                 setTimeout(() => {
-                    $('#contact-submit').prop('disabled', false).text('提交');
+                    $('#contact-submit').prop('disabled', false).text("<%= t(:'contact_us.form.submit') %>");
                 }, 2000);
                 return false;
             }
             data[key] = val;
         }
         data.message = $('input[name="message"]').val()
-        $('#contact-submit').prop('disabled', true).text('正在提交⋯');
+        $('#contact-submit').prop('disabled', true).text("<%= t(:'contact_us.form.submitting') %>");
         $.ajax({
             type: 'POST',
             url: 'https://www.wanico.com.hk/submit',
@@ -69,14 +66,14 @@
                 submission: data
             }),
             success: function (res) {
-                window.alert('成功提交，我们将尽快回覆你。');
+                window.alert("<%= t(:'contact_us.form.submitted') %>");
                 window.location.reload();
             },
             complete: function () {
-                $('#contact-submit').prop('disabled', false).text('提交');
+                $('#contact-submit').prop('disabled', false).text("<%= t(:'contact_us.form.submit') %>");
             },
             error: function (err) {
-                var message = '未知错误';
+                var message = "<%= t(:'contact_us.form.unknown') %>";
                 try {
                     if (err.responseText) {
                         var errors = $.parseJSON(err.responseText).errors;
