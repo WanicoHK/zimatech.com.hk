@@ -9,10 +9,11 @@ en-US:
     languages: 'Languages'
 
   titles:
-      products: 'Products'
-      app: 'App'
-      partners: 'Global Partners'
-      contact_us: 'Contact Us'
+    products: 'Products'
+    app: 'App'
+    partners: 'Global Partners'
+    contact_us: 'Contact Us'
+    showroom: 'ZIMA SHOWROOM'
 
   index:
     more: 'More Info'
