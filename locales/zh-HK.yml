@@ -13,6 +13,7 @@ zh-HK:
     app: 'App 簡介'
     partners: '全球合夥人'
     contact_us: '合作聯繫'
+    showroom: 'ZIMA SHOWROOM'
 
   index:
     more: '更多信息'
@@ -851,3 +852,6 @@ zh-HK:
       地址: 觀塘榮業街6號海濱工業大廈13樓E2室
       廣州: 廣州市海珠區暄悅東街19-21-23號保利中悅大廈609
       佛山: 佛山市南海區桂瀾北路26號招商置地中心3座2517-19
+
+  showroom:
+    image: /images/showroom/showroom-zh-CN.jpg

@@ -13,6 +13,7 @@ zh-CN:
     app: 'App 简介'
     partners: '全球合伙人'
     contact_us: '合作联系'
+    showroom: 'ZIMA SHOWROOM'
 
   index:
     more: '更多信息'
@@ -703,7 +704,7 @@ zh-CN:
       - '代理商'
       name: '怎样称呼你？'
       phone: '请填写联系电话'
-      email: '请填写电邮地址'
+      email: '请填写邮箱地址'
       content: '留言'
       title: |-
         留资料
@@ -849,3 +850,6 @@ zh-CN:
       广州公司: 广州市海珠区暄悦东街19-21-23号保利中悦大厦609
       佛山公司: 佛山市南海区桂澜北路26号招商置地中心3座2517-19
       香港公司: 观塘荣业街6号海滨工业大厦13楼E2室
+
+  showroom:
+    image: /images/showroom/showroom-zh-CN.jpg

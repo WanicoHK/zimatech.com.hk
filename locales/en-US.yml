@@ -9,10 +9,11 @@ en-US:
     languages: 'Languages'
 
   titles:
-      products: 'Products'
-      app: 'App'
-      partners: 'Global Partners'
-      contact_us: 'Contact Us'
+    products: 'Products'
+    app: 'App'
+    partners: 'Global Partners'
+    contact_us: 'Contact Us'
+    showroom: 'ZIMA SHOWROOM'
 
   index:
     more: 'More Info'
@@ -856,3 +857,6 @@ en-US:
       E-mail (China): business@wanico.com.hk
       Guangzhou Office Address: 609, Bao Li Zhong Yue Bldg., 19-21-23 Xuanyue East Street, Haizhu, Guangzhou
       Foshan Office Address: 2517-19, Block 3, Zhao Shang Zhi Di Zhong Xin, 26 Gui Lan Bei Road, Nanhai, Foshan
+
+  showroom:
+    image: /images/showroom/showroom-zh-CN.jpg
