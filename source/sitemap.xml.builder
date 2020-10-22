@@ -8,6 +8,7 @@ xml.urlset xmlns: 'http://www.sitemaps.org/schemas/sitemap/0.9' do
       xml.priority page.url == '/' ? 1 : page.data.priority || '0.5'
     end
   end
+
   xml.url do
     xml.loc 'https://www.zimatech.com.hk/showroom.html'
     xml.lastmod Date.today.to_time.iso8601
