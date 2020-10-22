@@ -29,6 +29,9 @@ configure :development do
   redirect 'index.html', to: '/zh-HK/'
 end
 
+# build sitemap
+require "builder"
+
 # activate :livereload
 
 # Layouts
