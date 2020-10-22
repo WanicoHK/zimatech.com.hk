@@ -9,10 +9,15 @@ xml.urlset xmlns: 'http://www.sitemaps.org/schemas/sitemap/0.9' do
     end
   end
 
-  xml.url do
-    xml.loc 'https://www.zimatech.com.hk/showroom.html'
-    xml.lastmod Date.today.to_time.iso8601
-    xml.changefreq 'weekly'
-    xml.priority '0.5'
+  [
+    '/',
+    '/showroom.html',
+  ].each do |url|
+    xml.url do
+      xml.loc "https://www.zimatech.com.hk#{url}"
+      xml.lastmod Date.today.to_time.iso8601
+      xml.changefreq 'weekly'
+      xml.priority url == '/' ? 1 : '0.5'
+    end
   end
 end
