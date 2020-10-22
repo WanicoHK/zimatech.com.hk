@@ -30,7 +30,7 @@ configure :development do
 end
 
 # build sitemap
-require "builder"
+require 'builder'
 
 # activate :livereload
 
