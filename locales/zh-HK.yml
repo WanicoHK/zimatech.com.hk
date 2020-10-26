@@ -13,7 +13,7 @@ zh-HK:
     app: 'App 簡介'
     partners: '全球合夥人'
     contact_us: '合作聯繫'
-    showroom: 'ZIMA Showroom 全球打造商品无人批发市场'
+    showroom: 'ZIMA Showroom 全球打造商品無人批發市場'
 
   index:
     more: '更多信息'
@@ -855,4 +855,4 @@ zh-HK:
 
   showroom:
     image: /images/showroom/showroom-zh-CN.jpg
-    description: 'ZIMA推出海外无人批发市场方案，现诚招海外城市代理，海外有资源就能运营，无需经验、无需人工、不用看店就能做。帮您节省样品运费，节省运输时间，管理多层经销商，快速扩展当地人脉。早期合作伙伴更可获得特殊折扣和特权，名额有限，先到先得。'
+    description: 'ZIMA推出海外無人批發市場方案，現誠招海外都市代理，海外有資源就能運營，無需經驗、無需人工、不用看店就能做。幫您節省樣品運費，節省運輸時間，管理多層經銷商，快速擴展當地人脈。早期合作夥伴更可獲得特殊折扣和特權，名額有限，先到先得。'
