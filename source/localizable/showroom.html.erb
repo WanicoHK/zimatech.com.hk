@@ -1,5 +1,6 @@
 ---
 title_key: titles.showroom
+description_key: showroom.description
 ---
 
 <% content_for :assets do %>
@@ -13,8 +14,8 @@ title_key: titles.showroom
     <form id="contact-form">
         <div class="contact-left">
             <input class="contact-control" name="country" placeholder="<%= t(:'contact_us.form.country') %>"
-                maxlength="50">
-            <input class="contact-control" name="city" placeholder="<%= t(:'contact_us.form.city') %>" maxlength="50">
+                maxlength="50" autocomplete="off">
+            <input class="contact-control" name="city" placeholder="<%= t(:'contact_us.form.city') %>" maxlength="50" autocomplete="off">
             <select class="contact-control" name="submission_type">
                 <option value=""><%= t(:'contact_us.form.type') %></option>
                 <% t(:'contact_us.form.types').each do |type| %>
@@ -23,9 +24,9 @@ title_key: titles.showroom
             </select>
         </div>
         <div class="contact-right">
-            <input class="contact-control" name="name" placeholder="<%= t(:'contact_us.form.name') %>">
-            <input class="contact-control" name="phone" placeholder="<%= t(:'contact_us.form.phone') %>">
-            <input class="contact-control" name="email" placeholder="<%= t(:'contact_us.form.email') %>">
+            <input class="contact-control" name="name" placeholder="<%= t(:'contact_us.form.name') %>" autocomplete="off">
+            <input class="contact-control" name="phone" placeholder="<%= t(:'contact_us.form.phone') %>" autocomplete="off">
+            <input class="contact-control" name="email" placeholder="<%= t(:'contact_us.form.email') %>" autocomplete="off">
         </div>
         <textarea id="contact-message" class="contact-control" name="message"
             placeholder="<%= t(:'contact_us.form.content') %>"></textarea>
