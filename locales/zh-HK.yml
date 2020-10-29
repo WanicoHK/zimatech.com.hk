@@ -32,22 +32,18 @@ zh-HK:
     text_5: 'ZIMA Pro'
     text_6: |-
       不透明的機器，看不見裡面的商品，總讓人覺得沒有安全感；我們可以做大屏幕機，更適合賣廣告；也可以做透明機，更搶眼更高銷售；那為什麼不兩者結合，又有大屏幕，又讓用戶看到裡面。
-    text_7: 'ZIMA Plus'
+    text_7: 'ZIMA Life'
     text_8: |-
-      總有商品需要常溫售賣，不適合冷食的麵包、常溫保存的日用品……在有限的體積內，既需要合適的尺寸，也需要足夠的庫存。
-    text_9: 'ZIMA Life'
-    text_10: |-
       我們總尋找大人流高流轉的場景，卻忽略了某些時候的偶然需求。足夠低的機器成本與足夠低的電費，讓盈虧平衡點更容易摸到。可靈活調節的格子大小，能適應所有的商品，並且同時售賣超過80種商品。
-    text_11: 'ZIMA Care'
-    text_12: |-
+    text_9: 'ZIMA Care'
+    text_10: |-
       做零售行業的人都知道：“得女性，得天下”
       做必需品中的急需品，無論是尷尬時刻的衛生巾還是日常的紙巾
       在被需要時刻總能提供貼心呵護，既抓住了女性又是即時剛需，這樣的生意當然會長盛不衰
     text_link_1: '/products/zima-slim/'
     text_link_2: '/products/zima-pro/'
-    text_link_3: '/products/zima-plus/'
-    text_link_4: '/products/zima-life/'
-    text_link_5: '/products/zima-care/'
+    text_link_3: '/products/zima-life/'
+    text_link_4: '/products/zima-care/'
 
     images:
       - image: '/images/index/images/zh-HK/image-1.jpg'
@@ -260,15 +256,11 @@ zh-HK:
       product_14: '零售之星 ZIMA Care'
       product_15: '全新大屏常溫智能零售終端'
       product_16: '超薄機身 · 小巧便捷 · 儲存量大'
-      product_17: '盈利能手 ZIMA Plus'
-      product_18: '全新大屏智能零售終端'
-      product_19: '更多儲存 · 更大屏幕 · 常溫製冷一體化'
 
       product_link_1: '/products/zima-pro/'
       product_link_2: '/products/zima-slim/'
       product_link_3: '/products/zima-life/'
       product_link_4: '/products/zima-care/'
-      product_link_5: '/products/zima-plus/'
 
       string_1: '更多功能'
       string_2: '智能支付系統'
@@ -511,61 +503,6 @@ zh-HK:
       spec_17: '室溫'
       spec_18: '特別設計'
       spec_19: '雙展示模式，配合各種產品大小'
-
-    plus:
-      text_1: '43寸大屏智能零售終端'
-      text_2: '盈利能手 ZIMA Plus'
-      text_3: |-
-        超大屏幕，搭載更多營銷組件，結合終端售賣，更能吸引消費者
-        活動營銷，廣告收益，品牌聯營
-        選擇大屏的ZIMA Plus的理由在於：一筆投入，收穫的不止於商品售賣
-
-      item_1: '43寸大屏幕'
-      item_2: '更高廣告價值'
-      item_3: '常溫製冷雙出餐'
-      item_4: '取餐速度快'
-      item_5: '儲存容量大'
-      item_6: '節省配送成本'
-      item_7: '智慧化運營'
-      item_8: '實時數據分析'
-
-      step_1: '大屏互動，賦能終端零售'
-      step_2: |-
-        32寸大屏幕, 帶來更多廣告價值
-        互動體驗式消費, 拉動營業額
-      step_3: '常溫+製冷，同時出餐'
-      step_4: '輕鬆應對高客流取餐問題'
-      step_5: |-
-        常溫運作，適合非冷藏商品。製冷模式，保鮮效果更強
-        常溫+製冷，同時極速出餐，更適合上班族解決早餐問題，享受雙重商品收益
-      step_6: 飲料 · 奶製類 · 西式點心 · 大包裝食品
-
-      title_1: '超大儲存，更能裝'
-      title_2: '可售賣商品更多'
-      title_3: '大容量倉儲空間，存貨量可達600-700+，一次配送能裝納更多商品，節省更多配送成本'
-      title_4: '有人流的地方就能賺錢'
-      title_5: '把便利店裝進ZIMA Plus'
-      title_6: '早餐飲品零食綜合售賣，寫字樓、辦公室、宿舍樓道、車站、食堂的便利店等場景都適用'
-
-      spec_1: '機器參數'
-      spec_2: '產品尺寸'
-      spec_3: '1950*867*889 mm'
-      spec_4: '操作方式'
-      spec_5: '支援屏幕、APP內購物'
-      spec_6: '佔用面積'
-      spec_7: '6平方尺'
-      spec_8: '支付功能'
-      spec_9: 'APP內支付，掃碼電子支付、八達通、信用卡'
-      spec_10: '最多可放置種類'
-      spec_11: '40-48種'
-      spec_12: '最高存貨量'
-      spec_13: '600-700+'
-      spec_14: '獨有配置'
-      spec_15: '內置出貨監測器'
-      spec_16: '溫度監控'
-      spec_17: '4-20 °C'
-      spec_18: '特別設計'
-      spec_19: '雙展示模式、輸送帶設計，配合各種產品大小'
 
   contact_us:
     title_1: 'ZIMA商業合作'

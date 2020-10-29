@@ -189,20 +189,15 @@ label.index-bg-2-thumb {
 
 .index-bg-2-image-3,
 .index-bg-2-thumb-3 {
-  background-image: url(<%= image_path('index/product-plus.png') %>);
+  background-image: url(<%= image_path('index/product-life.png') %>);
 }
 
 .index-bg-2-image-4,
 .index-bg-2-thumb-4 {
-  background-image: url(<%= image_path('index/product-life.png') %>);
-}
-
-.index-bg-2-image-5,
-.index-bg-2-thumb-5 {
   background-image: url(<%= image_path('index/product-care.png') %>);
 }
 
-<% (1..5).each do |i| %>
+<% (1..4).each do |i| %>
   #index-bg-2-<%= i %>:checked ~ .index-bg-2-thumb-<%= i %>:after {
     display: block;
   }
