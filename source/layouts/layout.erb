@@ -12,6 +12,8 @@
 <meta name="keywords" content="ZIMA, ZIMA官网, ZIMA官網">
 <meta name="description" content="<%= if current_page.data.description_key
   t(current_page.data.description_key)
+elsif current_page.data.description
+  current_page.data.description
 else
   'ZIMA, ZIMA官网, ZIMA官網'
 end %>">

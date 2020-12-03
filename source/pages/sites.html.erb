@@ -1,0 +1,111 @@
+---
+layout: bare
+title: ZIMA智慧零售場地合作
+description: ZIMA智慧零售場地合作
+---
+<% content_for :assets do %>
+  <%= stylesheet_link_tag 'pages/sites' %>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<% end %>
+
+<div class="iphone-x">
+  <i></i>
+  <b></b>
+  <div class="page">
+    <%= image_tag 'pages/sites/sites-01.png' %>
+    <%= image_tag 'pages/sites/sites-02.png' %>
+    <%= image_tag 'pages/sites/sites-03.png' %>
+    <form>
+      <%= image_tag 'pages/sites/sites-header.png' %>
+      <div class="row">
+        <input id="name" name="name" maxlength="20" required>
+        <label for="name">你的名字：</label>
+      </div>
+      <div class="row">
+        <input id="phone" name="phone" maxlength="20" required pattern="[0-9]*">
+        <label for="phone">聯絡電話：</label>
+      </div>
+      <div class="row">
+        <select id="type" name="type" required>
+          <option value="">請選擇</option>
+          <option value="鐵路站">鐵路站</option>
+          <option value="屋苑">屋苑</option>
+          <option value="輕鐵站">輕鐵站</option>
+          <option value="機場">機場</option>
+          <option value="醫院">醫院</option>
+          <option value="學校">學校</option>
+          <option value="工廠">工廠</option>
+          <option value="私人住宅">私人住宅</option>
+          <option value="教育機構">教育機構</option>
+          <option value="寫字樓">寫字樓</option>
+          <option value="辦公室">辦公室</option>
+          <option value="碼頭">碼頭</option>
+          <option value="駕駛學院">駕駛學院</option>
+          <option value="連鎖食肆">連鎖食肆</option>
+          <option value="健身室">健身室</option>
+          <option value="商場">商場</option>
+          <option value="工程地盤">工程地盤</option>
+          <option value="其他">其他</option>
+        </select>
+        <label for="type">場地類型：</label>
+      </div>
+      <button id="submitForm" type="submit">立即提交</button>
+    </form>
+    <%= image_tag 'pages/sites/sites-04.png' %>
+  </div>
+</div>
+
+<div id="qrcode"></div>
+
+<script>
+$(function () {
+  $("form").submit(function () {
+    if (!$("input[name='name']").val()) {
+      window.alert("你的名字不能為空");
+      return false;
+    }
+    if (!$("input[name='phone']").val()) {
+      window.alert("聯絡電話不能為空");
+      return false;
+    }
+    if (!$("select[name='type']").val()) {
+      window.alert("場地類型不能為空");
+      return false;
+    }
+    if ($('#submitForm').prop('disabled') !== false) return false;
+    $('#submitForm').prop('disabled', true).text('Loading');
+    var params = {
+      name: $("input[name='name']").val(),
+      phone: $("input[name='phone']").val(),
+      type: $("select[name='type']").val()
+    };
+    $.ajax({
+      type: 'POST',
+      url: 'https://mqtwugere6.execute-api.us-west-1.amazonaws.com/default/sites-form',
+      dataType: 'json',
+      contentType: 'application/json;charset=utf-8',
+      data: JSON.stringify(params),
+      success: function(res) {
+        $('form')[0].reset();
+        alert('成功提交！我們會快速處理你的信息，及時與你聯繫，請保持電話暢通。');
+      },
+      complete: function(){
+        $('#submitForm').prop('disabled', false).text('提交');
+      },
+      error: function (err) {
+        window.alert('無法提交，請稍後再試。');
+      }
+    });
+    return false;
+  });
+  (function () {
+    var typeNumber = 0;
+    var errorCorrectionLevel = 'H';
+    var qr = qrcode(typeNumber, errorCorrectionLevel);
+    qr.addData(window.location.href);
+    qr.make();
+    document.getElementById('qrcode').innerHTML = qr.createSvgTag({ cellSize: 3 });
+  })();
+});
+</script>
