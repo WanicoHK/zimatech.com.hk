@@ -161,16 +161,14 @@ title_key: titles.contact_us
       }
       data[key] = val;
     }
-    data.message = $('input[name="message"]').val()
+    data.message = $('textarea[name="message"]').val()
     $('.contact-submit').prop('disabled', true).text('<%= t(:'contact_us.form.submitting') %>');
     $.ajax({
       type: 'POST',
-      url: 'https://www.wanico.com.hk/submit',
+      url: 'https://1119299417435983.cn-hongkong.fc.aliyuncs.com/2016-08-15/proxy/zimatech/form/',
       dataType: 'json',
       contentType: 'application/json;charset=utf-8',
-      data: JSON.stringify({
-        submission: data
-      }),
+      data: JSON.stringify(data),
       success: function (res) {
         window.alert('<%= t(:'contact_us.form.submitted') %>');
         window.location.reload();
@@ -182,12 +180,8 @@ title_key: titles.contact_us
         var message = '<%= t(:'contact_us.form.unknown') %>';
         try {
           if (err.responseText) {
-            var errors = $.parseJSON(err.responseText).errors;
-            var msg = [];
-            for (var key in errors) {
-              msg.push(errors[key].join('\n'));
-            }
-            message = msg.join('\n');
+            var msg = $.parseJSON(err.responseText).message;
+            if (msg) message = msg
           }
         } catch (e) {
         }

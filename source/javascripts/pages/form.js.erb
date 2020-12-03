@@ -1,37 +1,35 @@
 $(function () {
   $("#info-form").submit(function () {
-    if (!$("input[name='location']").val()) {
+    if (!$("input[name='site_name']").val()) {
       window.alert("場地名稱不能為空");
       return false;
     }
-    if (!$("input[name='type']").val()) {
+    if (!$("input[name='site_type']").val()) {
       window.alert("場地類型不能為空");
       return false;
     }
-    if (!$("input[name='address']").val()) {
+    if (!$("input[name='site_address']").val()) {
       window.alert("場地地址不能為空");
       return false;
     }
     if ($('#submitForm').prop('disabled') !== false) return false;
     $('#submitForm').prop('disabled', true).text('Loading');
     var params = {
+      from: 'hk',
       name: $("input[name='name']").val(),
       phone: $("input[name='phone']").val(),
       email: $("input[name='email']").val(),
-      message: "場地名稱：" + $("input[name='location']").val() + "\n場地類型：\n" + $("input[name='type']").val() + "\n場地地址：\n" + $("input[name='address']").val(),
-      submission_type: 'none',
-      country: 'none',
-      city: 'none'
+      site_name: $("input[name='site_name']").val(),
+      site_type: $("input[name='site_type']").val(),
+      site_address: $("input[name='site_address']").val()
     };
 
     $.ajax({
       type: 'POST',
-      url: 'https://www.wanico.com.hk/submit',
+      url: 'https://1119299417435983.cn-hongkong.fc.aliyuncs.com/2016-08-15/proxy/zimatech/form/',
       dataType: 'json',
       contentType: 'application/json;charset=utf-8',
-      data: JSON.stringify({
-        'submission': params,
-      }),
+      data: JSON.stringify(params),
       success: function(res) {
         $('#info-form')[0].reset();
         alert('成功發送！');
@@ -43,12 +41,8 @@ $(function () {
         var message = '未知錯誤';
         try {
           if (err.responseText) {
-            var errors = $.parseJSON(err.responseText).errors;
-            var msg = [];
-            for (var key in errors) {
-              msg.push(errors[key].join('\n'));
-            }
-            message = msg.join('\n');
+            var msg = $.parseJSON(err.responseText).message;
+            if (msg) message = msg
           }
         } catch (e) {
         }
