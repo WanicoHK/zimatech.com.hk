@@ -7,39 +7,15 @@
 <meta content="webkit" name="renderer">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="format-detection" content="telephone=no">
-<meta name="author" content="ZIMA, ZIMA官网, ZIMA官網, ZIMA希码">
-<meta name="page-title" content="<%= if current_page.data.title_key
-  t(current_page.data.title_key)
-elsif current_page.data.title
-  current_page.data.title
-else
-  'ZIMA, ZIMA官网, ZIMA官網'
-end %>">
+<meta name="author" content="ZIMA, ZIMA官网, ZIMA官網, ZIMA希码, 自动售货机, vending machine">
+<%= meta_page_title %>
 <meta name="theme-color" content="#fffff">
-<meta name="keywords" content="<%= if current_page.data.keywords_key
-  t(current_page.data.keywords_key)
-elsif current_page.data.keywords
-  current_page.data.keywords
-else
-  'ZIMA, ZIMA官网, ZIMA官網'
-end %>">
-<meta name="description" content="<%= if current_page.data.description_key
-  t(current_page.data.description_key)
-elsif current_page.data.description
-  current_page.data.description
-else
-  'ZIMA, ZIMA官网, ZIMA官網'
-end %>">
+<%= meta_keywords %>
+<%= meta_description %>
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<title><%= if current_page.data.title_key
-  t(current_page.data.title_key)
-elsif current_page.data.title
-  current_page.data.title
-else
-  'ZIMA, ZIMA官网, ZIMA官網'
-end %></title>
+<%= title %>
 <% if content_for?(:assets) %><%= yield_content :assets %><% end %>
 </head>
 
