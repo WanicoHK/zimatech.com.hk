@@ -9,11 +9,52 @@ en-US:
     languages: 'Languages'
 
   titles:
-    products: 'Products'
-    app: 'App'
-    partners: 'Global Partners'
-    contact_us: 'Contact Us'
-    showroom: 'ZIMA Showroom 全球打造商品无人批发市场'
+    index: 'ZIMA Tech provides various types of vending machines, vending business solutions & vending machine APP for global users'
+    products: 'ZIMA Tech is a smart vending machine platform with complete models, such as drink snack gym beauty & health vending machines, powerful customized development capability'
+    pro: 'ZIMA Pro, ZIMA Tech beverage milk beer drink snack mask sanitizer pharmacy vending machine, 32 inch HD large touch screen interactive experience cooling system, nutrition'
+    slim: 'ZIMA Slim, ZIMA Tech beverage snack wine beer gym product eye lush vending machine, small size, super great value, low power consumption, fast cost recovery'
+    life: 'ZIMA Life, ZIMA Tech locker grid, key, towel vending machine, 90 SKU display boost sales, Energy saving'
+    care: 'ZIMA Care, sanitary napkin condom mask sanitizer PPE beauty contactless vending machine, 365 days / year sanitation,advertising mini vending machine'
+    app: 'ZIMA APP, ZIMA APP payment, online operation Vending machine app, mobile software can connect all vending machines, hundreds of marketing methods, & accurate enabling terminals'
+    partners: 'ZIMA Tech recruits global partners, startup vending business a low investment entrepreneurial projects with remote vending machine assistant'
+    contact_us: 'ZIMA Tech provides you with diversified one stop cooperation services & interests with vending machine service support & customized vending machine'
+    showroom: 'ZIMA Tech provides various types of vending machines, industry solutions & operation services for global users'
+    sites: 'ZIMA希碼智慧售貨機合作場地招募'
+    investment2: 'ZIMA Life健康生活站提供24小时服务，是社区新零售，投资新风口'
+    hk2: '一站式中小企業辦公室福利方案，疫情期間無接觸購物更安全'
+    hk: 'ZIMA Life提供24小時無接觸購物服務，有效减低新型肺炎感染風險'
+
+  keywords:
+    index: 'ZIMA, ZIMA website, vending machine, self retail, self service, solution, vending machine APP, vending business'
+    products: 'ZIMA, ZIMA website, all vending machines, new vending machines, community vending machines, school vending machines, subway vending machines, gym vending machines, toilet vending machines, snack vending machine, coffee cafe vending machines, beer vending machines, beverage vending machines, drink vending machine, mask vending machine, fast food vending machines, fruit vending machines, beauty vending machine, PPE vending machine, gym vending machine'
+    pro: 'ZIMA, ZIMA website, beverage vending machine, cold drink vending machine service, beer vending machine, coffee vending machine, pizza vending machine, fast food vending machine, tea vending machine, wine vending, PPE vending, mask vending, beauty vending, sanitizer vending, touch screen vending, pharmacy vending, medicine vending, combo vending'
+    slim: 'ZIMA, ZIMA website, beverage vending machine, cold drink vending machine service, beer vending machine, coffee vending machine, pizza vending machine, fast food vending machine, tea vending machine, wine vending, PPE vending, mask vending, beauty vending, sanitizer vending, pharmacy vending, medicine vending'
+    life: 'ZIMA, ZIMA website, grid vending, locker vending machine Lattice machine, key vending, combo vending machine, low consumption vending machine, towel vending, gym vending machine, pet vending, beauty vending machine, customized vending machine'
+    care: 'ZIMA, ZIMA website, sanitary napkin vending machine, tissue vending machine, tampon vending machine, cheap vending machine, small mini vending machine, protein vending, condom vending machine, eyelash vending, beauty vending machine'
+    app: 'ZIMA, ZIMA website, vending machine app, APP payment, marketing system, intelligent advertising, inventory app system, online operation app, remote tech support, 24/7 after sales service'
+    partners: 'ZIMA, ZIMA website, investment, vending machine service, vending machine business, entrepreneurial projects, sidelines, vending business, startup venidng business'
+    contact_us: 'ZIMA, ZIMA website, cooperation mode, cooperation rights, vending machine service support, customized vending machine, vending machine upgrade, terminal marketing, operation, contact information, contact us, after-sales service, e-mail, 24/7, inventory service'
+    showroom: 'ZIMA希码, ZIMA官网, 贩卖机, 自助零售, 自助服务, 解决方案, 售货机APP'
+    sites: '場地合作, 地鐵站, 捷運站, 社區, 健身房, 歇息樓, 醫院, 學校, 工廠, 機場, 商場'
+    investment2: '新型肺炎, ZIMA Life, 健康生活站, 口罩, 消毒液, 退热贴, 计生用品, 电池, 调味料, 早餐, 零食, 方便面, 小区, 酒店, 旅游景点, 24小时服务'
+    hk2: '新型肺炎, 疫情, 中小企業, 員工福利, ZIMA APP, 無接觸消費, 安全, 滿意度, 工作效率'
+    hk: '新型肺炎, ZIMA Life, 口罩, 消毒液, 退熱貼, 計生用品, 電池, 調味料, 早餐, 零食, 速食麵, 社區, 飯店, 旅遊景點, 24小時服務, 二次傳染, 防疫'
+
+  descriptions:
+    index: 'ZIMA Tech is a leading world-class intelligent vending machine service platform. It creates a one-stop unmanned retail hardware & software operation system with globalization, full model, full scene & whole industrial chain, so that all customers can find the most professional & cost-effective solutions on the platform, & provide instant convenient consumption services for global users. ZIMA has all you need in vending machine business.'
+    products: 'ZIMA provides high cost-effective vending machines from China to obtain higher value services at lower prices. It is suitable for various life scenes such as community, school, subway, gym & toilet. It supports the sale of coffee, beer, drinks, fast food & other commodities. Intelligent operation services can effectively save costs, improve efficiency & save money'
+    pro: 'ZIMA Pro is milk, cold drinks, beer, coffee, tea, fast food, pizza, wine,napkins, gym products,beauty / pet products vending machine. 4-10 ℃ with better storage & energy saving. Rating Power:13 KW / day, 17 KW less than average. 32 inch HD LCD touch screen for order procedure & gain advertising revenue. Part of Combo vending machine. It is equipped with the latest electronic controls, money back vend sensing technology & 6 fully adjustable trays, this vendor is one of the most versatile & profitable snack machines available.'
+    slim: 'ZIMA Slim supports the sale of milk, cold drinks, beer, coffee, tea, fast food, wine,napkins, gym products & other . Mini & practical, & has high cost performance, economic benefits, fast cost recovery, only 5 KW / day, low energy consumption & money saving. Part of Combo vending machine.'
+    life: 'ZIMA Life can sell water, drinks & other products preserved at room temperature. 90 SKU storage capacity displays the combination of multiple brands & categories. Different size of cells hold different sizes of products. 2 KW / day, low energy consumption & money saving at room temperature.'
+    care: 'ZIMA care is pads, napkins, towels,mask, PPE, condom, health & beauty products vending machine. Price affordable. Contactless. Wall mounted / Standup options. Small vending machine. With a 21.5-inch HD large touch screen & high-frequency closed scenes to form mandatory advertising viewing benefits.'
+    app: 'ZIMA APP connects all vending machines & provides mobile phone convenient payments. Customers can search the nearest machine through the app. Supports marketing system, intelligent advertising, inventory app system, online operation app, remote tech support, 24/7 after sales service, etc., various services.'
+    partners: 'As long as you have venues, you a sinle person can start the entrepreneurial projects. Each vending machine can be laid on a large scale with high gross profit rate & large growth space. The headquarters provides remote vending machine assistant services to help you easily get your startup vending business, a great value Investment.'
+    contact_us: 'ZIMA Tech has customized a variety of cooperation modes for you. By joining ZIMA, you can easily obtain cooperation benefits such as commodities, ZIMA membership, vending machine upgrade, product sourcing, hardware support, software support, marketing activities, operation, 24/7 after-sales service, etc.'
+    showroom: 'ZIMA推出海外无人批发市场方案，现诚招海外城市代理，海外有资源就能运营，无需经验、无需人工、不用看店就能做。帮您节省样品运费，节省运输时间，管理多层经销商，快速扩展当地人脉。早期合作伙伴更可获得特殊折扣和特权，名额有限，先到先得。'
+    sites: '如果你有地鐵站，捷運站，社區，健身房，歇息樓，醫院，學校，工廠，機場，商場等場地資源，歡迎與ZIMA希碼合作，坐享相關收益'
+    investment2: 'ZIMA Life健康生活站支持售卖口罩、消毒液、退热贴、计生用品等健康用品，电池、调味料等生活用品，早餐、零食、方便面等食品，可摆放在小区、酒店、旅游景点等场所，为用户提供24小时便捷消费服务'
+    hk2: '疫情期間，中小企業可為員工提供一站式辦公室福利服務，通過ZIMA APP下單，無接觸消費更安全，也可以有效提高員工滿意度及工作效率'
+    hk: 'ZIMA Life健康生活站為市民提供24小時便捷消費服務，支持售賣口罩、消毒液、退熱貼、計生用品等健康用品，電池、調味料等生活用品，麵包、零食、速食麵等食品，有效避免二次傳染導致疫情擴散'
 
   index:
     more: 'More Info'
@@ -795,4 +836,3 @@ en-US:
 
   showroom:
     image: /images/showroom/showroom-zh-CN.jpg
-    description: 'ZIMA推出海外无人批发市场方案，现诚招海外城市代理，海外有资源就能运营，无需经验、无需人工、不用看店就能做。帮您节省样品运费，节省运输时间，管理多层经销商，快速扩展当地人脉。早期合作伙伴更可获得特殊折扣和特权，名额有限，先到先得。'
