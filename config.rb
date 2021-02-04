@@ -10,6 +10,55 @@ helpers do
   def nav_link_to(text, link)
     link_to text, link, class: current_page.url.include?(link) ? 'active' : ''
   end
+
+  def meta_description
+    key = current_page.data.description_key
+    content = if key
+                t(key)
+              elsif current_page.data.description
+                current_page.data.description
+              else
+                'ZIMA, ZIMA官网, ZIMA官網'
+              end
+    tag(:meta, name: 'description', content: content)
+  end
+
+  def meta_page_title
+    key = current_page.data.title_key
+    content = if key
+                t(key)
+              elsif current_page.data.title
+                current_page.data.title
+              else
+                'ZIMA, ZIMA官网, ZIMA官網'
+              end
+    tag(:meta, name: 'page-title', content: content)
+  end
+
+  def meta_keywords
+    key = current_page.data.keywords_key
+    content = if key
+                t(key)
+              elsif current_page.data.keywords
+                current_page.data.keywords
+              else
+                'ZIMA, ZIMA官网, ZIMA官網'
+              end
+    tag(:meta, name: 'keywords', content: content)
+  end
+
+  def title
+    key = current_page.data.title_key
+    content = if key
+                t(key)
+              elsif current_page.data.title
+                current_page.data.title
+              else
+                'ZIMA, ZIMA官网, ZIMA官網'
+              end
+    content_tag(:title, content)
+  end
+
 end
 
 # Activate and configure extensions
