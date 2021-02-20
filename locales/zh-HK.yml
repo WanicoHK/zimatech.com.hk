@@ -574,6 +574,30 @@ zh-HK:
       type_text_3: 'ZIMA CLASSIC D|彈簧機'
       type_text_4: 'ZIMA CLASSIC E|彈簧機'
 
+    masky:
+      subtitle: '防疫站'
+      title: '口罩機 ZIMA MASKY'
+      description: '百元投入，坐享2萬億元防疫剛需經濟紅利'
+      feature_1: '疫情常態化，人人防疫，口罩成為日常必需品'
+      feature_2: '60億片/人 X 365天 X ¥1=21，900億元 全球防疫剛需市場容量'
+      prop_1: '百元靚機|經濟實惠'
+      prop_2: '單片出貨|滿足臨時應急需求'
+      prop_3: '占地面積小|終端鋪設更靈活'
+      prop_4: '300片大容量|無需頻繁補貨|庫存空間120-300'
+      prop_5: '10S快速出貨|即掃即取 無需等待'
+      prop_6: '一天只用0.1°電|常溫低能耗省電省錢'
+      spec_1: '掉落檢測，安全防盜|保障正常出貨'
+      spec_2: '權威認證 質量有保障|國內專利認證|CQC/CE 國際權威標準認證|設備穩定，故障率低至1%'
+      spec_3: '便捷支付|APP/微信/支付寶/紙幣/硬幣/刷卡/刷臉'
+      scene_text: '適用於地鐵車站、商場|醫院等各種公共場所'
+      type_title: '不同機型，全方位滿足您的經營需求'
+      type_text_1: 'ZIMA MASKY A|立式簡易口罩機'
+      type_text_2: 'ZIMA MASKY B|掛式簡易口罩機'
+      type_text_3: 'ZIMA MASKY C|立式投幣口罩機'
+      type_text_4: 'ZIMA MASKY D|掛式投幣口罩機'
+      type_text_5: 'ZIMA MASKY LITE_1|立式口罩機'
+      type_text_6: 'ZIMA MASKY LITE_2|立式投幣口罩機'
+
   contact_us:
     title_1: 'ZIMA商業合作'
     title_2: |-
