@@ -57,7 +57,6 @@
 .index-bg-2 {
   background: #fbfbfb;
   padding: 50px 0;
-  height: 720px;
   box-sizing: border-box;
 }
 
@@ -102,6 +101,7 @@
   left: 0;
   top: 0;
   width: 65%;
+  height: 100%;
 }
 
 .index-bg-2-wrapper-3 {
@@ -177,43 +177,27 @@ label.index-bg-2-thumb {
   color: #fff;
 }
 
-.index-bg-2-image-1,
-.index-bg-2-thumb-1 {
-  background-image: url(<%= image_path('index/product-slim.png') %>);
+<% ['slim', 'pro', 'life', 'care', 'classic', 'masky'].each do |ty| %>
+.index-bg-2-image-<%= ty %>,
+.index-bg-2-thumb-<%= ty %> {
+  background-image: url(<%= image_path("index/product-#{ty}.png") %>);
 }
 
-.index-bg-2-image-2,
-.index-bg-2-thumb-2 {
-  background-image: url(<%= image_path('index/product-pro.png') %>);
+#index-bg-2-<%= ty %>:checked ~ .index-bg-2-thumb-<%= ty %>:after {
+  display: block;
 }
 
-.index-bg-2-image-3,
-.index-bg-2-thumb-3 {
-  background-image: url(<%= image_path('index/product-life.png') %>);
+.index-bg-2-thumb-<%= ty %>:hover:after {
+  display: block;
 }
 
-.index-bg-2-image-4,
-.index-bg-2-thumb-4 {
-  background-image: url(<%= image_path('index/product-care.png') %>);
+.index-bg-2-wrapper-3-<%= ty %> {
+  display: none;
 }
 
-<% (1..4).each do |i| %>
-  #index-bg-2-<%= i %>:checked ~ .index-bg-2-thumb-<%= i %>:after {
-    display: block;
-  }
-
-  .index-bg-2-thumb-<%= i %>:hover:after {
-    display: block;
-  }
-
-  .index-bg-2-wrapper-3-<%= i %> {
-    display: none;
-  }
-
-  #index-bg-2-<%= i %>:checked ~ .index-bg-2-wrapper-2 .index-bg-2-wrapper-3-<%= i %> {
-    display: flex;
-  }
-
+#index-bg-2-<%= ty %>:checked ~ .index-bg-2-wrapper-2 .index-bg-2-wrapper-3-<%= ty %> {
+  display: flex;
+}
 <% end %>
 
 .index-bg-2-thumb-x {

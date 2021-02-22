@@ -72,25 +72,40 @@ zh-HK:
     text_2: |-
       以終為始
       一切為了經營
-    text_3: 'ZIMA Slim'
-    text_4: |-
-      在大多數經營場景，我們未必關心能賺多少錢，而是更關注：怎麼更快回本。因此撇開收益，極低的機器成本顯然能更好地滿足這一點。
-      不要屏幕，不要刷卡器，能最低成本去做好製冷模塊、保溫機體，便是良好經營的基礎。
-    text_5: 'ZIMA Pro'
-    text_6: |-
-      不透明的機器，看不見裡面的商品，總讓人覺得沒有安全感；我們可以做大屏幕機，更適合賣廣告；也可以做透明機，更搶眼更高銷售；那為什麼不兩者結合，又有大屏幕，又讓用戶看到裡面。
-    text_7: 'ZIMA Life'
-    text_8: |-
-      我們總尋找大人流高流轉的場景，卻忽略了某些時候的偶然需求。足夠低的機器成本與足夠低的電費，讓盈虧平衡點更容易摸到。可靈活調節的格子大小，能適應所有的商品，並且同時售賣超過80種商品。
-    text_9: 'ZIMA Care'
-    text_10: |-
-      做零售行業的人都知道：“得女性，得天下”
-      做必需品中的急需品，無論是尷尬時刻的衛生巾還是日常的紙巾
-      在被需要時刻總能提供貼心呵護，既抓住了女性又是即時剛需，這樣的生意當然會長盛不衰
-    text_link_1: '/products/zima-slim/'
-    text_link_2: '/products/zima-pro/'
-    text_link_3: '/products/zima-life/'
-    text_link_4: '/products/zima-care/'
+
+    slim:
+      link: '/products/zima-slim/'
+      title: 'ZIMA Slim'
+      description: |-
+        在大多數經營場景，我們未必關心能賺多少錢，而是更關注：怎麼更快回本。因此撇開收益，極低的機器成本顯然能更好地滿足這一點。
+        不要屏幕，不要刷卡器，能最低成本去做好製冷模塊、保溫機體，便是良好經營的基礎。
+    pro:
+      link: '/products/zima-pro/'
+      title: 'ZIMA Pro'
+      description: |-
+        不透明的機器，看不見裡面的商品，總讓人覺得沒有安全感；我們可以做大屏幕機，更適合賣廣告；也可以做透明機，更搶眼更高銷售；那為什麼不兩者結合，又有大屏幕，又讓用戶看到裡面。
+    life:
+      link: '/products/zima-life/'
+      title: 'ZIMA Life'
+      description: |-
+        我們總尋找大人流高流轉的場景，卻忽略了某些時候的偶然需求。足夠低的機器成本與足夠低的電費，讓盈虧平衡點更容易摸到。可靈活調節的格子大小，能適應所有的商品，並且同時售賣超過80種商品。
+    care:
+      link: '/products/zima-care/'
+      title: 'ZIMA Care'
+      description: |-
+        做零售行業的人都知道：“得女性，得天下”
+        做必需品中的急需品，無論是尷尬時刻的衛生巾還是日常的紙巾
+        在被需要時刻總能提供貼心呵護，既抓住了女性又是即時剛需，這樣的生意當然會長盛不衰
+    masky:
+      link: '/products/zima-masky/'
+      title: 'ZIMA Masky'
+      description: |-
+        疫情常态化，人人防疫，口罩成为日常必需品。21,900亿元的全球防疫刚需市场，只需要百元购机的入场券，占地面积小，铺设更灵活。
+    classic:
+      link: '/products/zima-classic/'
+      title: 'ZIMA Classic'
+      description: |-
+        在售货机的运营中，补货配送的人力成本和时间成本不可忽视。ZIMA CLASSIC 拥有700+的库存空间，大容量，有效减小繁琐的补货次数；还可以配置托盘式智能升降台，支持售卖鸡蛋、红酒等高频消费的易碎商品。
 
     images:
       - image: '/images/index/images/zh-HK/image-1.jpg'

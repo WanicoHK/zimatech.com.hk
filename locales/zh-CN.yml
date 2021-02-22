@@ -72,24 +72,38 @@ zh-CN:
     text_2: |-
       以终为始
       一切为了经营
-    text_3: 'ZIMA Slim'
-    text_4: |-
-      在大多数经营场景，我们未必关心能赚多少钱，而是更关注：怎么更快回本。因此撇开收益，极低的机器成本显然能更好地满足这一点。
-      不要屏幕，不要刷卡器，能最低成本去做好制冷模块、保温机体，便是良好经营的基础。
-    text_5: 'ZIMA Pro'
-    text_6: |-
-      不透明的机器，看不见里面的商品，总让人觉得没有安全感；我们可以做大屏幕机，更适合卖广告；也可以做透明机，更抢眼更高销售；那为什么不两者结合，又有大屏幕，又让用户看到里面。
-    text_7: 'ZIMA Life'
-    text_8: |-
-      我们总寻找大人流高流转的场景，却忽略了某些时候的偶然需求。足够低的机器成本与足够低的电费，让盈亏平衡点更容易摸到。可灵活调节的格子大小，能适应所有的商品，并且同时售卖超过80种商品。
-    text_9: 'ZIMA Care'
-    text_10: |-
-      做零售行业的人都知道：“得女性，得天下”，做必需品中的急需品，无论是尴尬时刻的卫生巾还是日常的纸巾，在被需要时刻总能提供贴心呵护，既抓住了女性又是即时刚需，这样的生意当然会长盛不衰！
-    text_link_1: '/products/zima-slim/'
-    text_link_2: '/products/zima-pro/'
-    text_link_3: '/products/zima-life/'
-    text_link_4: '/products/zima-care/'
 
+    slim:
+      link: '/products/zima-slim/'
+      title: 'ZIMA Slim'
+      description: |-
+        在大多数经营场景，我们未必关心能赚多少钱，而是更关注：怎么更快回本。因此撇开收益，极低的机器成本显然能更好地满足这一点。
+        不要屏幕，不要刷卡器，能最低成本去做好制冷模块、保温机体，便是良好经营的基础。
+    pro:
+      link: '/products/zima-pro/'
+      title: 'ZIMA Pro'
+      description: |-
+        不透明的机器，看不见里面的商品，总让人觉得没有安全感；我们可以做大屏幕机，更适合卖广告；也可以做透明机，更抢眼更高销售；那为什么不两者结合，又有大屏幕，又让用户看到里面。
+    life:
+      link: '/products/zima-life/'
+      title: 'ZIMA Life'
+      description: |-
+        我们总寻找大人流高流转的场景，却忽略了某些时候的偶然需求。足够低的机器成本与足够低的电费，让盈亏平衡点更容易摸到。可灵活调节的格子大小，能适应所有的商品，并且同时售卖超过80种商品。
+    care:
+      link: '/products/zima-care/'
+      title: 'ZIMA Care'
+      description: |-
+        做零售行业的人都知道：“得女性，得天下”，做必需品中的急需品，无论是尴尬时刻的卫生巾还是日常的纸巾，在被需要时刻总能提供贴心呵护，既抓住了女性又是即时刚需，这样的生意当然会长盛不衰！
+    masky:
+      link: '/products/zima-masky/'
+      title: 'ZIMA Masky'
+      description: |-
+        疫情常态化，人人防疫，口罩成为日常必需品。21,900亿元的全球防疫刚需市场，只需要百元购机的入场券，占地面积小，铺设更灵活。
+    classic:
+      link: '/products/zima-classic/'
+      title: 'ZIMA Classic'
+      description: |-
+        在售货机的运营中，补货配送的人力成本和时间成本不可忽视。ZIMA CLASSIC 拥有700+的库存空间，大容量，有效减小繁琐的补货次数；还可以配置托盘式智能升降台，支持售卖鸡蛋、红酒等高频消费的易碎商品。
     images:
       - image: '/images/index/images/zh-CN/image-1.jpg'
       - image: '/images/index/images/zh-CN/image-2.jpg'

@@ -65,22 +65,22 @@ description_key: descriptions.index
     <div class="index-bg-text-2"><%= t(:'index.text_2') %></div>
     <div class="index-bg-2-wrapper-0">
       <div class="index-bg-2-wrapper-1">
-        <% (1..4).each do |i| %>
-          <input type="radio" name="index-bg-2" id="index-bg-2-<%= i %>"<%= ' checked' if i == 1 %>>
-          <label class="index-bg-2-thumb index-bg-2-thumb-<%= i %>" for="index-bg-2-<%= i %>"
-            data-title="<%= t(:"index.text_#{2 * i + 1}") %>"></label>
+        <% ['slim', 'pro', 'life', 'care', 'masky', 'classic'].each do |ty| %>
+        <input type="radio" name="index-bg-2" id="index-bg-2-<%= ty %>"<%= ' checked' if ty == 'slim' %>>
+        <label class="index-bg-2-thumb index-bg-2-thumb-<%= ty %>" for="index-bg-2-<%= ty %>"
+          data-title="<%= t(:"index.#{ty}.title") %>"></label>
         <% end %>
         <div class="index-bg-2-thumb index-bg-2-thumb-x">
           More Coming Soon
         </div>
         <div class="index-bg-2-wrapper-2">
-          <% (1..4).each do |i| %>
-            <div class="index-bg-2-wrapper-3 index-bg-2-wrapper-3-<%= i %>">
-              <div class="index-bg-2-image index-bg-2-image-<%= i %>"></div>
+          <% ['slim', 'pro', 'life', 'care', 'masky', 'classic'].each do |ty| %>
+            <div class="index-bg-2-wrapper-3 index-bg-2-wrapper-3-<%= ty %>">
+              <div class="index-bg-2-image index-bg-2-image-<%= ty %>"></div>
               <div class="index-bg-2-wrapper-4">
-                <div class="index-bg-2-title"><%= t(:"index.text_#{2 * i + 1}") %></div>
-                <div class="index-bg-2-text"><%= t(:"index.text_#{2 * i + 2}") %></div>
-                <%= link_to t(:'index.more'), t(:"index.text_link_#{i}"), class: 'index-bg-2-link' %>
+                <div class="index-bg-2-title"><%= t(:"index.#{ty}.title") %></div>
+                <div class="index-bg-2-text"><%= t(:"index.#{ty}.description") %></div>
+                <%= link_to t(:'index.more'), t(:"index.#{ty}.link"), class: 'index-bg-2-link' %>
               </div>
             </div>
           <% end %>
