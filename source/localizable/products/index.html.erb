@@ -63,18 +63,18 @@ description_key: descriptions.products
   <div class="products-index-product-text-3"><%= t(:'products.index.product_3') %></div>
 </div>
 
-<% (1..4).each do |i| %>
+<% ['pro', 'slim', 'life', 'care', 'masky', 'classic'].each_with_index do |ty, i| %>
   <div class="products-index-bg-4">
     <div class="container">
-      <div class="products-index-product<%= i > 2 ? ' rtl' : '' %>">
+      <div class="products-index-product<%= (i / 2 % 2 == 1) ? ' rtl' : '' %>">
         <div class="products-index-product-image">
-          <div class="products-index-product-image-<%= i %>"></div>
+          <div class="products-index-product-image-<%= ty %>"></div>
         </div>
         <div class="products-index-product-content">
-          <div class="products-index-product-1"><%= t(:"products.index.product_#{3 * i + 2}") %></div>
-          <div class="products-index-product-2"><%= t(:"products.index.product_#{3 * i + 3}") %></div>
-          <div class="products-index-product-3"><%= t(:"products.index.product_#{3 * i + 4}") %></div>
-          <%= link_to t(:'products.index.product_4'), t(:"products.index.product_link_#{i}"), class: 'products-index-more' %>
+          <div class="products-index-product-1"><%= t(:"products.index.#{ty}.text_1") %></div>
+          <div class="products-index-product-2"><%= t(:"products.index.#{ty}.text_2") %></div>
+          <div class="products-index-product-3"><%= t(:"products.index.#{ty}.text_3") %></div>
+          <%= link_to t(:'products.index.product_4'), t(:"products.index.#{ty}.link}"), class: 'products-index-more' %>
         </div>
       </div>
     </div>

@@ -297,23 +297,37 @@ en-US:
         dairy products, basic commodities, etc. All kind of machines can be
         utilized massively and suitable for different scenarios.
       product_4: 'More Details'
-      product_5: 'ZIMA Pro'
-      product_6: 'Large screen, clear showcase, smart terminal'
-      product_7: 'New screen structure, smart thermostat, transparent showcase'  # google
-      product_8: 'ZIMA Slim'
-      product_9: 'QR code scanning smart retail terminal'
-      product_10: 'Light and handy easy to setup cost-effective'
-      product_11: 'ZIMA Life'
-      product_12: 'Integrated room temperature, smart retail terminal'
-      product_13: 'Full view window, adapt to different product sizes, more room to display' # google
-      product_14: 'ZIMA Care'
-      product_15: 'New large screen, room-temp, smart terminal'
-      product_16: 'Thin body light and handy high capacity'
 
-      product_link_1: '/products/zima-pro/'
-      product_link_2: '/products/zima-slim/'
-      product_link_3: '/products/zima-life/'
-      product_link_4: '/products/zima-care/'
+      pro:
+        text_1: 'ZIMA Pro'
+        text_2: 'Large screen, clear showcase, smart terminal'
+        text_3: 'New screen structure, smart thermostat, transparent showcase'  # google
+        link: '/products/zima-pro/'
+      slim:
+        text_1: 'ZIMA Slim'
+        text_2: 'QR code scanning smart retail terminal'
+        text_3: 'Light and handy easy to setup cost-effective'
+        link: '/products/zima-slim/'
+      life:
+        text_1: 'ZIMA Life'
+        text_2: 'Integrated room temperature, smart retail terminal'
+        text_3: 'Full view window, adapt to different product sizes, more room to display' # google
+        link: '/products/zima-life/'
+      care:
+        text_1: 'ZIMA Care'
+        text_2: 'New large screen, room-temp, smart terminal'
+        text_3: 'Thin body light and handy high capacity'
+        link: '/products/zima-care/'
+      masky:
+        text_1: '口罩机 ZIMA MASKY'
+        text_2: '防疫站'
+        text_3: '百元投入，坐享2万亿元防疫刚需经济红利'
+        link: '/products/zima-masky/'
+      classic:
+        text_1: '饮料零食机 ZIMA CLASSIC'
+        text_2: '微商超'
+        text_3: '700+大容量超能装  托盘式出货呵护“玻璃心”商品'
+        link: '/products/zima-classic/'
 
       string_1: 'More Features'
       string_2: 'ZIMA Smart Payment System'

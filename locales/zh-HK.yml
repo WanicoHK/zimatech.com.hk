@@ -306,23 +306,37 @@ zh-HK:
         ZIMA擁有完整的產品矩陣，涉及飲料食品、乳製品、日用百貨等多種領域
         每款機器都可大規模鋪設，適應不同場景使用
       product_4: '進一步了解'
-      product_5: '銷量之王 ZIMA Pro'
-      product_6: '全新大屏透視式零售終端'
-      product_7: '智能控溫系統 · 全新屏幕結構 · 雲廣告平台'
-      product_8: '回本王 ZIMA Slim'
-      product_9: '無屏掃碼智能零售終端'
-      product_10: '小巧便捷 · 成本極低 · 滿足各種辦公室內場景'
-      product_11: '隱形冠軍 ZIMA Life'
-      product_12: '綜合型常溫無屏零售終端'
-      product_13: '全視角櫥窗 · 適應不同商品尺寸 · 更多SKU展示'
-      product_14: '零售之星 ZIMA Care'
-      product_15: '全新大屏常溫智能零售終端'
-      product_16: '超薄機身 · 小巧便捷 · 儲存量大'
 
-      product_link_1: '/products/zima-pro/'
-      product_link_2: '/products/zima-slim/'
-      product_link_3: '/products/zima-life/'
-      product_link_4: '/products/zima-care/'
+      pro:
+        text_1: '銷量之王 ZIMA Pro'
+        text_2: '全新大屏透視式零售終端'
+        text_3: '智能控溫系統 · 全新屏幕結構 · 雲廣告平台'
+        link: '/products/zima-pro/'
+      slim:
+        text_1: '回本王 ZIMA Slim'
+        text_2: '無屏掃碼智能零售終端'
+        text_3: '小巧便捷 · 成本極低 · 滿足各種辦公室內場景'
+        link: '/products/zima-slim/'
+      life:
+        text_1: '隱形冠軍 ZIMA Life'
+        text_2: '綜合型常溫無屏零售終端'
+        text_3: '全視角櫥窗 · 適應不同商品尺寸 · 更多SKU展示'
+        link: '/products/zima-life/'
+      care:
+        text_1: '零售之星 ZIMA Care'
+        text_2: '全新大屏常溫智能零售終端'
+        text_3: '超薄機身 · 小巧便捷 · 儲存量大'
+        link: '/products/zima-care/'
+      masky:
+        text_1: '口罩机 ZIMA MASKY'
+        text_2: '防疫站'
+        text_3: '百元投入，坐享2万亿元防疫刚需经济红利'
+        link: '/products/zima-masky/'
+      classic:
+        text_1: '饮料零食机 ZIMA CLASSIC'
+        text_2: '微商超'
+        text_3: '700+大容量超能装  托盘式出货呵护“玻璃心”商品'
+        link: '/products/zima-classic/'
 
       string_1: '更多功能'
       string_2: '智能支付系統'
