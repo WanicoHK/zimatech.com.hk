@@ -100,12 +100,12 @@ zh-HK:
       link: '/products/zima-masky/'
       title: 'ZIMA Masky'
       description: |-
-        疫情常态化，人人防疫，口罩成为日常必需品。21,900亿元的全球防疫刚需市场，只需要百元购机的入场券，占地面积小，铺设更灵活。
+        疫情常態化，人人防疫，口罩成為日常必需品。21900億元的全球防疫剛需市場，只需要百元購機的入場券，占地面積小，鋪設更靈活。
     classic:
       link: '/products/zima-classic/'
       title: 'ZIMA Classic'
       description: |-
-        在售货机的运营中，补货配送的人力成本和时间成本不可忽视。ZIMA CLASSIC 拥有700+的库存空间，大容量，有效减小繁琐的补货次数；还可以配置托盘式智能升降台，支持售卖鸡蛋、红酒等高频消费的易碎商品。
+        在售貨機的運營中，補貨配送的人力成本和時間成本不可忽視。ZIMA classic擁有700+的庫存空間，大容量，有效减小繁瑣的補貨次數；還可以配寘託盤式智慧升降台，支持售賣雞蛋、紅酒等高頻消費的易碎商品。
 
     images:
       - image: '/images/index/images/zh-HK/image-1.jpg'
@@ -330,12 +330,12 @@ zh-HK:
       masky:
         text_1: '口罩机 ZIMA MASKY'
         text_2: '防疫站'
-        text_3: '百元投入，坐享2万亿元防疫刚需经济红利'
+        text_3: '百元投入，坐享2萬億元防疫剛需經濟紅利'
         link: '/products/zima-masky/'
       classic:
         text_1: '饮料零食机 ZIMA CLASSIC'
         text_2: '微商超'
-        text_3: '700+大容量超能装  托盘式出货呵护“玻璃心”商品'
+        text_3: '700+大容量超能裝託盤式出貨呵護“玻璃心”商品'
         link: '/products/zima-classic/'
 
       string_1: '更多功能'
@@ -583,41 +583,41 @@ zh-HK:
     classic:
       subtitle: '微商超'
       title: '飲料零食機 ZIMA CLASSIC'
-      description: '700+大容量超能裝託盤式出貨呵護“玻璃心”商品'
-      feature_1: '700+大容量，節省補貨配送成本'
+      description: '700+大容量超能裝託盤式出貨呵護“易碎”商品'
+      feature_1: '700+大容量，節省補貨成本'
       feature_2: '(庫存空間 270-700+)'
       feature_3: '副櫃可相容充電寶等多樣化服務'
-      prop_1: '託盤式智慧升降臺|出貨平穩安全|支持選配升降臺'
+      prop_1: '托盤式智能升降台|出貨平穩安全|支持選用升降台，可售賣雞蛋、紅酒等易碎品'
       prop_2: '1-25℃恒溫保鮮|商品儲藏更佳'
-      prop_3: '全景櫥窗種草|快賣多賣高盈利'
-      spec_1: '荧幕與機身廣告資源|坐享投放收益'
+      prop_3: '全景櫥窗吸引不同客戶|人流多商機多高盈利'
+      spec_1: '屏幕與機身廣告資源|坐享投放收益'
       spec_2: '掉落檢測，安全防盜|保障正常出貨'
-      spec_3: '智能化管理後臺|輕鬆管理所有售貨機'
-      spec_4: '權威認證 質量有保障|國內專利認證|CQC/CE 國際權威標準認證|設備穩定，故障率低至1%'
-      spec_5: '多種購物管道|APP/小程式/觸屏'
-      spec_6: '便捷支付|APP/微信/支付寶/紙幣/硬幣/刷卡/刷臉'
-      scene_text: '適用於社區、辦公大樓|辦公室、學校|地鐵車站、商場、醫院等各種場景'
+      spec_3: '智能化管理後台|輕鬆管理所有售貨機'
+      spec_4: '權威認證 質量有保障|專利認證|CQC/CE 國際權威標準認證|設備穩定，故障率低至1%'
+      spec_5: '多種購物管道|手機APP/觸屏'
+      spec_6: '方便支付|APP/微信/支付寶/八達通'
+      scene_text: '適用於社區、寫字樓|辦公室、學校|地鐵車站、商場、醫院等不同場地'
       type_title: '不同機型，全方位滿足您的經營需求'
       type_text_1: 'ZIMA CLASSIC A / B|彈簧機'
-      type_text_2: 'ZIMA CLASSIC C|彈簧機'
-      type_text_3: 'ZIMA CLASSIC D|彈簧機'
-      type_text_4: 'ZIMA CLASSIC E|彈簧機'
+      type_text_2: 'ZIMA CLASSIC C|主副櫃彈簧機'
+      type_text_3: 'ZIMA CLASSIC D|主副櫃大容量彈簧機'
+      type_text_4: 'ZIMA CLASSIC E|主副櫃彈簧機'
 
     masky:
       subtitle: '防疫站'
       title: '口罩機 ZIMA MASKY'
-      description: '百元投入，坐享2萬億元防疫剛需經濟紅利'
+      description: '百元投資，坐享2萬億元防疫剛需經濟紅利'
       feature_1: '疫情常態化，人人防疫，口罩成為日常必需品'
-      feature_2: '60億片/人 X 365天 X ¥1=21，900億元 全球防疫剛需市場容量'
+      feature_2: '60億片/人 X 365天 X ¥1 = 21,900億元 全球防疫剛需市場容量'
       prop_1: '百元靚機|經濟實惠'
       prop_2: '單片出貨|滿足臨時應急需求'
-      prop_3: '占地面積小|終端鋪設更靈活'
+      prop_3: '占地面積小|機器铺設更靈活'
       prop_4: '300片大容量|無需頻繁補貨|庫存空間120-300'
       prop_5: '10S快速出貨|即掃即取 無需等待'
       prop_6: '一天只用0.1°電|常溫低能耗省電省錢'
       spec_1: '掉落檢測，安全防盜|保障正常出貨'
-      spec_2: '權威認證 質量有保障|國內專利認證|CQC/CE 國際權威標準認證|設備穩定，故障率低至1%'
-      spec_3: '便捷支付|APP/微信/支付寶/紙幣/硬幣/刷卡/刷臉'
+      spec_2: '權威認證 質量有保障|專利認證|設備穩定，故障率低至1%'
+      spec_3: '便捷支付|微信/支付宝'
       scene_text: '適用於地鐵車站、商場|醫院等各種公共場所'
       type_title: '不同機型，全方位滿足您的經營需求'
       type_text_1: 'ZIMA MASKY A|立式簡易口罩機'
