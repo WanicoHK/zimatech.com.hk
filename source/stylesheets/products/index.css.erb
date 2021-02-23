@@ -376,7 +376,7 @@
   height: 595px;
   background-image: url(<%= image_path('products/index/product-care.png') %>);
   background-repeat: no-repeat;
-  background-size: 572px 603px;
+  background-size: contain;
 }
 
 .products-index-product-image-masky {
@@ -384,7 +384,7 @@
   height: 597px;
   background-image: url(<%= image_path('products/index/product-masky.png') %>);
   background-repeat: no-repeat;
-  background-size: 572px 597px;
+  background-size: contain;
 }
 
 .products-index-product-image-classic {
@@ -392,7 +392,7 @@
   height: 565px;
   background-image: url(<%= image_path('products/index/product-classic.png') %>);
   background-repeat: no-repeat;
-  background-size: 530px 565px;
+  background-size: contain;
 }
 
 .rtl .products-index-product-image {
@@ -403,7 +403,6 @@
 .rtl .products-index-product-content {
   order: 0;
 }
-
 
 .products-index-bg-5 {
   background-color: #ffffff;
@@ -726,37 +725,44 @@
     flex-direction: column;
   }
 
-  .products-index-product-image-1 {
+  .products-index-product-image-pro {
     width: 100%;
     height: 0;
     padding-bottom: <%= 586.0 / 627 * 100 %>%;
   }
 
-  .products-index-product-image-2 {
+  .products-index-product-image-slim {
     width: 100%;
     height: 0;
     padding-bottom: <%= 568.0 / 570 * 100 %>%;
   }
 
-  .products-index-product-image-3 {
+  .products-index-product-image-life {
     width: 100%;
     height: 0;
     padding-bottom: <%= 548.0 / 504 * 100 %>%;
     background-position: 10px 0;
   }
 
-  .products-index-product-image-4 {
+  .products-index-product-image-care {
     width: 100%;
     height: 0;
     padding-bottom: <%= 595.0 / 572 * 100 %>%;
     background-size: contain;
-    background-position: 10px 5px;
+    background-position: 10px 0px;
   }
 
-  .products-index-product-image-5 {
+  .products-index-product-image-masky {
     width: 100%;
     height: 0;
-    padding-bottom: <%= 541.0 / 514 * 100 %>%;
+    padding-bottom: <%= 597.0 / 572 * 100 %>%;
+    background-position: 10px 0;
+  }
+
+  .products-index-product-image-classic {
+    width: 100%;
+    height: 0;
+    padding-bottom: <%= 565.0 / 530 * 100 %>%;
     background-position: 10px 0;
   }
 
