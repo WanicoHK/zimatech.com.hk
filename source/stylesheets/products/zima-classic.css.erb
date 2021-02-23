@@ -108,16 +108,16 @@
 }
 
 .products-classic-prop-lines {
-  width: 289px;
+  width: 20vw;
   display: flex;
   flex-direction: column;
   margin-left: 20px;
 }
 
 .products-classic-prop-line {
-  margin: 3px 0;
   color: #fff;
   font-size: 15px;
+  line-height: 25px;
 }
 
 .products-classic-prop-icon {
@@ -133,25 +133,21 @@
 }
 <% end %>
 
-.products-classic-specs {
+.products-classic-bg-3 .container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
-
-.products-classic-specs-row-1 {
-  margin-top: 150px;
+  flex-wrap: wrap;
+  margin-top: 70px;
   margin-bottom: 70px;
-}
-
-.products-classic-specs-row-2 {
-  margin-bottom: 150px;
 }
 
 .products-classic-spec {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 30%;
+  padding: 10px 0;
 }
 
 .products-classic-spec-icon {
@@ -175,23 +171,29 @@
   align-items: center;
 }
 
-.products-classic-specs-row-1 .products-classic-spec-lines {
+.products-classic-spec-lines-1,
+.products-classic-spec-lines-2,
+.products-classic-spec-lines-3 {
   font-size: 18px;
   font-weight: bold;
-  margin: 5px 0;
+  line-height: 30px;
 }
 
-.products-classic-specs-row-2 .products-classic-spec-lines {
+.products-classic-spec-lines-4,
+.products-classic-spec-lines-5,
+.products-classic-spec-lines-6 {
   color: #6b6b6b;
   font-size: 15px;
-  margin: 5px 0;
+  line-height: 20px;
 }
 
-.products-classic-specs-row-2 .products-classic-spec-lines .products-classic-spec-line:nth-child(1) {
+.products-classic-spec-lines-4 .products-classic-spec-line:nth-child(1),
+.products-classic-spec-lines-5 .products-classic-spec-line:nth-child(1),
+.products-classic-spec-lines-6 .products-classic-spec-line:nth-child(1) {
   color: #000;
   font-size: 18px;
   font-weight: bold;
-  margin: 5px 0;
+  line-height: 30px;
 }
 
 .products-classic-bg-4 {
@@ -245,7 +247,7 @@
 .products-classic-scene-text-line {
   color: #fff;
   font-size: 15px;
-  margin: 5px 0;
+  line-height: 25px;
 }
 
 .products-classic-type-title {
@@ -330,4 +332,144 @@
 
 
 @media (max-width: 767px) {
+  .products-classic-bg-1 {
+    height: auto;
+  }
+
+  .products-classic-bg-1 .container {
+    flex-direction: column;
+  }
+
+  .products-classic-content {
+    order: 1;
+    background: #fff;
+    padding-top: 80px;
+  }
+
+  .products-classic-image {
+    align-self: auto;
+  }
+
+  .products-classic-image-1 {
+    width: 100%;
+    height: 0;
+    padding-bottom: <%= 557.0 / 522 * 100 %>%;
+  }
+
+  .products-classic-subtitle {
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+  }
+
+  .products-classic-title {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+
+  .products-classic-description {
+    width: auto;
+    font-size: 15px;
+    line-height: 20px;
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .products-classic-features {
+    flex-wrap: wrap;
+  }
+
+  .products-classic-feature {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .products-classic-bg-2 {
+    padding: 20px 0px;
+  }
+
+  .products-classic-bg-2-inner {
+    flex-direction: column;
+    margin:0;
+    padding: 0 30px;
+  }
+
+  .products-classic-prop + .products-classic-prop {
+    margin-top: 10px;
+  }
+
+  .products-classic-prop-icon {
+    width: <%= 137.0 / 2.0 %>px;
+    height: <%= 137.0 / 2.0 %>px;
+  }
+
+  .products-classic-prop-lines {
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+
+  .products-classic-bg-3 .container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .products-classic-spec {
+    width: 100%;
+  }
+
+  .products-classic-spec {
+    flex-direction: row;
+  }
+
+  .products-classic-spec-icon {
+    width: 100px;
+    height: 100px;
+  }
+
+  .products-classic-spec-lines {
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-left: 20px;
+    text-align: center;
+  }
+
+  .products-classic-bg-4-inner {
+    min-width: unset;
+    max-width: none;
+    flex-direction: column;
+  }
+
+  .products-classic-scenes {
+    width: 100vw;
+    height: calc(100vw*614/464);
+  }
+
+  .products-classic-scene-text {
+    width: 100vw;
+    height: calc(100vw*214/464);
+  }
+
+  .products-classic-type-title {
+    font-size: 26px;
+    padding: 20px 20px 0 20px;
+  }
+
+  .products-classic-types {
+    flex-direction: column;
+  }
+
+  .products-classic-back {
+    font-size: 16px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .products-classic-back:before,
+  .products-classic-back:after {
+    width: 48px;
+    height: 16px;
+    background-size: 16px;
+  }
 }

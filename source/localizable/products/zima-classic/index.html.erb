@@ -46,18 +46,14 @@ description_key: descriptions.classic
 
 <div class="products-classic-bg-3">
   <div class="container">
-    <% (1..2).each do |row| %>
-    <div class="products-classic-specs products-classic-specs-row-<%= row %>">
-      <% ((row*3-2)..(row*3)).each do |i| %>
-      <div class="products-classic-spec">
-        <div class="products-classic-spec-icon products-classic-spec-icon-<%= i %>"></div>
-        <div class="products-classic-spec-lines">
-          <% t(:"products.classic.spec_#{i}").split('|').each do |line| %>
-          <span class="products-classic-spec-line"><%= line %></span>
-          <% end %>
-        </div>
+    <% (1..6).each do |i| %>
+    <div class="products-classic-spec">
+      <div class="products-classic-spec-icon products-classic-spec-icon-<%= i %>"></div>
+      <div class="products-classic-spec-lines products-classic-spec-lines-<%= i %>">
+        <% t(:"products.classic.spec_#{i}").split('|').each do |line| %>
+        <span class="products-classic-spec-line"><%= line %></span>
+        <% end %>
       </div>
-      <% end %>
     </div>
     <% end %>
   </div>
