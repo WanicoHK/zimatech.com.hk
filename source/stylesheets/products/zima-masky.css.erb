@@ -90,25 +90,22 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 30px;
 }
 
-.products-masky-bg-2-col {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 .products-masky-prop {
+  width: 30%;
   display: flex;
   flex-direction: row;
   margin: 10px 0;
 }
 
 .products-masky-prop-lines {
-  width: 289px;
+  flex-grow: 1;
+  flex-shrink: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -236,16 +233,11 @@
 
 .products-masky-scene-text-line {
   color: #fff;
-  font-size: 18px;
-  margin: 5px 20px;
-  text-align: center;
+  font-size: 15px;
+  line-height: 25px;
+  margin: 0px 20px;
 }
-/*
-.products-masky-bg-5 .container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-} */
+
 .products-masky-type-title {
   display: flex;
   justify-content: center;
@@ -334,4 +326,150 @@
 
 
 @media (max-width: 767px) {
+  .products-masky-bg-1 {
+    height: auto;
+  }
+
+  .products-masky-bg-1 .container {
+    flex-direction: column;
+  }
+
+  .products-masky-content {
+    order: 1;
+    background: #fff;
+    padding-top: 80px;
+  }
+
+  .products-masky-image {
+    align-self: auto;
+  }
+
+  .products-masky-image-1 {
+    width: 100%;
+    height: 0;
+    background-position: center;
+    padding-bottom: <%= 557.0 / 522 * 100 %>%;
+  }
+
+  .products-masky-subtitle {
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+  }
+
+  .products-masky-title {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+
+  .products-masky-description {
+    width: auto;
+    font-size: 15px;
+    line-height: 20px;
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .products-masky-features {
+    flex-wrap: wrap;
+  }
+
+  .products-masky-feature {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .products-masky-bg-2 {
+    padding: 20px 0;
+  }
+
+  .products-masky-prop {
+    width: 100vw;
+  }
+
+  .products-masky-prop-icon {
+    height: <%= 144.0/1.5 %>px;
+    width: <%= 160.0/1.5 %>px;
+  }
+
+  .products-masky-prop-line {
+    font-size: 15px;
+  }
+
+  .products-masky-bg-3 .container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .products-masky-specs {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .products-masky-spec {
+    width: 100%;
+    flex-direction: row;
+  }
+
+  .products-masky-spec + .products-masky-spec {
+    margin-top: 10px;
+  }
+
+  .products-masky-spec-icon {
+    width: 100px;
+    height: 100px;
+  }
+
+  .products-masky-spec-lines {
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .products-masky-bg-4-inner {
+    min-width: unset;
+    max-width: none;
+    flex-direction: column;
+  }
+
+  .products-masky-scenes {
+    width: 100vw;
+    height: calc(100vw*614.0/464.0);
+  }
+
+  .products-masky-scene {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .products-masky-scene-text {
+    width: 100vw;
+    height: calc(100vw*214.0/464.0);
+  }
+
+  .products-masky-type-title {
+    font-size: 26px;
+    padding: 20px 20px 0 20px;
+  }
+
+  .products-masky-types {
+    flex-direction: column;
+  }
+
+  .products-masky-back {
+    font-size: 16px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .products-masky-back:before,
+  .products-masky-back:after {
+    width: 48px;
+    height: 16px;
+    background-size: 16px;
+  }
 }

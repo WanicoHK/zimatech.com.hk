@@ -31,18 +31,14 @@ description_key: descriptions.masky
 
 <div class="products-masky-bg-2">
   <div class="products-masky-bg-2-inner">
-    <% (1..3).each do |col| %>
-    <div class="products-masky-bg-2-col">
-      <% ((col*2-1)..(col*2)).each do |i| %>
-      <div class="products-masky-prop">
-        <div class="products-masky-prop-icon products-masky-prop-icon-<%= i %>"></div>
-        <div class="products-masky-prop-lines">
-          <% t(:"products.masky.prop_#{i}").split('|').each do |line| %>
-          <span class="products-masky-prop-line"><%= line %></span>
-          <% end %>
-        </div>
+    <% (1..6).each do |i| %>
+    <div class="products-masky-prop">
+      <div class="products-masky-prop-icon products-masky-prop-icon-<%= i %>"></div>
+      <div class="products-masky-prop-lines">
+        <% t(:"products.masky.prop_#{i}").split('|').each do |line| %>
+        <span class="products-masky-prop-line"><%= line %></span>
+        <% end %>
       </div>
-      <% end %>
     </div>
     <% end %>
   </div>
