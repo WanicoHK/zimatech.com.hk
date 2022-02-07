@@ -2,6 +2,7 @@
 en-US:
 
   nav:
+    mini: 'Mini'
     products: 'Products'
     app: 'ZIMA App'
     partners: 'Global Partners'
